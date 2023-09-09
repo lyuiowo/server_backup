@@ -1,0 +1,49 @@
+display-name: "招财"
+description: "挖掘矿石有 %chance%% 的概率获取 %money% 像素"
+placeholders:
+  chance: "%level% * 25"
+  money: "%level% * 3"
+
+type: special
+
+targets:
+  - pickaxe
+
+conflicts: [ ]
+
+rarity: legendary
+max-level: 3
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: give_money
+    args:
+      chance: "%level% * 25"
+      amount: "%level% * 3"
+    triggers:
+      - mine_block
+    filters:
+      blocks:
+        - coal_ore
+        - deepslate_coal_ore
+        - iron_ore
+        - deepslate_iron_ore
+        - gold_ore
+        - deepslate_gold_ore
+        - lapis_ore
+        - deepslate_lapis_ore
+        - redstone_ore
+        - deepslate_redstone_ore
+        - diamond_ore
+        - deepslate_diamond_ore
+        - emerald_ore
+        - deepslate_emerald_ore
+        - copper_ore
+        - deepslate_copper_ore
+        - ancient_debris
+      player_placed: false
+
+conditions: [ ]

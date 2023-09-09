@@ -1,0 +1,24 @@
+conditions:
+  # Time 时间
+  morning: time 6-11
+  noon: time 11-13
+  afternoon: time 13-18
+  night: time 18-24
+  midnight: time 0-6
+  # Season 季节
+  spring: variable %ph.rs_season_survival% 春
+  summer: variable %ph.rs_season_survival% 夏
+  autumn: variable %ph.rs_season_survival% 秋
+  winter: variable %ph.rs_season_survival% 冬
+  # Week 星期
+  Monday: variable %ph.rs_weekday% Monday
+  Tuesday: variable %ph.rs_weekday% Tuesday
+  Wednesday: variable %ph.rs_weekday% Wednesday
+  Thursday: variable %ph.rs_weekday% Thursday
+  Friday: variable %ph.rs_weekday% Friday
+  Saturday: variable %ph.rs_weekday% Saturday
+  Sunday: variable %ph.rs_weekday% Sunday
+
+
+
+

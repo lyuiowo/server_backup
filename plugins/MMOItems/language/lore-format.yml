@@ -1,0 +1,70 @@
+# This is the way stats are organized in the item lore.
+# You can remove or change line positions as much as you like to.
+# Make sure each line ONLY has the placeholder as text.
+#
+# The lines starting with {bar} are strips that will be removed from the lore if there is nothing under it.
+# The lines starting with {sbar} will stay whatever is below them.
+#
+# Reload with /mmoitems reload
+lore-format:
+  - '#tier#'
+  - '#two-handed#'  # 双持
+  - '{bar}&f 뀁 '
+  - '#attack-damage#' # 基础伤害
+  - '#attack-speed#'  # 基础攻速
+  - '#critical-strike-chance#'  # 暴击概率
+  - '#critical-strike-power#' # 暴击伤害
+  - '#blunt-power#' # 钝击范围
+  - '#blunt-rating#'  # 钝击伤害
+  - '#note-weight#' # 音符伤害
+  - '#magic-damage#'  # 魔法伤害
+  - '#mana-cost#' # 魔力消耗
+  - '#physical-damage#' # 物理伤害
+  - '#stamina-cost#'  # 体力消耗
+  - '#projectile-damage#' # 远程伤害
+  - '#arrow-velocity#'  # 箭矢速度
+  - '#arrow-potion-effects#'  # 箭矢效果
+  - '#skill-damage#'  # 技能伤害
+  - '#skill-critical-strike-chance#'  # 技能暴击概率
+  - '#skill-critical-strike-power#' # 技能暴击伤害
+  - '{bar}&f 뀁 '
+  - '#armor#' # 护甲
+  - '#armor-toughness#' # 护甲韧性
+  - '#defense#' # 防御
+  - '#damage-reduction#'  # 伤害减免
+  - '#fall-damage-reduction#' # 摔伤减免
+  - '#fire-damage-reduction#' # 灼伤减免
+  - '#magic-damage-reduction#'  # 魔伤减免
+  - '#projectile-damage-reduction#' # 射伤减免
+  - '#physical-damage-reduction#' # 物伤减免
+  - '#knockback-resistance#'  # 抗击退
+  - '#block-power#' # 格挡减免
+  - '#block-rating#'  # 格挡概率
+  - '#block-cooldown-reduction#'  # 格挡冷却
+  - '#dodge-rating#'  # 闪避概率
+  - '#dodge-cooldown-reduction#'  # 闪避冷却
+  - '#parry-rating#'  # 招架概率
+  - '#parry-cooldown-reduction#'  # 招架冷却
+  - '#movement-speed#'  # 移动速度
+  - '{bar}&f 뀁 '
+  - '#elements#'
+  - '{bar}&f 뀁 '
+  - '#max-health#'  # 生命上限
+  - '#health-regeneration#' # 生命恢复
+  - '#max-mana#'  # 魔力上限
+  - '#mana-regeneration#' # 魔力恢复
+  - '#max-stamina#' # 体力上限
+  - '#stamina-regeneration#'  # 体力恢复
+  - '#additional-experience#' # 额外经验
+  - '{bar}&f 뀁 '
+  - '#autosmelt#' # 自动冶炼
+  - '#bouncing-crack#'  # 范围破坏
+  - '#pickaxe-power#' # 镐力
+  - '{bar}&f 뀁 '
+  - '#item-cooldown#' # 物品冷却
+  - '{bar}&f 뀁 '
+  - '#lore#'
+  - '{bar}&f 뀁 '
+  - '#soulbound#' # 灵魂绑定
+  - '#durability#'  # 耐久
+  - '{sbar}&f 뀂 '

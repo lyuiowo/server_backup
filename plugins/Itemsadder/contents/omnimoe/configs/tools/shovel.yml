@@ -1,0 +1,80 @@
+info:
+  namespace: omnimoe
+
+items:
+  amber_shovel:
+    display_name: display-name-amber_shovel
+    resource:
+      material: iron_shovel
+      generate: true
+      model_id: 10000
+      textures:
+        - tools/shovel/amber_shovel
+
+  amethyst_shovel:
+    display_name: display-name-amethyst_shovel
+    resource:
+      material: iron_shovel
+      generate: true
+      model_id: 10001
+      textures:
+        - tools/shovel/amethyst_shovel
+
+  iridium_shovel:
+    display_name: display-name-iridium_shovel
+    resource:
+      material: iron_shovel
+      generate: true
+      model_id: 10002
+      textures:
+        - tools/shovel/iridium_shovel
+
+  jade_shovel:
+    display_name: display-name-jade_shovel
+    resource:
+      material: iron_shovel
+      generate: true
+      model_id: 10003
+      textures:
+        - tools/shovel/jade_shovel
+
+  malachite_shovel:
+    display_name: display-name-malachite_shovel
+    resource:
+      material: iron_shovel
+      generate: true
+      model_id: 10004
+      textures:
+        - tools/shovel/malachite_shovel
+
+  mythril_shovel:
+    display_name: display-name-mythril_shovel
+    resource:
+      material: iron_shovel
+      generate: true
+      model_id: 10005
+      textures:
+        - tools/shovel/mythril_shovel
+
+  ruby_shovel:
+    display_name: display-name-ruby_shovel
+    resource:
+      material: iron_shovel
+      generate: true
+      model_id: 10006
+      textures:
+        - tools/shovel/ruby_shovel
+
+  silver_shovel:
+    display_name: display-name-silver_shovel
+    resource:
+      material: iron_shovel
+      generate: true
+      model_id: 10007
+      textures:
+        - tools/shovel/silver_shovel
+
+
+
+
+

@@ -1,0 +1,78 @@
+info:
+  namespace: omnimoe
+
+items:
+  amber_shard:
+    display_name: display-name-amber_shard
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10002
+      textures:
+        - material/raw/amber_shard
+
+  amethyst:
+    display_name: display-name-amethyst
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10007
+      textures:
+        - material/raw/amethyst
+
+  iridium:
+    display_name: display-name-iridium
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10012
+      textures:
+        - material/raw/iridium
+
+  malachite:
+    display_name: display-name-malachite
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10017
+      textures:
+        - material/raw/malachite
+
+  raw_jade:
+    display_name: display-name-raw_jade
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10022
+      textures:
+        - material/raw/raw_jade
+
+  raw_mythril:
+    display_name: display-name-raw_mythril
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10027
+      textures:
+        - material/raw/raw_mythril
+
+  ruby:
+    display_name: display-name-ruby
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10032
+      textures:
+        - material/raw/ruby
+
+  silver:
+    display_name: display-name-silver
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10037
+      textures:
+        - material/raw/silver
+
+
+

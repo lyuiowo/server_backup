@@ -1,0 +1,80 @@
+info:
+  namespace: omnimoe
+
+items:
+  amber_axe:
+    display_name: display-name-amber_axe
+    resource:
+      material: iron_axe
+      generate: true
+      model_id: 10000
+      textures:
+        - tools/axe/amber_axe
+
+  amethyst_axe:
+    display_name: display-name-amethyst_axe
+    resource:
+      material: iron_axe
+      generate: true
+      model_id: 10001
+      textures:
+        - tools/axe/amethyst_axe
+
+  iridium_axe:
+    display_name: display-name-iridium_axe
+    resource:
+      material: iron_axe
+      generate: true
+      model_id: 10002
+      textures:
+        - tools/axe/iridium_axe
+
+  jade_axe:
+    display_name: display-name-jade_axe
+    resource:
+      material: iron_axe
+      generate: true
+      model_id: 10003
+      textures:
+        - tools/axe/jade_axe
+
+  malachite_axe:
+    display_name: display-name-malachite_axe
+    resource:
+      material: iron_axe
+      generate: true
+      model_id: 10004
+      textures:
+        - tools/axe/malachite_axe
+
+  mythril_axe:
+    display_name: display-name-mythril_axe
+    resource:
+      material: iron_axe
+      generate: true
+      model_id: 10005
+      textures:
+        - tools/axe/mythril_axe
+
+  ruby_axe:
+    display_name: display-name-ruby_axe
+    resource:
+      material: iron_axe
+      generate: true
+      model_id: 10006
+      textures:
+        - tools/axe/ruby_axe
+
+  silver_axe:
+    display_name: display-name-silver_axe
+    resource:
+      material: iron_axe
+      generate: true
+      model_id: 10007
+      textures:
+        - tools/axe/silver_axe
+
+
+
+
+

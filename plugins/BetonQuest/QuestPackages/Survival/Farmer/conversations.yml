@@ -1,0 +1,80 @@
+conversations:
+  farmer:
+    quester: "农民"
+    first: 'first_dialogs, questCrafting5DryPot, questHarvest15Crops, questCrafting10GreenhouseGlass, hello_dialogs'
+    NPC_options:
+      first_dialogs:
+        text: |-
+          第一次见，先跟你说明一下我的情况，我是这所协会里的一名农夫，
+          你可以在我这里购买到各式的作物种子和肥料、设备，
+          同时我也收购各种农产品，
+          这个水壶和这几份大蒜种子，作为初次见面的一份小礼物。
+        events: "getFirstTalkGiftWithFarmer"
+        conditions: "!has_tag_first_talk_with_farmer"
+        pointer: "thanks"
+      questCrafting5DryPot:
+        text: |-
+          这些种子是异时空的植物种子，需要使用专用的种植盆才能种植，
+          需要四根木棍加上一块泥土才能制作这种专用的异时空种植盆，
+          你先去制作 5 个试试吧。
+        events: ""
+        conditions: "!has_quest_crafting5dry_pot, !has_tag_complete_crafting_5_dry_pot"
+        pointer: "agreeQuestCrafting5DryPot, denyQuest"
+      questHarvest15Crops:
+        text: |-
+          看来你现在已经学会了制作种植盆了，那么就证明你已经具备了种植这些植物的基础手段，
+          现在你找到一个适宜的地方将种植盆放下并放入种子进行种植吧！
+          注意，放入种植盆的种子需要浇水才能生长，而且植物有适应的季节，
+          如果水份不够或季节不适宜植物将会枯萎。
+          这是一些肥料，你拿去撒在种植盆上能提升植物的质量。
+          你先去自己尝试一下吧，收获 15 份成熟作物再回来找我，作物种类不限。
+        events: "rewardCrafting5DryPot"
+        conditions: "!has_quest_harvest15crops, has_tag_complete_crafting_5_dry_pot, !has_tag_complete_harvest_15_crops"
+        pointer: "agreeQuestHarvest15Crops, denyQuest"
+      questCrafting10GreenhouseGlass:
+        text: |-
+          恭喜你已经学会了如何种植新植物！
+          现在我们来学习一下如何在冬季种植非应季植物。
+          需要用八个玻璃加上一份烈焰粉合成温室玻璃，
+          这种玻璃能让下方 5 格范围内的作物不受寒冬影响。
+          你先去尝试制作 10 个温室玻璃吧。
+        events: ""
+        conditions: "!has_quest_crafting10greenhouse_glass, has_tag_complete_harvest_15_crops, !has_tag_complete_crafting_10_greenhouse_glass"
+        pointer: "agreeCrafting10GreenhouseGlass, denyQuest"
+      hello_dialogs:
+        text: |-
+          你好，请问你有什么需要？
+        pointer: "open_seeds_shop, open_crops_shop, exit"
+      end_dialogs:
+        text: |-
+          好的，欢迎下次再来。
+
+    player_options:
+      agreeQuestCrafting5DryPot:
+        text: "我接受"
+        events: "startCrafting5DryPot"
+      agreeQuestHarvest15Crops:
+        text: "我接受"
+        events: "startHarvest15Crops"
+      agreeCrafting10GreenhouseGlass:
+        text: "我接受"
+        events: "startCrafting10GreenhouseGlass"
+      denyQuest:
+        text: "我在考虑考虑"
+      thanks:
+        text: "谢谢"
+        events: "tagAddFirstTalkWithFarmer"
+        pointer: "questCrafting5DryPot"
+      open_seeds_shop:
+        text: "购买作物种子"
+        events: "openShopForSeeds"
+        pointer: "end_dialogs"
+      open_crops_shop:
+        text: "出售作物"
+        events: "openShopForCrops"
+        pointer: "end_dialogs"
+      exit:
+        text: "结束对话"
+        pointer: "end_dialogs"
+
+

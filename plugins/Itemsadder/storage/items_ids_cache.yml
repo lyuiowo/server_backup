@@ -1,0 +1,123 @@
+PAPER:
+  omnimoe:amber_ingot: 10000
+  omnimoe:amber_nugget: 10001
+  omnimoe:amber_shard: 10002
+  omnimoe:amber_ore: 10003
+  omnimoe:deepslate_amber_ore: 10004
+  
+  omnimoe:amethyst_ingot: 10005
+  omnimoe:amethyst_nugget: 10006
+  omnimoe:amethyst: 10007
+  omnimoe:amethyst_ore: 10008
+  omnimoe:deepslate_amethyst_ore: 10009
+  
+  omnimoe:iridium_ingot: 10010
+  omnimoe:iridium_nugget: 10011
+  omnimoe:iridium: 10012
+  omnimoe:iridium_ore: 10013
+  omnimoe:deepslate_iridium_ore: 10014
+  
+  omnimoe:jade_ingot: 10015
+  omnimoe:jade_nugget: 10016
+  omnimoe:malachite: 10017
+  omnimoe:jade_ore: 10018
+  omnimoe:deepslate_jade_ore: 10019
+  
+  omnimoe:malachite_ingot: 10020
+  omnimoe:malachite_nugget: 10021
+  omnimoe:raw_jade: 10022
+  omnimoe:malachite_ore: 10023
+  omnimoe:deepslate_malachite_ore: 10024
+  
+  omnimoe:mythril_ingot: 10025
+  omnimoe:mythril_nugget: 10026
+  omnimoe:raw_mythril: 10027
+  omnimoe:mythril_ore: 10028
+  omnimoe:deepslate_mythril_ore: 10029
+  
+  omnimoe:ruby_ingot: 10030
+  omnimoe:ruby_nugget: 10031
+  omnimoe:ruby: 10032
+  omnimoe:ruby_ore: 10033
+  omnimoe:deepslate_ruby_ore: 10034
+  
+  omnimoe:silver_ingot: 10035
+  omnimoe:silver_nugget: 10036
+  omnimoe:silver: 10037
+  omnimoe:silver_ore: 10038
+  omnimoe:deepslate_silver_ore: 10039
+  _iainternal:icon_left_blue: 10040
+  _iainternal:icon_right_blue: 10041
+  _iainternal:icon_search: 10042
+  _iainternal:icon_cancel: 10043
+  _iainternal:icon_arrow_chest: 10044
+  _iainternal:icon_back_orange: 10045
+  _iainternal:icon_next_orange: 10046
+
+IRON_SWORD:
+  omnimoe:amber_sword: 10000
+  omnimoe:amethyst_sword: 10001
+  omnimoe:iridium_sword: 10002
+  omnimoe:jade_sword: 10003
+  omnimoe:malachite_sword: 10004
+  omnimoe:mythril_sword: 10005
+  omnimoe:ruby_sword: 10006
+  omnimoe:silver_sword: 10007
+
+IRON_SHOVEL:
+  omnimoe:amber_shovel: 10000
+  omnimoe:amethyst_shovel: 10001
+  omnimoe:iridium_shovel: 10002
+  omnimoe:jade_shovel: 10003
+  omnimoe:malachite_shovel: 10004
+  omnimoe:mythril_shovel: 10005
+  omnimoe:ruby_shovel: 10006
+  omnimoe:silver_shovel: 10007
+
+IRON_PICKAXE:
+  omnimoe:amber_pickaxe: 10000
+  omnimoe:amethyst_pickaxe: 10001
+  omnimoe:iridium_pickaxe: 10002
+  omnimoe:jade_pickaxe: 10003
+  omnimoe:malachite_pickaxe: 10004
+  omnimoe:mythril_pickaxe: 10005
+  omnimoe:ruby_pickaxe: 10006
+  omnimoe:silver_pickaxe: 10007
+
+IRON_HOE:
+  omnimoe:amber_hoe: 10000
+  omnimoe:amethyst_hoe: 10001
+  omnimoe:iridium_hoe: 10002
+  omnimoe:jade_hoe: 10003
+  omnimoe:malachite_hoe: 10004
+  omnimoe:mythril_hoe: 10005
+  omnimoe:ruby_hoe: 10006
+  omnimoe:silver_hoe: 10007
+
+IRON_AXE:
+  omnimoe:amber_axe: 10000
+  omnimoe:amethyst_axe: 10001
+  omnimoe:iridium_axe: 10002
+  omnimoe:jade_axe: 10003
+  omnimoe:malachite_axe: 10004
+  omnimoe:mythril_axe: 10005
+  omnimoe:ruby_axe: 10006
+  omnimoe:silver_axe: 10007
+
+NETHERITE_SWORD:
+  omnimoe:master_sword: 10000
+  omnimoe:masters_katana: 10001
+BOW:
+  omnimoe:masters_bow: 10000
+PLAYER_HEAD:
+  __manually_handled:_iainternal__player_phead_0: 10000
+  __manually_handled:_iainternal__player_parm_left_3: 10001
+  __manually_handled:_iainternal__player_pbody_2: 10002
+  __manually_handled:_iainternal__player_pleg_left_1: 10003
+  __manually_handled:_iainternal__player_pleg_right_5: 10004
+  __manually_handled:_iainternal__player_parm_right_4: 10005
+
+
+
+
+

@@ -1,0 +1,24 @@
+display-name: "软弱诅咒"
+description: "&a%placeholder%% &r概率无法造成伤害"
+placeholder: "15 * %level%"
+type: curse
+
+targets:
+- sword
+- axe
+conflicts: []
+rarity: legendary
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: false
+
+effects:
+  - id: cancel_event
+    args:
+      chance: "15 * %level%"
+    triggers:
+      - melee_attack
+
+conditions: []

@@ -1,0 +1,21 @@
+events:
+
+  talk_with_blacksmith: conversation blacksmith
+
+  openWorkstationForUpgrade: command mi stations open upgradeStation %player%
+  openWorkstationForForge: command mi stations open forgeStation %player%
+
+  getMastersKatana: mmoitemgive KATANA MASTERS_KATANA
+  getMasterSword: mmoitemgive SWORD MASTER_SWORD
+  getMasterBow: mmoitemgive BOW MASTERS_BOW
+  getFirstTalkGiftWithBlacksmith: folder getMastersKatana,getMasterSword,getMasterBow random:1
+
+  tagAddFirstTalkWithBlacksmith: tag add firstTalkWithBlacksmith
+
+  notifyCompleteObjectiveWithBlacksmith: notify 任务完成！快去找铁匠汇报吧 category:blacksmith
+
+  tagAddSilverIngotDialog: tag add has_silver_ingot_dialog
+  tagAddMagicGemDialog: tag add has_magic_gem_dialog
+
+
+

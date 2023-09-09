@@ -1,0 +1,151 @@
+# Weapon Stats
+attack-damage: '&f 뀁 &7 基础伤害: &f{value}'
+attack-speed: '&f 뀁 &7 基础攻速: &f{value}'
+critical-strike-chance: '&f 뀁 &7 暴击概率: &f<plus>{value}%'
+critical-strike-power: '&f 뀁 &7 暴击伤害: &f<plus>{value}%'
+skill-critical-strike-chance: '&f 뀁 &7 技能暴击概率: &f<plus>{value}%'
+skill-critical-strike-power: '&f 뀁 &7 技能暴击伤害: &f<plus>{value}%'
+range: '&f 뀁 &7 攻击范围: &f{value}'
+mana-cost: '&f 뀁 &7 魔力消耗 &9{value}'
+stamina-cost: '&f 뀁 &7 体力消耗 &9{value}'
+arrow-velocity: '&f 뀁 &7 箭矢速度: &f{value}'
+blunt-power: '&f 뀁 &7 钝器范围: &f{value}'
+blunt-rating: '&f 뀁 &7 钝器伤害: &f{value}%'
+two-handed: '&f 뀁 &7 双持'
+handworn: '&f 뀁 &7 手戴'
+knockback: '&f 뀁 &7 击退: &f{value}'
+recoil: '&f 뀁 &7 后坐力: &f{value}%'
+note-weight: '&f 뀁 &7 音符力量: &f{value}'
+lifesteal: '&f 뀁 &7 吸血: &c+{value}%'
+spell-vampirism: '&f 뀁 &7 咒文 吸血鬼: &c+{value}%'
+
+# Extra Damage
+pve-damage: '&f 뀁 &7 PvE 伤害: &f<plus>{value}%'
+pvp-damage: '&f 뀁 &7 PvP 伤害: &f<plus>{value}%'
+magic-damage: '&f 뀁 &7 法术伤害: &f<plus>{value}%'
+weapon-damage: '&f 뀁 &7 武器伤害: &f<plus>{value}%'
+undead-damage: '&f 뀁 &7 亡灵伤害: &f<plus>{value}%'
+skill-damage: '&f 뀁 &7 技能伤害: &f<plus>{value}%'
+physical-damage: '&f 뀁 &7 物理伤害: &f<plus>{value}%'
+projectile-damage: '&f 뀁 &7 远程伤害: &f<plus>{value}%'
+faction-damage-undead: '&f 뀁 &7 亡灵伤害: &f<plus>{value}%'
+
+# Abilities
+ability-format: '&f 뀁  &a>&8| &7{trigger} &8|&e|&8| &7&l{ability}'
+ability-modifier: '&f 뀁  &3>&8|&7 {modifier}&8: &f{value}'
+ability-splitter: '&f 뀁  &8'
+
+# Armor Stats
+block-power: '&f 뀁 &7 格挡: &f<plus>{value}%'
+block-rating: '&f 뀁 &7 格挡概率: &f<plus>{value}%'
+block-cooldown-reduction: '&f 뀁 &7 格挡冷却缩减: &f<plus>{value}%'
+dodge-rating: '&f 뀁 &7 闪避概率: &f<plus>{value}%'
+dodge-cooldown-reduction: '&f 뀁 &7 闪避冷却缩减: &f<plus>{value}%'
+parry-rating: '&f 뀁 &7 招架概率: &f<plus>{value}%'
+parry-cooldown-reduction: '&f 뀁 &7 招架冷却缩减: &f<plus>{value}%'
+armor: '&f 뀁 &7퐬 护甲: &f<plus>{value}'
+armor-toughness: '&f 뀁 &7 护甲韧性: &f<plus>{value}'
+knockback-resistance: '&f 뀁 &7 击退抗性: &f<plus>{value}%'
+max-health: '&f 뀁 &7 生命上限:&c <plus>{value}'
+movement-speed: '&f 뀁 &7 移动速度: &f<plus>{value}'
+
+# Damage Reduction
+defense: '&f 뀁 &7 防御: &f<plus>{value}'
+damage-reduction: '&f 뀁 &7 伤害减免: &f<plus>{value}%'
+fall-damage-reduction: '&f 뀁 &7 摔落伤害减免: &f<plus>{value}%'
+fire-damage-reduction: '&f 뀁 &7 灼烧伤害减免: &f<plus>{value}%'
+magic-damage-reduction: '&f 뀁 &7 法术伤害减免: &f<plus>{value}%'
+projectile-damage-reduction: '&f 뀁 &7 远程伤害减免: &f<plus>{value}%'
+physical-damage-reduction: '&f 뀁 &7 物理伤害减免: &f<plus>{value}%'
+pve-damage-reduction: '&f 뀁 &7 PvE 伤害减免: &f<plus>{value}%'
+pvp-damage-reduction: '&f 뀁 &7 PvP 伤害减免: &f<plus>{value}%'
+
+# RPG stats
+health-regeneration: '&f 뀁 &7 ■生命恢复: &f<plus>{value}'
+max-mana: '&f 뀁 &7■ 魔力上限: &f<plus>{value}'
+mana-regeneration: '&f 뀁 &7■ 魔力恢复: &f<plus>{value}'
+max-stamina: '&f 뀁 &7■ 体力上限: &f<plus>{value}'
+stamina-regeneration: '&f 뀁 &7■ 体力恢复: &f<plus>{value}'
+cooldown-reduction: '&f 뀁 &7■ 技能冷却缩减: &f<plus>{value}%'
+additional-experience: '&f 뀁 &7■ 额外经验: &f<plus>{value}%'
+additional-experience-alchemy: '&f 뀁 &7 额外酿造经验: &f<plus>{value}%'
+additional-experience-enchanting: '&f 뀁 &7 额外附魔经验: &f<plus>{value}%'
+additional-experience-farming: '&f 뀁 &7 额外种植经验: &f<plus>{value}%'
+additional-experience-fishing: '&f 뀁 &7 额外钓鱼经验: &f<plus>{value}%'
+additional-experience-mining: '&f 뀁 &7 额外挖矿经验: &f<plus>{value}%'
+additional-experience-smelting: '&f 뀁 &7 额外冶炼经验: &f<plus>{value}%'
+additional-experience-smithing: '&f 뀁 &7 额外锻造经验: &f<plus>{value}%'
+additional-experience-woodcutting: '&f 뀁 &7 额外伐木经验: &f<plus>{value}%'
+
+# Extra Options
+perm-effect: '&f 뀁 &7 效果 &f{effect}'
+command: '&f 뀁 &7 指令: &f{format} &f 뀁 &7(&f{cooldown}&f 뀁 &7s)'
+item-cooldown: '&f 뀁 &7 &f{value}&f 뀁 &7s 冷却'
+arrow-potion-effects: '&f 뀁 &7■ 箭矢效果: &f{effect}'
+
+# Consumables
+restore-health: '&f 뀁 &7■ 恢复 &f{value} &7生命值'
+restore-food: '&f 뀁 &7■ 恢复 &f{value} &7饱食度'
+restore-saturation: '&f 뀁 &7■ 恢复 &f{value} &7饱和度'
+restore-mana: '&f 뀁 &7■ 恢复 &f{value} &7魔力值'
+restore-stamina: '&f 뀁 &7■ 恢复 &f{value} &7体力值'
+effect: '&f 뀁 &7■ 获得 &f{effect} &7持续 &f{duration} &7s'
+repair: '&f 뀁 &7■ 修复: &f{value}'
+repair-percent: '&f 뀁 &7■ 修复: &f{value}%'
+can-identify: '&f 뀁 &7■ 可鉴定物品'
+can-deconstruct: '&f 뀁 &7■ 可分解物品'
+can-deskin: '&f 뀁 &7■ 可移除皮肤'
+success-rate: '&f 뀁 &7■ 成功概率: &a&l{value}%'
+max-consume: '&f 뀁 &7■ 使用次数 &f{value}'
+
+# Gem Stones
+empty-gem-socket: '&f 뀁 &7<#ca1a27> 空的 {name} 宝石槽'
+filled-gem-socket: '&f 뀁 &7<#46a835> &f{name}'
+when-applied: '&a镶嵌时:'
+gem-stone-lore: '&8&l[&2&l*&8&l] &a拖动到物品上&7镶嵌!'
+
+# Soulbound
+soulbinding-chance: '&f 뀁 &7 Has a &a{value}% &7chance to bind your item.'
+soulbound-break-chance: '&f 뀁 &7 Has a &a{value}% &7chance to break soulbounds.'
+soulbound-level: '&f 뀁 &7 Level &e{value} &7Soulbound'
+
+# Tools
+autosmelt: '&f 뀁 &7 &f自动熔炼'
+bouncing-crack: '&f 뀁 &7 &f范围破坏'
+pickaxe-power: '&f 뀁 &7 &f镐力: &a{value}'
+durability: '&f 뀁 &7 7耐久度: {current} / {max}'
+
+# General
+item-type: '&f 뀁 &8类型: {type}'
+tier: '&f 뀁 &8品质: {value}'
+required-class: '&f 뀁 &7 &7限制职业: {value}'
+required-level: '&f 뀁 &7 &e使用等级: {value}'
+
+# MMOCore Attributes
+required-dexterity: '&f 뀁 &7&e敏捷需求 &c{value}'
+required-strength: '&f 뀁 &7&e力量需求 &c{value}'
+required-intelligence: '&f 뀁 &7&e智慧需求 &c{value}'
+
+additional-dexterity: '&f 뀁 &7 额外敏捷: &f<plus>{value}'
+additional-strength: '&f 뀁 &7 额外力量: &f<plus>{value}'
+additional-intelligence: '&f 뀁 &7 额外智慧: &f<plus>{value}'
+
+# Professions
+profession-alchemy: '&f 뀁 &7 &e酿造等级: &c{value}'
+profession-enchanting: '&f 뀁 &7 &e附魔等级: &c{value}'
+profession-farming: '&f 뀁 &7 &e种植等级: &c{value}'
+profession-fishing: '&f 뀁 &7 &e钓鱼等级: &c{value}'
+profession-mining: '&f 뀁 &7 &e挖矿等级: &c{value}'
+profession-smelting: '&f 뀁 &7 &e冶炼等级: &c{value}'
+profession-smithing: '&f 뀁 &7 &e锻造等级: &c{value}'
+profession-woodcutting: '&f 뀁 &7 &e伐木等级: &c{value}'
+
+# Elemental Stat Format
+elemental-damage: '&f 뀁 &7 {color}{icon}&7 {value} {element} 伤害'
+elemental-damage-percent: '&f 뀁 &7 {color}{icon}&7 +{value}% {element} 伤害'
+elemental-defense: '&f 뀁 &7 {color}{icon}&7 {value} {element} 防御'
+elemental-defense-percent: '&f 뀁 &7 {color}{icon}&7 +{value}% {element} 防御'
+elemental-weakness: '&f 뀁 &7 {color}{icon}&7 {value}% {element} 弱点'
+
+# Custom stats
+custom-myluck: '&f 뀁 &7■ 幸运: &f<plus>{value}'

@@ -1,0 +1,51 @@
+info:
+  namespace: omnimoe
+
+items:
+  mythril_helmet:
+    display_name: display-name-mythril_helmet
+    resource:
+      generate: true
+      textures:
+      - armor/mythril_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: mythril
+  mythril_chestplate:
+    display_name: display-name-mythril_chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/mythril_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: mythril
+  mythril_leggings:
+    display_name: display-name-mythril_leggings
+    resource:
+      generate: true
+      textures:
+      - armor/mythril_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: mythril
+  mythril_boots:
+    display_name: display-name-mythril_boots
+    resource:
+      generate: true
+      textures:
+      - armor/mythril_boots
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: mythril
+
+armors_rendering:
+  mythril:
+    color: "#262aab"
+    layer_1: mythril_armor_layer_1
+    layer_2: mythril_armor_layer_2
+    # use_color: false

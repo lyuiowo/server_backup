@@ -1,0 +1,25 @@
+display-name: "阴魂不散"
+description: "死亡后原地生成 &a%placeholder%&r 秒的伤害药水云"
+placeholder: "1 + %level%"
+type: normal
+
+targets:
+  - helmet
+conflicts: [ ]
+rarity: epic
+max-level: 2
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: spawn_potion_cloud
+    args:
+      effect: harm
+      level: 1
+      duration: "20 + %level% * 20"
+    triggers:
+      - death
+
+conditions: [ ]

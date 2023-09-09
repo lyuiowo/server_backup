@@ -1,0 +1,19 @@
+enabled: false
+
+# 通知
+notifications:
+  # 默认类
+  info:
+    io: advancement
+    icon: writable_book
+    frame: task
+  error:
+    io: advancement
+    icon: barrier
+    frame: task
+
+  # 自定义类
+  money:
+    io: advancement
+    icon: gold_ingot
+    frame: task

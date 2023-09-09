@@ -1,0 +1,9 @@
+conditions:
+
+  has_tag_first_talk_with_blacksmith: "tag firstTalkWithBlacksmith"
+
+  has_silver_ingot: "item silver_ingot:1"
+  has_silver_ingot_dialog: "tag has_silver_ingot_dialog"
+
+  has_magic_gem: "item magic_gem:1"
+  has_magic_gem_dialog: "tag has_magic_gem_dialog"

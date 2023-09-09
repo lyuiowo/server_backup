@@ -1,0 +1,34 @@
+enabled: true
+
+# 通知
+notifications:
+  money:
+    io: advancement
+    icon: gold_ingot
+    frame: task
+  farmer:
+    io: totem # advancement
+    # icon: wheat
+    # frame: task
+    customisation: 10000
+  blacksmith:
+    io: totem # advancement
+    # icon: iron_ingot
+    # frame: task
+    customisation: 10001
+
+  info:
+    io: advancement
+    icon: writable_book
+  error:
+    io: advancement
+    icon: barrier
+
+# 任务日志主页
+# journal_main_page:
+#   title:
+#     priority: 1
+#     text:
+#       en: '&0The Journal'
+#       pl: '&0Dziennik'
+#       cn: '&0任务日志'

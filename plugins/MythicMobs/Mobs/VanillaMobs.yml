@@ -1,0 +1,103 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+# 僵尸
+ZOMBIE:
+  Health: 20
+  Damage: 3
+  DamageModifiers:
+  - FALL 0
+  Skills:
+  - randomskill{skills= zombie1, zombie2, zombie3} ~onDeath 0.08
+  - skill{skill=zombie4} ~onDamaged 0.05
+  - skill{skill=zombie5} ~onAttack 0.05
+ZOMBIE_VILLAGER:
+  Health: 20
+  Damage: 3
+  DamageModifiers:
+  - FALL 0
+  Skills:
+  - randomskill{skills= zombie1, zombie2, zombie3} ~onDeath 0.08
+  - skill{skill=zombie4} ~onDamaged 0.05
+  - skill{skill=zombie5} ~onAttack 0.05
+HUSK:
+  Health: 20
+  Damage: 3
+  DamageModifiers:
+  - FALL 0
+  Skills:
+  - randomskill{skills= zombie1, zombie2, zombie3} ~onDeath 0.08
+  - skill{skill=zombie4} ~onDamaged 0.05
+  - skill{skill=zombie5} ~onAttack 0.05
+# 小白
+SKELETON:
+  Health: 20
+  Damage: 3
+  DamageModifiers:
+  - FALL 0
+  Skills:
+  - skill{skill=skeleton1} ~onShoot 0.1
+  - skill{skill=skeleton2} ~onShoot 0.1
+  - disengage @self ~onDamaged 0.05
+STRAY:
+  Health: 20
+  Damage: 3
+  DamageModifiers:
+  - FALL 0
+  Skills:
+  - skill{skill=skeleton1} ~onShoot 0.1
+  - skill{skill=skeleton2} ~onShoot 0.1
+  - disengage @self ~onDamaged 0.05
+# 蜘蛛
+SPIDER:
+  Health: 20
+  Damage: 3
+  DamageModifiers:
+  - FALL 0
+  Skills:
+  - skill{skill=spider1} ~onTimer:50 0.1
+  - skill{skill=spider2} ~onTimer:100 0.1
+# 洞穴蜘蛛
+CAVE_SPIDER:
+  Health: 15
+  Damage: 3
+  DamageModifiers:
+  - FALL 0
+  Skills:
+  - skill{skill=spider1} ~onTimer:50 0.1
+  - skill{skill=spider2} ~onTimer:100 0.1
+# 末影人
+ENDERMAN:
+  Health: 50
+  Damage: 5
+  DamageModifiers:
+  - FALL 0
+  Skills:
+  - skill{skill=enderman1} ~onDamaged 0.02
+# 苦力怕
+CREEPER:
+  Health: 20
+  Damage: 5
+  DamageModifiers:
+  - FALL 0
+  Skills:
+  - skill{skill=creeper1} ~onTimer:50 0.02
+# 女巫
+WITCH:
+  Health: 20
+  Damage: 5
+  DamageModifiers:
+  - FALL 0
+  - MAGIC 0
+  Skills:
+  - skill{skill=witch1} ~onTimer:50 0.1
+  - skill{skill=witch2} ~onTimer:50 0.1
+  - skill{skill=witch3} ~onTimer:50 0.1
+  - skill{skill=witch4} ~onTimer:50 0.1
+  - skill{skill=witch5} ~onTimer:50 0.1
+  - skill{skill=witch6} ~onTimer:50 0.1
+  - skill{skill=witch7} ~onDamaged 0.2
+  - skill{skill=witch8} ~onTimer:50 0.05
+  - skill{skill=witch9} ~onTimer:50 0.1
+  - skill{skill=witch10} ~onTimer:50 0.5

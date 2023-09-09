@@ -1,0 +1,25 @@
+conversations:
+  merchant:
+    quester: "杂货商人"
+    first: 'hello_dialogs'
+    NPC_options:
+      hello_dialogs:
+        text: |-
+          你好，请问你有什么需要？
+        pointer: "exit"
+      end_dialogs:
+        text: |-
+          好的，欢迎下次再来
+
+    player_options:
+      open_buy_shop:
+        text: "购物"
+        events: openShopForBuy
+        pointer: "end_dialogs"
+      open_sell_shop:
+        text: "出售"
+        events: openShopForSell
+        pointer: "end_dialogs"
+      exit:
+        text: "结束对话"
+        pointer: "end_dialogs"

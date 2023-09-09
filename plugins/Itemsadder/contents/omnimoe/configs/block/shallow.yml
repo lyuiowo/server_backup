@@ -1,0 +1,154 @@
+info:
+  namespace: omnimoe
+
+items:
+  amber_ore:
+    display_name: display-name-amber_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10003
+      textures:
+        - block/shallow/amber_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+  amethyst_ore:
+    display_name: display-name-amethyst_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10008
+      textures:
+        - block/shallow/amethyst_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+  iridium_ore:
+    display_name: display-name-iridium_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10013
+      textures:
+        - block/shallow/iridium_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+  jade_ore:
+    display_name: display-name-jade_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10018
+      textures:
+        - block/shallow/jade_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+  malachite_ore:
+    display_name: display-name-malachite_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10023
+      textures:
+        - block/shallow/malachite_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+  mythril_ore:
+    display_name: display-name-mythril_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10028
+      textures:
+        - block/shallow/mythril_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+  ruby_ore:
+    display_name: display-name-ruby_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10033
+      textures:
+        - block/shallow/ruby_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+  silver_ore:
+    display_name: display-name-silver_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10038
+      textures:
+        - block/shallow/silver_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+
+
+
+
+
+

@@ -1,0 +1,186 @@
+info:
+  namespace: omnimoe
+
+categories:
+  ingots:
+    enabled: true
+    name: display-category-ingots
+    icon: omnimoe:jade_ingot
+    items:
+      - omnimoe:amber_ingot
+      - omnimoe:amethyst_ingot
+      - omnimoe:iridium_ingot
+      - omnimoe:jade_ingot
+      - omnimoe:malachite_ingot
+      - omnimoe:mythril_ingot
+      - omnimoe:ruby_ingot
+      - omnimoe:silver_ingot
+
+  nuggets:
+    enabled: true
+    name: display-category-nuggets
+    icon: omnimoe:silver_nugget
+    items:
+      - omnimoe:amber_nugget
+      - omnimoe:amethyst_nugget
+      - omnimoe:iridium_nugget
+      - omnimoe:jade_nugget
+      - omnimoe:malachite_nugget
+      - omnimoe:mythril_nugget
+      - omnimoe:ruby_nugget
+      - omnimoe:silver_nugget
+
+  raws:
+    enabled: true
+    name: display-category-raws
+    icon: omnimoe:ruby
+    items:
+      - omnimoe:amber_shard
+      - omnimoe:amethyst
+      - omnimoe:iridium
+      - omnimoe:malachite
+      - omnimoe:raw_jade
+      - omnimoe:raw_mythril
+      - omnimoe:ruby
+      - omnimoe:silver
+
+  ores:
+    enabled: true
+    name: display-category-ores
+    icon: omnimoe:ruby_ore
+    items:
+      - omnimoe:amber_ore
+      - omnimoe:amethyst_ore
+      - omnimoe:iridium_ore
+      - omnimoe:jade_ore
+      - omnimoe:malachite_ore
+      - omnimoe:mythril_ore
+      - omnimoe:ruby_ore
+      - omnimoe:silver_ore
+      - omnimoe:deepslate_amber_ore
+      - omnimoe:deepslate_amethyst_ore
+      - omnimoe:deepslate_iridium_ore
+      - omnimoe:deepslate_jade_ore
+      - omnimoe:deepslate_malachite_ore
+      - omnimoe:deepslate_mythril_ore
+      - omnimoe:deepslate_ruby_ore
+      - omnimoe:deepslate_silver_ore
+
+  pickaxes:
+    enabled: true
+    name: display-category-pickaxes
+    icon: omnimoe:amethyst_pickaxe
+    items:
+      - omnimoe:amber_pickaxe
+      - omnimoe:amethyst_pickaxe
+      - omnimoe:iridium_pickaxe
+      - omnimoe:jade_pickaxe
+      - omnimoe:malachite_pickaxe
+      - omnimoe:mythril_pickaxe
+      - omnimoe:ruby_pickaxe
+      - omnimoe:silver_pickaxe
+
+  shovels:
+    enabled: true
+    name: display-category-shovels
+    icon: omnimoe:ruby_shovel
+    items:
+      - omnimoe:amber_shovel
+      - omnimoe:amethyst_shovel
+      - omnimoe:iridium_shovel
+      - omnimoe:jade_shovel
+      - omnimoe:malachite_shovel
+      - omnimoe:mythril_shovel
+      - omnimoe:ruby_shovel
+      - omnimoe:silver_shovel
+
+  hoes:
+    enabled: true
+    name: display-category-hoes
+    icon: omnimoe:mythril_hoe
+    items:
+      - omnimoe:amber_hoe
+      - omnimoe:amethyst_hoe
+      - omnimoe:iridium_hoe
+      - omnimoe:jade_hoe
+      - omnimoe:malachite_hoe
+      - omnimoe:mythril_hoe
+      - omnimoe:ruby_hoe
+      - omnimoe:silver_hoe
+
+  swords:
+    enabled: true
+    name: display-category-swords
+    icon: omnimoe:amber_sword
+    items:
+      - omnimoe:amber_sword
+      - omnimoe:amethyst_sword
+      - omnimoe:iridium_sword
+      - omnimoe:jade_sword
+      - omnimoe:malachite_sword
+      - omnimoe:mythril_sword
+      - omnimoe:ruby_sword
+      - omnimoe:silver_sword
+
+  axes:
+    enabled: true
+    name: display-category-axes
+    icon: omnimoe:amethyst_axe
+    items:
+      - omnimoe:amber_axe
+      - omnimoe:amethyst_axe
+      - omnimoe:iridium_axe
+      - omnimoe:jade_axe
+      - omnimoe:malachite_axe
+      - omnimoe:mythril_axe
+      - omnimoe:ruby_axe
+      - omnimoe:silver_axe
+
+  weapons:
+    enabled: true
+    name: display-category-weapons
+    icon: omnimoe:masters_katana
+    items:
+      - omnimoe:master_sword
+      - omnimoe:masters_katana
+      - omnimoe:masters_bow
+
+  armors:
+    enabled: true
+    name: display-category-armors
+    icon: omnimoe:amber_chestplate
+    items:
+      - omnimoe:amber_helmet
+      - omnimoe:amber_chestplate
+      - omnimoe:amber_leggings
+      - omnimoe:amber_boots
+      - omnimoe:amethyst_helmet
+      - omnimoe:amethyst_chestplate
+      - omnimoe:amethyst_leggings
+      - omnimoe:amethyst_boots
+      - omnimoe:iridium_helmet
+      - omnimoe:iridium_chestplate
+      - omnimoe:iridium_leggings
+      - omnimoe:iridium_boots
+      - omnimoe:jade_helmet
+      - omnimoe:jade_chestplate
+      - omnimoe:jade_leggings
+      - omnimoe:jade_boots
+      - omnimoe:malachite_helmet
+      - omnimoe:malachite_chestplate
+      - omnimoe:malachite_leggings
+      - omnimoe:malachite_boots
+      - omnimoe:mythril_helmet
+      - omnimoe:mythril_chestplate
+      - omnimoe:mythril_leggings
+      - omnimoe:mythril_boots
+      - omnimoe:ruby_helmet
+      - omnimoe:ruby_chestplate
+      - omnimoe:ruby_leggings
+      - omnimoe:ruby_boots
+      - omnimoe:silver_helmet
+      - omnimoe:silver_chestplate
+      - omnimoe:silver_leggings
+      - omnimoe:silver_boots
+
+

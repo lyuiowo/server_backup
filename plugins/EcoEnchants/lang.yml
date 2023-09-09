@@ -1,0 +1,36 @@
+all: 全部
+all-conflicts: 其他全部附魔
+'false': '&cNo'
+no-conflicts: 无冲突附魔
+'true': '&aYes'
+messages:
+  removed-enchant: '&fRemoved &a%enchant%&f from &a%player%&f''s held item!'
+  prefix: '&a&lEcoEnchants &r&8» &r'
+  no-enchantments-found: '&c没有找到此附魔!'
+  cannot-afford-type: '&c你的经验等级不足! &f需求: &a%cost% %type%'
+  disabled-descriptions: '&f你成功 &c禁用 &f了附魔描述!'
+  gave-random-book: '&f成功给予 &a%player%&f 一本随机附魔书 (&r%enchantment%&f)!'
+  lrcdb-export-error: '&c导出配置时发生错误: &f%message%'
+  enabled-descriptions: '&f你成功 &a启用 &f了附魔描述!'
+  on-cooldown: '&c冷却中! &f剩余时间: &a%seconds% 秒'
+  descriptions-disabled: '&c附魔描述已被此服务器禁用.'
+  invalid-enchantment: '&cInvalid enchantment!'
+  invalid-config-name: '&c无效配置名!'
+  lrcdb-export-success: '&f成功导出 &a%name%&f! 在网站 &alrcdb.auxilor.io&f 上查看, 或分享你的配置ID:
+    &f%id%'
+  missing-enchant: '&c你必须指定一个附魔!'
+  must-specify-config-name: '&c你必须指定配置名!'
+  reloaded: 重载成功! 耗时 %time%ms
+  added-enchant: '&fAdded &a%enchant%&f to &a%player%&f''s held item!'
+  must-specify-lrcdb-id: '&c你必须要指定配置的ID! 不知道这是什么意思? 请打开 &alrcdb.auxilor.io'
+  invalid-levels: '&c最低等级不能低于最高等级!'
+  not-player: '&c这个指令只能由玩家执行'
+  lrcdb-import-error: '&c导入配置时发生错误: &f%message%'
+  invalid-command: '&c未知子命令!'
+  cannot-transmit: '&c你不能传送到这!'
+  not-found: '&c无法找到指定名称的附魔: &f%name%.'
+  no-permission: '&c你没有权限这么做!'
+  lrcdb-import-success: '&f成功导入 &a%name%&f! 重载插件来安装它'
+  requires-player: '&c需要指定玩家!'
+  invalid-player: '&c无效玩家!'
+

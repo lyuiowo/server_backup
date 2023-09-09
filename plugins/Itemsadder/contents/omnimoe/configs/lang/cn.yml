@@ -1,0 +1,168 @@
+info:
+  namespace: omnimoe
+  dictionary-lang: "zh_cn"
+
+dictionary:
+  # 图鉴标题
+  display-category-weapons: 武器一览
+  display-category-tools: 工具一览
+  display-category-ingots: 锭一览
+  display-category-nuggets: 粒一览
+  display-category-raws: 原矿一览
+  display-category-ores: 矿石一览
+  display-category-pickaxes: 镐子一览
+  display-category-shovels: 铲子一览
+  display-category-hoes: 锄头一览
+  display-category-swords: 剑一览
+  display-category-axes: 斧头一览
+
+  # 矿石
+  display-name-amber_ore: 琥珀矿石
+  display-name-amethyst_ore: 水晶矿石
+  display-name-iridium_ore: 铱矿石
+  display-name-jade_ore: 玉石矿石
+  display-name-malachite_ore: 孔雀石矿石
+  display-name-mythril_ore: 秘银矿石
+  display-name-ruby_ore: 红宝石矿石
+  display-name-silver_ore: 银矿石
+
+  display-name-deepslate_amber_ore: 深层琥珀矿石
+  display-name-deepslate_amethyst_ore: 深层水晶矿石
+  display-name-deepslate_iridium_ore: 深层铱矿石
+  display-name-deepslate_jade_ore: 深层玉石矿石
+  display-name-deepslate_malachite_ore: 深层孔雀石矿石
+  display-name-deepslate_mythril_ore: 深层秘银矿石
+  display-name-deepslate_ruby_ore: 深层红宝石矿石
+  display-name-deepslate_silver_ore: 深层银矿石
+
+  # 镐
+  display-name-amber_pickaxe: 琥珀镐
+  display-name-amethyst_pickaxe: 水晶镐
+  display-name-iridium_pickaxe: 铱镐
+  display-name-jade_pickaxe: 玉石镐
+  display-name-malachite_pickaxe: 孔雀石镐
+  display-name-mythril_pickaxe: 秘银镐
+  display-name-ruby_pickaxe: 红宝石镐
+  display-name-silver_pickaxe: 银镐
+
+  # 铲
+  display-name-amber_shovel: 琥珀铲
+  display-name-amethyst_shovel: 水晶铲
+  display-name-iridium_shovel: 铱铲
+  display-name-jade_shovel: 玉石铲
+  display-name-malachite_shovel: 孔雀石铲
+  display-name-mythril_shovel: 秘银铲
+  display-name-ruby_shovel: 红宝石铲
+  display-name-silver_shovel: 银铲
+
+  # 锄
+  display-name-amber_hoe: 琥珀锄
+  display-name-amethyst_hoe: 水晶锄
+  display-name-iridium_hoe: 铱锄
+  display-name-jade_hoe: 玉石锄
+  display-name-malachite_hoe: 孔雀石锄
+  display-name-mythril_hoe: 秘银锄
+  display-name-ruby_hoe: 红宝石锄
+  display-name-silver_hoe: 银锄
+
+  # 剑
+  display-name-amber_sword: 琥珀剑
+  display-name-amethyst_sword: 水晶剑
+  display-name-iridium_sword: 铱剑
+  display-name-jade_sword: 玉石剑
+  display-name-malachite_sword: 孔雀石剑
+  display-name-mythril_sword: 秘银剑
+  display-name-ruby_sword: 红宝石剑
+  display-name-silver_sword: 银剑
+
+  # 斧
+  display-name-amber_axe: 琥珀斧
+  display-name-amethyst_axe: 水晶斧
+  display-name-iridium_axe: 铱斧
+  display-name-jade_axe: 玉石斧
+  display-name-malachite_axe: 孔雀石斧
+  display-name-mythril_axe: 秘银斧
+  display-name-ruby_axe: 红宝石斧
+  display-name-silver_axe: 银斧
+
+  # 武器
+  display-name-master_sword: 大师剑
+  display-name-masters_katana: 大师刀
+  display-name-masters_bow: 大师弓
+
+  # 锭
+  display-name-amber_ingot: 琥珀锭
+  display-name-amethyst_ingot: 水晶锭
+  display-name-iridium_ingot: 铱锭
+  display-name-jade_ingot: 玉石锭
+  display-name-malachite_ingot: 孔雀石锭
+  display-name-mythril_ingot: 秘银锭
+  display-name-ruby_ingot: 红宝石锭
+  display-name-silver_ingot: 银锭
+
+  # 粒
+  display-name-amber_nugget: 琥珀粒
+  display-name-amethyst_nugget: 水晶粒
+  display-name-iridium_nugget: 铱粒
+  display-name-jade_nugget: 玉石粒
+  display-name-malachite_nugget: 孔雀石粒
+  display-name-mythril_nugget: 秘银粒
+  display-name-ruby_nugget: 红宝石粒
+  display-name-silver_nugget: 银粒
+
+  # 粗矿
+  display-name-amber_shard: 琥珀碎片
+  display-name-amethyst: 水晶
+  display-name-iridium: 粗铱
+  display-name-raw_jade: 玉石胚
+  display-name-malachite: 孔雀石
+  display-name-raw_mythril: 粗秘银
+  display-name-ruby: 红宝石
+  display-name-silver: 粗银
+
+  # 护甲
+  display-name-amber_helmet: 琥珀头盔
+  display-name-amber_chestplate: 琥珀胸甲
+  display-name-amber_leggings: 琥珀护腿
+  display-name-amber_boots: 琥珀靴子
+
+  display-name-amethyst_helmet: 水晶头盔
+  display-name-amethyst_chestplate: 水晶胸甲
+  display-name-amethyst_leggings: 水晶护腿
+  display-name-amethyst_boots: 水晶靴子
+
+  display-name-iridium_helmet: 铱头盔
+  display-name-iridium_chestplate: 铱胸甲
+  display-name-iridium_leggings: 铱护腿
+  display-name-iridium_boots: 铱靴子
+
+  display-name-jade_helmet: 玉石头盔
+  display-name-jade_chestplate: 玉石胸甲
+  display-name-jade_leggings: 玉石护腿
+  display-name-jade_boots: 玉石靴子
+
+  display-name-malachite_helmet: 孔雀石头盔
+  display-name-malachite_chestplate: 孔雀石胸甲
+  display-name-malachite_leggings: 孔雀石护腿
+  display-name-malachite_boots: 孔雀石靴子
+
+  display-name-mythril_helmet: 秘银头盔
+  display-name-mythril_chestplate: 秘银胸甲
+  display-name-mythril_leggings: 秘银护腿
+  display-name-mythril_boots: 秘银靴子
+
+  display-name-ruby_helmet: 红宝石头盔
+  display-name-ruby_chestplate: 红宝石胸甲
+  display-name-ruby_leggings: 红宝石护腿
+  display-name-ruby_boots: 红宝石靴子
+
+  display-name-silver_helmet: 银头盔
+  display-name-silver_chestplate: 银胸甲
+  display-name-silver_leggings: 银护腿
+  display-name-silver_boots: 银靴子
+
+
+
+
+
+

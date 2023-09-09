@@ -1,0 +1,38 @@
+display-name: "鬼斧"
+description: "一次砍伐 &a%placeholder%&r 个树木方块"
+placeholder: "4 * %level%"
+type: normal
+
+targets:
+  - axe
+conflicts: [ ]
+rarity: rare
+max-level: 6
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: mine_vein
+    args:
+      limit: "4 * %level%"
+      blocks:
+        - oak_wood
+        - dark_oak_wood
+        - acacia_wood
+        - jungle_wood
+        - birch_wood
+        - crimson_stem
+        - spruce_wood
+        - warped_stem
+        - oak_log
+        - dark_oak_log
+        - acacia_log
+        - jungle_log
+        - birch_log
+        - spruce_log
+    triggers:
+      - mine_block
+
+conditions: [ ]

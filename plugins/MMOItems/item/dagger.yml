@@ -1,0 +1,79 @@
+TEST:
+  base:
+    material: iron_sword
+    name: '&f 뀀  &a测试 '
+    required-level: 1.0
+    attack-damage: 1.0
+    attack-speed: 1.0
+    critical-strike-chance: 1.0
+    critical-strike-power: 1.0
+    skill-critical-strike-chance: 1.0
+    skill-critical-strike-power: 1.0
+    block-power: 1.0
+    block-rating: 1.0
+    block-cooldown-reduction: 1.0
+    dodge-rating: 1.0
+    dodge-cooldown-reduction: 1.0
+    parry-rating: 1.0
+    parry-cooldown-reduction: 1.0
+    cooldown-reduction: 1.0
+    mana-cost: 1.0
+    stamina-cost: 1.0
+    pve-damage: 1.0
+    pvp-damage: 1.0
+    weapon-damage: 1.0
+    skill-damage: 1.0
+    projectile-damage: 1.0
+    magic-damage: 1.0
+    physical-damage: 1.0
+    defense: 1.0
+    damage-reduction: 1.0
+    undead-damage: 1.0
+    lifesteal: 1.0
+    spell-vampirism: 1.0
+    tier: COMMON
+    armor: 1.0
+    armor-toughness: 1.0
+    max-health: 1.0
+    health-regeneration: 1.0
+    max-mana: 1.0
+    mana-regeneration: 1.0
+    max-stamina: 1.0
+    stamina-regeneration: 1.0
+    knockback-resistance: 1.0
+    movement-speed: 0.01
+    two-handed: false
+    pickaxe-power: 1
+    item-cooldown: 1.0
+    cooldown-reference: '1'
+    max-health-regeneration: 1.0
+    max-mana-regeneration: 1.0
+    max-stamina-regeneration: 1.0
+    max-stellium: 1.0
+    max-durability: 1.0
+    arrow-velocity: 1.0
+    blunt-power: 1.0
+    blunt-rating: 1.0
+    note-weight: 1.0
+    additional-experience: 1.0
+    additional-experience-alchemy: 1.0
+    additional-experience-enchanting: 1.0
+    additional-experience-farming: 1.0
+    additional-experience-fishing: 1.0
+    additional-experience-mining: 1.0
+    additional-experience-smelting: 1.0
+    additional-experience-smithing: 1.0
+    additional-experience-woodcutting: 1.0
+    lore:
+    - '&f 뀁  &7测试测试测试'
+    arrow-potion-effects:
+      POISON:
+        duration: 100.0
+        amplifier: 1
+    element:
+      fire:
+        damage: 10.0
+      earth:
+        defense: 10.0
+
+# lore-format: lore-format-backup

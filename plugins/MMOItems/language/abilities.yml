@@ -1,0 +1,23 @@
+cast-mode:
+  cast: 投掷
+  shoot-bow: 猎弓
+  shoot-trident: 三叉戟
+  sneak: 蹲下
+  shift-left-click: Shift+左键
+  arrow-tick: Arrow Tick
+  timer: 记时
+  death: 死亡
+  trident-land: 三叉戟着陆
+  arrow-land: 弓箭射中
+  trident-tick: Trident Tick
+  kill-entity: 击杀生物
+  right-click: 右键
+  attack: 攻击
+  arrow-hit: 弓箭攻击
+  login: 登录
+  api: Api
+  damaged: 受到伤害
+  left-click: 左键
+  trident-hit: 三叉戟攻击
+  damaged-by-entity: 被生物攻击
+  shift-right-click: Shift+右键

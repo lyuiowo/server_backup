@@ -1,0 +1,77 @@
+DRAGON_SCALE:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&5龙鳞'
+DRAGON_HEART:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&5龙之心脏'
+DRAGONS_REVERSE_SCALE:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&5龙之逆鳞'
+KRAKEN_HEART:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&3北海巨妖的心脏'
+KRAKEN_TOUCH:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&3北海巨妖之触'
+QUEEN_BEE_HEART:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&6蜂王心'
+WARDEN_HEART:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&7幽匿之心'
+WARDEN_HORN:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&7幽匿之角'
+ANCIENT_FISH_SCALES:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&e远古鱼鳞'
+ANCIENT_FISH_EYE:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&e远古鱼眼'
+QUEEN_BEE_STING:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&6蜂王螫针'
+SLIM_QUEEN_GLUE:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&a女王凝胶'
+
+
+SILVER_INGOT:
+  base:
+    revision-id: 1
+    material: iron_ingot
+    name: '&f银锭'
+    custom-model-data: 10000.0
+
+MAGIC_GEM:
+  base:
+    revision-id: 1
+    material: emerald
+    name: '&f魔法宝石'
+    lore:
+      - '&f &7蕴含魔力的宝石'
+    custom-model-data: 10000.0

@@ -1,0 +1,51 @@
+info:
+  namespace: omnimoe
+
+items:
+  jade_helmet:
+    display_name: display-name-jade_helmet
+    resource:
+      generate: true
+      textures:
+      - armor/jade_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: jade
+  jade_chestplate:
+    display_name: display-name-jade_chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/jade_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: jade
+  jade_leggings:
+    display_name: display-name-jade_leggings
+    resource:
+      generate: true
+      textures:
+      - armor/jade_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: jade
+  jade_boots:
+    display_name: display-name-jade_boots
+    resource:
+      generate: true
+      textures:
+      - armor/jade_boots
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: jade
+
+armors_rendering:
+  jade:
+    color: "#33d12e"
+    layer_1: jade_armor_layer_1
+    layer_2: jade_armor_layer_2
+    # use_color: false

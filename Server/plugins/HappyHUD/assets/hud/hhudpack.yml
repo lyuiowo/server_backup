@@ -1,0 +1,310 @@
+gradient-health:       
+  layers:             
+    icon:                           
+      texture:
+        path: assets/hhudpack/heart.png  
+      offset:                           
+        x: -10                           
+        y: -1
+      conditions:
+      - effect{e=wither} true texture assets/hhudpack/wither.png
+    hptext:
+      text: "%player_health_rounded%/%player_max_health_rounded%"
+      font: "default"
+      offset:
+        x: 21
+        y: -2
+      conditions:
+      - effect{e=wither} false hide
+    fillabsorption:
+      texture:
+        path: assets/hhudpack/gradient-bright-fill.png
+      color: "#FFD700"  
+      offset:
+        x: 1
+        y: -1
+      function:                                     
+        listener: absorption                        
+        increment: 10                               
+        orientation: horizontal
+    fill:
+      texture:
+        path: assets/hhudpack/gradient-fill.png
+      color: "#FF1313"
+      offset:
+        x: 1
+        y: -1
+      conditions:
+      - effect{e=wither} false hide
+      function:                                     
+        listener: health                            
+        increment: 10                               
+        orientation: horizontal
+    outline:
+      texture:
+        path: assets/hhudpack/gradient-outline.png
+
+gradient-hunger:
+  layers:
+    icon:
+      texture:
+        path: assets/hhudpack/food.png
+      offset:
+        x: -10
+        y: -1
+    fill:
+      texture:
+        path: assets/hhudpack/gradient-short-fill.png
+      color: "#B88458"
+      offset:
+        x: 1
+        y: -1
+      function:
+        listener: food
+        increment: 14
+        orientation: horizontal
+    outline:
+      texture:
+        path: assets/hhudpack/gradient-short-outline.png
+
+
+gradient-mana:
+  layers:
+    icon:
+      texture:
+        path: assets/hhudpack/manaicon.png
+      offset:
+        x: -10
+        y: -1
+    manatext:
+      text: "%fill-value%/%fill-max%"
+      font: "default"
+      offset:
+        x: 21
+        y: -2
+    fill:
+      texture:
+        path: assets/hhudpack/gradient-fill.png
+      color: "#1c649a"
+      offset:
+        x: 1
+        y: -1
+      function:
+        listener: mana
+        increment: 10
+        orientation: horizontal
+    outline:
+      texture:
+        path: assets/hhudpack/gradient-outline.png
+        
+gradient-stamina:
+  layers:
+    icon:
+      texture:
+        path: assets/hhudpack/staminaicon.png
+      offset:
+        x: -10
+        y: -1
+    staminatext:
+      text: "%fill-value%/%fill-max%"
+      font: "default"
+      offset:
+        x: 21
+        y: -2  
+    fill:
+      texture:
+        path: assets/hhudpack/gradient-fill.png
+      color: "#00ffaa"
+      offset:
+        x: 1
+        y: -1
+      function:
+        listener: stamina
+        increment: 10
+        orientation: horizontal
+    outline:
+      texture:
+        path: assets/hhudpack/gradient-outline.png        
+
+gradient-hunger-vanilla:
+  layers:
+    icon:
+      texture:
+        path: assets/hhudpack/food.png
+      offset:
+        x: -10
+        y: -1
+    fill:
+      texture:
+        path: assets/hhudpack/gradient-fill.png
+      color: "#B88458"
+      offset:
+        x: 1
+        y: -1
+      function:
+        listener: food
+        increment: 10
+        orientation: horizontal
+    outline:
+      texture:
+        path: assets/hhudpack/gradient-outline.png 
+
+gradient-armor-vanilla:
+  layers:
+    icon:
+      texture:
+        path: assets/hhudpack/armoricon.png
+      offset:
+        x: -10
+        y: -1
+    fill:
+      texture:
+        path: assets/hhudpack/gradient-fill.png
+      color: "#a1acbf"
+      offset:
+        x: 1
+        y: -1
+      function:
+        listener: armor
+        increment: 10
+        orientation: horizontal
+    outline:
+      texture:
+        path: assets/hhudpack/gradient-outline.png 
+        
+gradient-armor:
+  layers:
+    icon:
+      texture:
+        path: assets/hhudpack/armoricon.png
+      offset:
+        x: -10
+        y: -1
+    armortext:
+      text: "%mmocore_stat_armor%"
+      font: "default"
+      offset:
+        x: 1
+        y: -2
+
+gradient-vault:
+  layers:
+    icon:
+      texture:
+        path: assets/hhudpack/coinicon.png
+      offset:
+        x: -10
+        y: -1
+    armortext:
+      text: "%vault_eco_balance_formatted%"
+      font: "default"
+      offset:
+        x: 1
+        y: -2
+
+gradient-emerald-amount:
+  layers:
+    icon:
+      texture:
+        path: assets/hhudpack/emeraldicon.png
+      offset:
+        x: -10
+        y: -1
+    armortext:
+      text: "%checkitem_amount_mat:emerald%"
+      font: "default"
+      offset:
+        x: 1
+        y: -2
+
+gradient-fuel:
+  layers:
+    icon:
+      texture:
+        path: assets/hhudpack/fuelicon.png
+      offset:
+        x: -10
+        y: -1
+    armortext:
+      text: "%checkitem_amount_mat:firework_rocket%"
+      font: "default"
+      offset:
+        x: 1
+        y: -2
+
+gradient-arrow:
+  layers:
+    icon:
+      texture:
+        path: assets/hhudpack/arrowicon.png
+      offset:
+        x: -10
+        y: -1
+    armortext:
+      text: "%checkitem_amount_mat:arrow%"
+      font: "default"
+      offset:
+        x: 1
+        y: -2        
+        
+gradient-light-level:
+  layers:
+    icon:
+      texture:
+        path: assets/hhudpack/lightlevelicon.png
+      offset:
+        x: -10
+        y: -1
+    armortext:
+      text: "%player_light_level%"
+      font: "default"
+      offset:
+        x: 1
+        y: -2
+
+        
+gradient-air-vanilla:
+  layers:
+    icon:
+      texture:
+        path: assets/hhudpack/air.png
+      offset:
+        x: -10
+        y: -1
+    fill:
+      texture:
+        path: assets/hhudpack/gradient-fill.png
+      color: "#94b9d4"
+      offset:
+        x: 1
+        y: -1
+      function:
+        listener: air
+        increment: 10
+        orientation: horizontal
+    outline:
+      texture:
+        path: assets/hhudpack/gradient-outline.png
+        
+gradient-air:
+  layers:
+    icon:
+      texture:
+        path: assets/hhudpack/air.png
+      offset:
+        x: -10
+        y: -1
+    fill:
+      texture:
+        path: assets/hhudpack/gradient-short-fill.png
+      color: "#94b9d4"
+      offset:
+        x: 1
+        y: -1
+      function:
+        listener: air
+        increment: 14
+        orientation: horizontal
+    outline:
+      texture:
+        path: assets/hhudpack/gradient-short-outline.png

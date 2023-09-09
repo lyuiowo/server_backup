@@ -1,0 +1,67 @@
+conversations:
+  blacksmith:
+    quester: "铁匠"
+    first: 'first_dialogs, hello_dialogs'
+    NPC_options:
+      first_dialogs:
+        text: |-
+          初次见面，这些是我的一点小心意。
+          如果你遇见什么稀有矿物也能来找我，
+          我能帮你打造成带有特殊效果的武器和装备。
+        events: "getFirstTalkGiftWithBlacksmith"
+        conditions: "!has_tag_first_talk_with_blacksmith"
+        pointer: "thanks"
+      hello_dialogs:
+        text: |-
+          请问有什么需要？
+        pointer: "upgrade_weapons, upgrade_weapons, forge_weapons, exit"
+      end_dialogs:
+        text: |-
+          好的，欢迎下次再来
+
+      new_ore: # 新矿石对话 
+        text: |-
+          你说你有新的矿石要让我看看？
+        pointer: "has_silver_ingot_dialog, has_magic_gem_dialog"
+      silver_ingot_dialogs:
+        text: |-
+          嗯，这是成色很棒的银锭
+          如果用来锻造能制作出一把具有 对亡灵特攻 属性的装备
+          如果你还有这种银锭可以来找我锻造
+        events: 
+        pointer: "upgrade_weapons, upgrade_weapons, forge_weapons, exit"
+      magic_gem_dialog:
+        text: |-
+          你从哪里找来的这种宝石？嗯...
+          如果用来锻造的话可能有点浪费，你可以考虑一下打磨之后去 附魔师 那，
+          她会对这些魔力素材比较感兴趣。
+        events: 
+        pointer: "upgrade_weapons, upgrade_weapons, forge_weapons, exit"
+
+    player_options:
+      thanks:
+        text: "谢谢"
+        events: "tagAddFirstTalkWithBlacksmith"
+        pointer: "hello_dialogs"
+      upgrade_weapons:
+        text: "强化武器"
+        events: openWorkstationForUpgrade
+        pointer: "end_dialogs"
+      forge_weapons:
+        text: "打造武器"
+        events: openWorkstationForForge
+        pointer: "end_dialogs"
+      exit:
+        text: "结束对话"
+        pointer: "end_dialogs"
+
+      has_silver_ingot_dialog:
+        text: "我发现了一些银锭"
+        conditions: has_silver_ingot,!has_silver_ingot_dialog
+        events: tagAddSilverIngotDialog
+        pointer: silver_ingot_dialogs
+      has_magic_gem_dialog:
+        text: "我发现了一些奇怪的宝石"
+        conditions: has_magic_gem,!has_magic_gem_dialog
+        events: tagAddMagicGemDialog
+        pointer: magic_gem_dialog

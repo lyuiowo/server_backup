@@ -1,0 +1,46 @@
+items:
+  # 种植盆
+  dry_pot: PAPER name:§f种植盆 custom-model-data:10107
+  # 温室玻璃
+  greenhouse_glass: PAPER name:§f温室玻璃 custom-model-data:10112
+  # 稻草人
+  scarecrow: PAPER name:§f稻草人 custom-model-data:10111
+  # 农作物
+  corn: APPLE name:§f玉米 custom-model-data:10000
+  corn_silver_star: APPLE name:§f玉米 custom-model-data:10001
+  corn_golden_star: APPLE name:§f玉米 custom-model-data:10002
+  eggplant: APPLE name:§f茄子 custom-model-data:10003
+  eggplant_silver_star: APPLE name:§f茄子 custom-model-data:10004
+  eggplant_golden_star: APPLE name:§f茄子 custom-model-data:10005
+  chinese_cabbage: APPLE name:§f白菜 custom-model-data:10006
+  chinese_cabbage_silver_star: APPLE name:§f白菜 custom-model-data:10007
+  chinese_cabbage_golden_star: APPLE name:§f白菜 custom-model-data:10008
+  pineapple: APPLE name:§f菠萝 custom-model-data:10009
+  pineapple_silver_star: APPLE name:§f菠萝 custom-model-data:10010
+  pineapple_golden_star: APPLE name:§f菠萝 custom-model-data:10011
+  cabbage: APPLE name:§f卷心菜 custom-model-data:10012
+  cabbage_silver_star: APPLE name:§f卷心菜 custom-model-data:10013
+  cabbage_golden_star: APPLE name:§f卷心菜 custom-model-data:10014
+  tomato: APPLE name:§f番茄 custom-model-data:10015
+  tomato_silver_star: APPLE name:§f番茄 custom-model-data:10016
+  tomato_golden_star: APPLE name:§f番茄 custom-model-data:10017
+  golden_tomato: APPLE name:§f金番茄 custom-model-data:10018
+  hop: APPLE name:§f啤酒花 custom-model-data:10019
+  hop_silver_star: APPLE name:§f啤酒花 custom-model-data:10020
+  hop_golden_star: APPLE name:§f啤酒花 custom-model-data:10021
+  pepper: APPLE name:§f辣椒 custom-model-data:10022
+  pepper_silver_star: APPLE name:§f辣椒 custom-model-data:10023
+  pepper_golden_star: APPLE name:§f辣椒 custom-model-data:10024
+  garlic: APPLE name:§f大蒜 custom-model-data:10025
+  garlic_silver_star: APPLE name:§f大蒜 custom-model-data:10026
+  garlic_golden_star: APPLE name:§f大蒜 custom-model-data:10027
+  pitaya: APPLE name:§f火龙果 custom-model-data:10028
+  pitaya_silver_star: APPLE name:§f火龙果 custom-model-data:10029
+  pitaya_golden_star: APPLE name:§f火龙果 custom-model-data:10030
+  grape: APPLE name:§f葡萄 custom-model-data:10031
+  grape_silver_star: APPLE name:§f葡萄 custom-model-data:10032
+  grape_golden_star: APPLE name:§f葡萄 custom-model-data:10033
+
+
+
+

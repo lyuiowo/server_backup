@@ -1,0 +1,32 @@
+info:
+  namespace: omnimoe
+
+items:
+  master_sword:
+    display_name: display-name-master_sword
+    resource:
+      material: netherite_sword
+      model_id: 10000
+      generate: false
+      model_path: 'weapons/master/master_sword'
+
+  masters_katana:
+    display_name: display-name-masters_katana
+    resource:
+      material: netherite_sword
+      model_id: 10001
+      generate: false
+      model_path: 'weapons/master/masters_katana'
+
+  masters_bow:
+    display_name: display-name-masters_bow
+    resource:
+      material: bow
+      model_id: 10000
+      generate: false
+      # textures:
+      #   - weapons/master/masters_bow
+      model_path: 'weapons/master/masters_bow'
+
+
+

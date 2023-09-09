@@ -1,0 +1,23 @@
+display-name: "刀光剑影"
+description: "冲刺时增加 &a%placeholder%%&r 攻击速度"
+placeholder: "5 * %level%"
+type: normal
+
+targets:
+  - sword
+conflicts: [ ]
+rarity: rare
+max-level: 3
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: attack_speed_multiplier
+    args:
+      multiplier: "1 + %level% * 0.05"
+    triggers: [ ]
+
+conditions:
+  - id: is_sprinting

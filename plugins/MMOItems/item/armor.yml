@@ -1,0 +1,64 @@
+DRAGON_HELMET:
+  base:
+    revision-id: 1
+    material: netherite_helmet
+    name: '&5龙之盔'
+    set: DRAGON
+    will-break: true
+DRAGON_CHESTPLATE:
+  base:
+    revision-id: 1
+    material: netherite_chestplate
+    name: '&5龙之甲'
+    set: DRAGON
+    will-break: true
+DRAGON_LEGGINGS:
+  base:
+    revision-id: 1
+    material: netherite_leggings
+    name: '&5龙之膝'
+    set: DRAGON
+    will-break: true
+DRAGON_BOOTS:
+  base:
+    revision-id: 1
+    material: netherite_boots
+    name: '&5龙之靴'
+    set: DRAGON
+    will-break: true
+OCEAN_HELMET:
+  base:
+    revision-id: 1
+    material: DIAMOND_HELMET
+    name: '&9海洋头盔'
+    set: OCEAN
+    will-break: true
+OCEAN_CHESTPLATE:
+  base:
+    revision-id: 1
+    material: DIAMOND_CHESTPLATE
+    name: '&9海洋胸甲'
+    set: OCEAN
+    will-break: true
+OCEAN_LEGGINGS:
+  base:
+    revision-id: 1
+    material: DIAMOND_LEGGINGS
+    name: '&9海洋护腿'
+    set: OCEAN
+    will-break: true
+OCEAN_BOOTS:
+  base:
+    revision-id: 1
+    material: DIAMOND_BOOTS
+    name: '&9海洋靴子'
+    set: OCEAN
+    will-break: true
+RED_FOX:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10122.0
+    name: '&c红色狐狸玩偶'
+    displayed-type: 头饰
+

@@ -1,0 +1,55 @@
+COMMON:
+  name: '豈'
+  unidentification:
+    name: '豈'
+    range: 6
+    prefix: '&f'
+
+UNCOMMON:
+  name: '更'
+  unidentification:
+    name: '更'
+    range: 6
+    prefix: '&f'
+
+RARE:
+  name: '車'
+  unidentification:
+    name: '車'
+    range: 6
+    prefix: '&f'
+
+EPIC:
+  name: '賈'
+  unidentification:
+    name: '賈'
+    range: 6
+    prefix: '&f'
+
+LEGENDARY:
+  name: '滑'
+  unidentification:
+    name: '滑'
+    range: 6
+    prefix: '&f'
+
+MYTHIC:
+  name: '串'
+  unidentification:
+    name: '串'
+    range: 6
+    prefix: '&f'
+
+DIVINE:
+  name: '句'
+  unidentification:
+    name: '句'
+    range: 6
+    prefix: '&f'
+
+COSMETIC:
+  name: '龜'
+  unidentification:
+    name: '龜'
+    range: 6
+    prefix: '&f'

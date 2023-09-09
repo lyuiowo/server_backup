@@ -1,0 +1,25 @@
+# conversations:
+#   bartender:
+#     quester: "调酒师"
+#     first: 'hello_dialogs'
+#     NPC_options:
+#       hello_dialogs:
+#         text: |-
+#           你好，请问你有什么需要？
+#         pointer: "open_beverage_shop, open_restricted_shop, exit"
+#       end_dialogs:
+#         text: |-
+#           好的，欢迎下次再来
+
+#     player_options:
+#       open_beverage_shop:
+#         text: "查看菜单"
+#         events: openShopForBeverage
+#         pointer: "end_dialogs"
+#       open_restricted_shop:
+#         text: "查看特价菜单"
+#         events: openShopForRestricted
+#         pointer: "end_dialogs"
+#       exit:
+#         text: "结束对话"
+#         pointer: "end_dialogs"

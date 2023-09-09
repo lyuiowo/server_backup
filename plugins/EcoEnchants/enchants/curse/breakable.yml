@@ -1,0 +1,25 @@
+display-name: "易碎"
+description: "耐久度降低至原耐久度的 %placeholder%%"
+placeholder: "(60 + (40 * (%level% + 1)))"
+
+targets:
+  - all
+
+conflicts:
+  - unbreaking
+
+rarity: common
+max-level: 5
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: item_durability_multiplier
+    args:
+      multiplier: ( 60 + ( 40 * ( %level% + 1 ) ) ) / 100
+    triggers:
+      - damage_item
+
+conditions: [ ]

@@ -1,0 +1,18 @@
+# For internal storage use only, do not modify.
+
+previous-handler: YAML
+player:
+  cd934bd9-a33f-3878-b2e3-111b3a273013:
+    ecoenchants:soulbound_items: []
+    eco:player_name: Lovely_Ruriii
+  ae27b3ac-8019-3548-bfad-e142d90cd8b9:
+    ecoenchants:descriptions_enabled: true
+    ecoenchants:soulbound_items: []
+    eco:player_name: Lovely_Ruri
+  939dbe6d-db99-4d25-adc1-adb3bbf5c0c9:
+    ecoenchants:descriptions_enabled: true
+    eco:player_name: Lovely_Ruri
+    ecoenchants:soulbound_items: []
+  00000000-0000-0000-0000-000000000000:
+    eco:local_server_id: fdc4401d-2fd8-48f3-9767-11cf69e95af2
+

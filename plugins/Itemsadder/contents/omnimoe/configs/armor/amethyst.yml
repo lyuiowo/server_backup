@@ -1,0 +1,51 @@
+info:
+  namespace: omnimoe
+
+items:
+  amethyst_helmet:
+    display_name: display-name-amethyst_helmet
+    resource:
+      generate: true
+      textures:
+      - armor/amethyst_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: amethyst
+  amethyst_chestplate:
+    display_name: display-name-amethyst_chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/amethyst_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: amethyst
+  amethyst_leggings:
+    display_name: display-name-amethyst_leggings
+    resource:
+      generate: true
+      textures:
+      - armor/amethyst_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: amethyst
+  amethyst_boots:
+    display_name: display-name-amethyst_boots
+    resource:
+      generate: true
+      textures:
+      - armor/amethyst_boots
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: amethyst
+
+armors_rendering:
+  amethyst:
+    color: "#c947bc"
+    layer_1: amethyst_armor_layer_1
+    layer_2: amethyst_armor_layer_2
+    # use_color: false

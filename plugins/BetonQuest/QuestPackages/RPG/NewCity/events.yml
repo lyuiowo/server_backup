@@ -1,0 +1,2 @@
+events:
+  talk_with_{npc}: conversation {npc}

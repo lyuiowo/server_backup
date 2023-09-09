@@ -1,0 +1,6 @@
+npcs:
+  '0': "receiver"   # 主城接待员
+  '1': "bartender"  # 主城调酒师
+  '2': "blacksmith" # 主城铁匠
+  '3': "farmer"     # 主城农民
+  '4': "merchant"   # 主城杂货商

@@ -1,0 +1,80 @@
+info:
+  namespace: omnimoe
+
+items:
+  amber_hoe:
+    display_name: display-name-amber_hoe
+    resource:
+      material: iron_hoe
+      generate: true
+      model_id: 10000
+      textures:
+        - tools/hoe/amber_hoe
+
+  amethyst_hoe:
+    display_name: display-name-amethyst_hoe
+    resource:
+      material: iron_hoe
+      generate: true
+      model_id: 10001
+      textures:
+        - tools/hoe/amethyst_hoe
+
+  iridium_hoe:
+    display_name: display-name-iridium_hoe
+    resource:
+      material: iron_hoe
+      generate: true
+      model_id: 10002
+      textures:
+        - tools/hoe/iridium_hoe
+
+  jade_hoe:
+    display_name: display-name-jade_hoe
+    resource:
+      material: iron_hoe
+      generate: true
+      model_id: 10003
+      textures:
+        - tools/hoe/jade_hoe
+
+  malachite_hoe:
+    display_name: display-name-malachite_hoe
+    resource:
+      material: iron_hoe
+      generate: true
+      model_id: 10004
+      textures:
+        - tools/hoe/malachite_hoe
+
+  mythril_hoe:
+    display_name: display-name-mythril_hoe
+    resource:
+      material: iron_hoe
+      generate: true
+      model_id: 10005
+      textures:
+        - tools/hoe/mythril_hoe
+
+  ruby_hoe:
+    display_name: display-name-ruby_hoe
+    resource:
+      material: iron_hoe
+      generate: true
+      model_id: 10006
+      textures:
+        - tools/hoe/ruby_hoe
+
+  silver_hoe:
+    display_name: display-name-silver_hoe
+    resource:
+      material: iron_hoe
+      generate: true
+      model_id: 10007
+      textures:
+        - tools/hoe/silver_hoe
+
+
+
+
+

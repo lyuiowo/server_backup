@@ -1,0 +1,21 @@
+SILVER_ORE:
+  base:
+    name: '&f 뀀  &f银矿 '
+    required-power: 2
+    min-xp: 10
+    max-xp: 20
+    gen-template: basic-template
+    material: STONE
+    disable-crafting: true
+    disable-smithing: true
+    tier: COMMON
+    block-id: 1.0
+DEEPSLATE_SILVER_ORE:
+  base:
+    material: STONE
+    name: '&f 뀀  &f深层银矿 '
+    disable-crafting: true
+    disable-smithing: true
+    tier: COMMON
+    block-id: 2.0
+

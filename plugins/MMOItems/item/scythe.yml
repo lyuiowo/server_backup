@@ -1,0 +1,18 @@
+jailors_scythe:
+  base:
+    material: IRON_HOE
+    name: 狱卒之镰
+    will-break: true
+    custom-model-data: 10003
+frost_scythe:
+  base:
+    material: IRON_HOE
+    name: 冰霜长镰
+    will-break: true
+    custom-model-data: 10004
+skull_scythe:
+  base:
+    material: IRON_HOE
+    name: 骨镰
+    will-break: true
+    custom-model-data: 10005

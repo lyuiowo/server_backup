@@ -1,0 +1,49 @@
+events:
+
+  talkWithFarmer: conversation farmer
+
+  openShopForCrops: command bs open farmerCommonCropsShop %player%
+  openShopForSeeds: command bs open farmerSeedsShop %player%
+  openShopForFertilizers: command bs open farmerFertilizersShop %player%
+
+  getCopperWateringCan: command iagive %player% customcrops:watering_can_1 1 silent
+  getGarlicSeeds: command iagive %player% customcrops:garlic_seeds 5 silent
+  getFirstTalkGiftWithFarmer: folder getCopperWateringCan,getGarlicSeeds
+
+  tagAddFirstTalkWithFarmer: tag add firstTalkWithFarmer
+
+  notifyCompleteObjectiveWithFarmer: notify 任务完成！快去找农夫汇报吧 category:farmer
+
+  # 任务线 1
+  journalAddCrafting5DryPot: journal add crafting_5_dry_pot
+  objectiveAddCrafting5DryPot: objective add crafting_5_dry_pot
+  startCrafting5DryPot: folder journalAddCrafting5DryPot,objectiveAddCrafting5DryPot,journalUpdate
+
+  tagAddCompleteCrafting5DryPot: tag add quest_complete_crafting_5_dry_pot
+  completesCrafting5DryPot: folder notifyCompleteObjectiveWithFarmer,tagAddCompleteCrafting5DryPot
+  rewardCrafting5DryPot: command iagive %player% customcrops:quality_1 5 silent
+
+  journalDelCrafting5DryPot: journal delete crafting_5_dry_pot
+
+  # 任务线 2
+  journalAddHarvest15Crops: journal add harvest_15_crops
+  objectiveAddHarvest15Crops: objective add harvest_15_crops
+  startHarvest15Crops: folder journalAddHarvest15Crops,objectiveAddHarvest15Crops,journalUpdate
+
+  tagAddCompleteHarvest15Crops: tag add quest_complete_harvest_15_crops
+  completesHarvest15Crops: folder notifyCompleteObjectiveWithFarmer,tagAddCompleteHarvest15Crops
+  rewardHarvest15Crops: money +150
+
+  journalDelHarvest15Crops: journal delete harvest_15_crops
+
+  # 任务线 3
+  journalAddCrafting10GreenhouseGlass: journal add crafting_10_greenhouse_glass
+  objectiveAddCrafting10GreenhouseGlass: objective add crafting_10_greenhouse_glass
+  startCrafting10GreenhouseGlass: folder journalAddCrafting10GreenhouseGlass,objectiveAddCrafting10GreenhouseGlass,journalUpdate
+
+  tagAddCompleteCrafting10GreenhouseGlass: tag add quest_complete_crafting_10_greenhouse_glass
+  completesCrafting10GreenhouseGlass: folder notifyCompleteObjectiveWithFarmer,tagAddCompleteCrafting10GreenhouseGlass
+  rewardCrafting10GreenhouseGlass: money +150
+
+  journalDelCrafting10GreenhouseGlass: journal delete crafting_10_greenhouse_glass
+

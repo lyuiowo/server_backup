@@ -1,0 +1,51 @@
+info:
+  namespace: omnimoe
+
+items:
+  amber_helmet:
+    display_name: display-name-amber_helmet
+    resource:
+      generate: true
+      textures:
+      - armor/amber_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: amber
+  amber_chestplate:
+    display_name: display-name-amber_chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/amber_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: amber
+  amber_leggings:
+    display_name: display-name-amber_leggings
+    resource:
+      generate: true
+      textures:
+      - armor/amber_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: amber
+  amber_boots:
+    display_name: display-name-amber_boots
+    resource:
+      generate: true
+      textures:
+      - armor/amber_boots
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: amber
+
+armors_rendering:
+  amber:
+    color: "#e8a438"
+    layer_1: amber_armor_layer_1
+    layer_2: amber_armor_layer_2
+    # use_color: false

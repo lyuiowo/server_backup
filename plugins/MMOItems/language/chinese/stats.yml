@@ -1,0 +1,151 @@
+# Weapon Stats
+attack-damage: '攻击伤害: {value}'
+attack-speed: '攻击速度: {value}'
+critical-strike-chance: '暴击率: <plus>{value}%'
+critical-strike-power: '暴击伤害: <plus>{value}%'
+skill-critical-strike-chance: '法术暴击率: <plus>{value}%'
+skill-critical-strike-power: '法术暴击伤害: <plus>{value}%'
+range: '攻击范围: {value}'
+mana-cost: '魔力消耗 &9{value}'
+stamina-cost: '体力消耗 &9{value}'
+arrow-velocity: '箭矢速度: {value}'
+blunt-power: '钝击范围: {value}'
+blunt-rating: '钝击伤害: {value}%'
+two-handed: '双持'
+handworn: '手持'
+knockback: '击退: {value}'
+recoil: '后坐力: {value}%'
+note-weight: '音符力量: {value}'
+lifesteal: '吸血: +{value}%'
+spell-vampirism: '咒文 吸血鬼: +{value}%'
+
+# Extra Damage
+pve-damage: 'PvE 伤害: <plus>{value}%'
+pvp-damage: 'PvP 伤害: <plus>{value}%'
+magic-damage: '魔法伤害: <plus>{value}%'
+weapon-damage: '武器伤害: <plus>{value}%'
+undead-damage: '亡灵伤害: <plus>{value}%'
+skill-damage: '技能伤害: <plus>{value}%'
+physical-damage: '物理伤害: <plus>{value}%'
+projectile-damage: '远程伤害: <plus>{value}%'
+faction-damage-undead: '亡灵伤害: <plus>{value}%'
+
+# Abilities
+ability-format: '&a>| {trigger} |&e|| &l{ability}'
+ability-modifier: ' &3>| {modifier}: {value}'
+ability-splitter: ''
+
+# Armor Stats
+block-power: '格挡: <plus>{value}%'
+block-rating: '格挡概率: <plus>{value}%'
+block-cooldown-reduction: '格挡冷却缩减: <plus>{value}%'
+dodge-rating: '闪避概率: <plus>{value}%'
+dodge-cooldown-reduction: '闪避冷却缩减: <plus>{value}%'
+parry-rating: '招架概率: <plus>{value}%'
+parry-cooldown-reduction: '招架冷却缩减: <plus>{value}%'
+armor: '护甲: <plus>{value}'
+armor-toughness: '护甲韧性: <plus>{value}'
+knockback-resistance: '击退抗性: <plus>{value}%'
+max-health: '生命上限: <plus>{value}'
+movement-speed: '移动速度: <plus>{value}'
+
+# Damage Reduction
+defense: '防御: <plus>{value}'
+damage-reduction: '伤害减免: <plus>{value}%'
+fall-damage-reduction: '摔落减免: <plus>{value}%'
+fire-damage-reduction: '灼烧减免: <plus>{value}%'
+magic-damage-reduction: '魔法伤害减免: <plus>{value}%'
+projectile-damage-reduction: '远程伤害减免: <plus>{value}%'
+physical-damage-reduction: '物理伤害减免: <plus>{value}%'
+pve-damage-reduction: 'PvE 伤害减免: <plus>{value}%'
+pvp-damage-reduction: 'PvP 伤害减免: <plus>{value}%'
+
+# RPG stats
+health-regeneration: '生命恢复: <plus>{value}'
+max-mana: '魔力上限: <plus>{value}'
+mana-regeneration: '魔力恢复: <plus>{value}'
+max-stamina: '体力上限: <plus>{value}'
+stamina-regeneration: '体力恢复: <plus>{value}'
+cooldown-reduction: '技能冷却缩减: <plus>{value}%'
+additional-experience: '额外经验: <plus>{value}%'
+additional-experience-alchemy: '额外酿造经验: <plus>{value}%'
+additional-experience-enchanting: '额外附魔经验: <plus>{value}%'
+additional-experience-farming: '额外种植经验: <plus>{value}%'
+additional-experience-fishing: '额外钓鱼经验: <plus>{value}%'
+additional-experience-mining: '额外挖矿经验: <plus>{value}%'
+additional-experience-smelting: '额外冶炼经验: <plus>{value}%'
+additional-experience-smithing: '额外锻造经验: <plus>{value}%'
+additional-experience-woodcutting: '额外伐木经验: <plus>{value}%'
+
+# Extra Options
+perm-effect: '效果 {effect}'
+command: '指令: {format} ({cooldown}s)'
+item-cooldown: '{value}s 冷却'
+arrow-potion-effects: '箭矢效果: {effect}'
+
+# Consumables
+restore-health: '恢复 {value} 生命值'
+restore-food: '恢复 {value} 饱食度'
+restore-saturation: '恢复 {value} 饱和度'
+restore-mana: '恢复 {value} 魔力值'
+restore-stamina: '恢复 {value} 体力值'
+effect: '获得 {effect} 持续 {duration} s'
+repair: '修复: {value}'
+repair-percent: '修复: {value}%'
+can-identify: '可鉴定物品'
+can-deconstruct: '可分解物品'
+can-deskin: '可移除皮肤'
+success-rate: '成功概率: &a&l{value}%'
+max-consume: '使用次数: {value}'
+
+# Gem Stones
+empty-gem-socket: '空的 {name} 宝石槽'
+filled-gem-socket: '{name}'
+when-applied: '&a镶嵌时:'
+gem-stone-lore: '&l[&2&l*&l] &a拖动到物品上镶嵌!'
+
+# Soulbound
+soulbinding-chance: '&a{value}% 几率绑定物品.'
+soulbound-break-chance: '&a{value}% 几率破坏绑定.'
+soulbound-level: '绑定等级 &e{value}'
+
+# Tools
+autosmelt: '自动熔炼'
+bouncing-crack: '范围破坏'
+pickaxe-power: '镐力: &a{value}'
+durability: '耐久度: {current} / {max}'
+
+# General
+item-type: '类型: [{type}]'
+tier: '品质: [{value}]'
+required-class: '限制职业: {value}'
+required-level: '使用等级: {value}'
+
+# MMOCore Attributes
+required-dexterity: '敏捷需求 {value}'
+required-strength: '力量需求 {value}'
+required-intelligence: '智慧需求 {value}'
+
+additional-dexterity: '额外敏捷: <plus>{value}'
+additional-strength: '额外力量: <plus>{value}'
+additional-intelligence: '额外智慧: <plus>{value}'
+
+# Professions
+profession-alchemy: '酿造等级: {value}'
+profession-enchanting: '附魔等级: {value}'
+profession-farming: '种植等级: {value}'
+profession-fishing: '钓鱼等级: {value}'
+profession-mining: '挖矿等级: {value}'
+profession-smelting: '冶炼等级: {value}'
+profession-smithing: '锻造等级: {value}'
+profession-woodcutting: '伐木等级: {value}'
+
+# Elemental Stat Format
+elemental-damage: '{color}{icon} {value} {element} 伤害'
+elemental-damage-percent: '{color}{icon} +{value}% {element} 伤害'
+elemental-defense: '{color}{icon} {value} {element} 防御'
+elemental-defense-percent: '{color}{icon} +{value}% {element} 防御'
+elemental-weakness: '{color}{icon} {value}% {element} 弱点'
+
+# Custom stats
+custom-myluck: '幸运: <plus>{value}'

@@ -1,0 +1,15 @@
+staff-spirit:
+  nether-spirit: '&3 &7■ 咒文: 幽冥'
+  void-spirit: '&3 &7■ 咒文: 虚空'
+  mana-spirit: '&3 &7■ 咒文: 魔力'
+  lightning-spirit: '&3 &7■ 咒文: 电击'
+  xray-spirit: '&3 &7■ 咒文: 穿透'
+  thunder-spirit: '&3 &7■ 咒文: 雷霆'
+  sunfire-spirit: '&3 &7■ 咒文: 阳炎'
+lute-attack:
+  wave: '&3 &7■ 旋律: 波浪'
+  circular: '&3 &7■ 旋律: 交错'
+  slash: '&3 &7■ 旋律: 扩散'
+  simple: '&3 &7■ 旋律: 基础'
+  brute: '&3 &7■ 旋律: 野蛮'
+  heavy: '&3 &7■ 旋律: 沉重'

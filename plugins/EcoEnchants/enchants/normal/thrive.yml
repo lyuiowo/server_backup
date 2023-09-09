@@ -1,0 +1,21 @@
+display-name: "鲜血魔咒"
+description: "获得 &a%placeholder%&r 额外生命"
+placeholder: "%level%"
+type: normal
+
+targets:
+  - armor
+conflicts: [ ]
+rarity: legendary
+max-level: 2
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: bonus_health
+    args:
+      health: "%level%"
+
+conditions: [ ]

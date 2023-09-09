@@ -1,0 +1,146 @@
+# 僵尸/尸壳/僵尸村民技能
+zombie1:
+  Conditions:
+  - Incombat true
+  Skills:
+  - effect:particles{particle=reddust;color=#808080;amount=20;speed=2} @self
+  - summon{a=1;t=SILVERFISH;r=1.5} @self
+zombie2:
+  Conditions:
+  - Incombat true
+  Skills:
+  - effect:particles{particle=reddust;color=#808080;amount=20;speed=2} @self
+  - summon{a=2;t=SILVERFISH;r=1.5} @self
+zombie3:
+  Conditions:
+  - Incombat true
+  Skills:
+  - effect:particles{particle=reddust;color=#808080;amount=20;speed=2} @self
+  - summon{a=3;t=SILVERFISH;r=1.5} @self
+zombie4:
+  Conditions:
+  - Incombat true
+  - OnGround true
+  Skills:
+  - effect:particles{particle=reddust;color=#808080;amount=10;speed=2} @self
+  - lunge{velocity=2;velocityY=0.1} @target
+zombie5:
+  Conditions:
+  - Incombat true
+  Skills:
+  - effect:particles{particle=reddust;color=#FF0000;amount=10;speed=2} @self
+  - consume{d=2;h=2} @target
+
+# 骷髅技能
+skeleton1:
+  Conditions:
+  - Incombat true
+  Skills:
+  - arrowvolley{a=2;s=90;v=50;rd=100} @target
+skeleton2:
+  Conditions:
+  - Incombat true
+  Skills:
+  - arrowvolley{a=1;s=90;v=40;rd=100;f=100} @target
+skeleton3:
+  Conditions:
+  - Incombat true
+  Skills:
+  - disengage @self
+  
+# 蜘蛛/洞穴蜘蛛技能
+spider1:
+  Conditions:
+  - Incombat true
+  - OnGround true
+  Skills:
+  - lunge{velocity=1.5;velocityY=0.3} @target
+spider2:
+  Conditions:
+  - Incombat true
+  Skills:
+  - projectile{onTick=spider2tick;onHit=spider2hit;onEnd=spider2hit;v=8;mr=8;g=0.3} @target
+spider2tick:
+  Skills:
+  - effect:particles{particle=spit;a=5;hs=0.1;vs=0.1}
+spider2hit:
+  Skills:
+  - damage{a=2}
+  - effect:blockmask{m=cobweb;r=0.9;d=30;na=false}
+  
+# 末影人技能
+enderman1:
+  Skills:
+  - swap @target
+  
+# 苦力怕技能
+creeper1:
+  Conditions:
+  - Incombat true
+  - OnGround true
+  Skills:
+  - lunge{velocity=1.8;velocityY=0.5} @target
+  - sound{s=entity.firework.rocket.launch;v=5;p=2} @EIR{r=10}
+  - delay 25
+  - effect:particles{particle=explosion_huge;amount=8;hS=1;vS=1} @self
+  - explosion{yield=0.3} @EIR{r=3}
+  - sound{s=entity.dragon.fireball.explode;v=5;p=2} @EIR{r=10}
+  - remove @self
+  
+# 女巫技能
+witch1:
+  Conditions:
+  - Incombat true
+  Skills:
+  - shootpotion{type=SLOW;duration=200;level=4;velocity=1} @target
+witch2:
+  Conditions:
+  - Incombat true
+  Skills:
+  - shootpotion{type=WEAKNESS;duration=200;level=4;velocity=1} @target
+witch3:
+  Conditions:
+  - Incombat true
+  Skills:
+  - shootpotion{type=HUNGER;duration=200;level=4;velocity=1} @target
+witch4:
+  Conditions:
+  - Incombat true
+  Skills:
+  - shootpotion{type=BLINDNESS;duration=20;level=4;velocity=1} @target
+witch5:
+  Conditions:
+  - Incombat true
+  Skills:
+  - shootpotion{type=WITHER;duration=200;level=4;velocity=1} @target
+witch6:
+  Conditions:
+  - Incombat true
+  Skills:
+  - shootpotion{type=SLOW;duration=200;level=4;velocity=1} @target
+witch7:
+  Conditions:
+  - Incombat true
+  Skills:
+  - disengage @self
+witch8:
+  Conditions:
+  - Incombat true
+  Skills:
+  - summon{type=ENDERMITE;amount=3;radius=4} @self
+witch9:
+  Conditions:
+  - Incombat true
+  Skills:
+  - projectile{onTick=witch9tick;onHit=witch9hit;v=8;mr=8;g=0.3} @target
+witch9tick:
+  Skills:
+  - effect:particles{particle=flame;a=5;hs=0.1;vs=0.1}
+witch9hit:
+  Skills:
+  - ignite{ticks=100}
+witch10:
+  Conditions:
+  - Incombat true
+  Skills:
+  - shootfireball{y=1;v=0.2;ps=true;type=SMALL} @target

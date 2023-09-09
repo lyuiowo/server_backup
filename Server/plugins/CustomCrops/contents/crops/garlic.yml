@@ -1,0 +1,87 @@
+garlic:
+  type: TRIPWIRE
+  pot-whitelist:
+    - default
+  seed: customcrops:garlic_seeds
+  plant-actions:
+    action_1:
+      type: sound
+      value:
+        source: player
+        key: minecraft:item.hoe.till
+        volume: 1
+        pitch: 1
+  max-points: 3
+  points:
+    0:
+      model: customcrops:garlic_stage_1
+      hologram-offset-correction: -0.4
+      events:
+        break:
+          action_1:
+            type: sound
+            value:
+              source: player
+              key: minecraft:block.crop.break
+              volume: 1
+              pitch: 1
+    1:
+      model: customcrops:garlic_stage_2
+      hologram-offset-correction: -0.4
+      events:
+        break:
+          action_1:
+            type: sound
+            value:
+              source: player
+              key: minecraft:block.crop.break
+              volume: 1
+              pitch: 1
+    2:
+      model: customcrops:garlic_stage_3
+      hologram-offset-correction: -0.4
+      events:
+        break:
+          action_1:
+            type: sound
+            value:
+              source: player
+              key: minecraft:block.crop.break
+              volume: 1
+              pitch: 1
+    3:
+      model: customcrops:garlic_stage_4
+      hologram-offset-correction: -0.4
+      events:
+        break:
+          action_1:
+            type: sound
+            value:
+              source: player
+              key: minecraft:block.crop.break
+              volume: 1
+              pitch: 1
+          action_2:
+            type: drop-items
+            value:
+              quality-crops:
+                min: 4
+                max: 4
+                items:
+                  1: customcrops:garlic
+                  2: customcrops:garlic_silver_star
+                  3: customcrops:garlic_golden_star
+              other-items:
+                loot_1:
+                  item: customcrops:garlic_seeds
+                  min: 1
+                  max: 1
+                  chance: 1
+  custom-bone-meal:
+    bone_meal_1:
+      item: BONE_MEAL
+      particle: VILLAGER_HAPPY
+      sound: minecraft:item.bone_meal.use
+      chance:
+        2: 0.2
+        1: 0.6

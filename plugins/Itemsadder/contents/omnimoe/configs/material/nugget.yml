@@ -1,0 +1,91 @@
+info:
+  namespace: omnimoe
+
+items:
+  amber_nugget:
+    # display_name: "琥珀粒"
+    display_name: display-name-amber_nugget
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10001
+      textures:
+        - material/nugget/amber_nugget
+
+  amethyst_nugget:
+    # display_name: "水晶粒"
+    display_name: display-name-amethyst_nugget
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10006
+      textures:
+        - material/nugget/amethyst_nugget
+
+  iridium_nugget:
+    # display_name: "铱粒"
+    display_name: display-name-iridium_nugget
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10011
+      textures:
+        - material/nugget/iridium_nugget
+
+  jade_nugget:
+    # display_name: "玉石碎"
+    display_name: display-name-jade_nugget
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10016
+      textures:
+        - material/nugget/jade_nugget
+
+  malachite_nugget:
+    # display_name: "孔雀石粒"
+    display_name: display-name-malachite_nugget
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10021
+      textures:
+        - material/nugget/malachite_nugget
+
+  mythril_nugget:
+    # display_name: "秘银粒"
+    display_name: display-name-mythril_nugget
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10026
+      textures:
+        - material/nugget/mythril_nugget
+
+  ruby_nugget:
+    # display_name: "红宝石粒"
+    display_name: display-name-ruby_nugget
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10031
+      textures:
+        - material/nugget/ruby_nugget
+
+  silver_nugget:
+    # display_name: "银粒"
+    display_name: display-name-silver_nugget
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10036
+      textures:
+        - material/nugget/silver_nugget
+
+
+
+
+
+
+
+

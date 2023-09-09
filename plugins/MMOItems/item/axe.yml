@@ -1,0 +1,71 @@
+COPPER_AXE:
+  base:
+    material: STONE_AXE
+    name: '&f 뀀  铜斧 '
+    custom-model-data: 10000.0
+    will-break: true
+    revision-id: 1
+    durability: 250
+    attack-damage: 9
+    attack-speed: 0.8
+EMERALD_AXE:
+  base:
+    material: DIAMOND_AXE
+    name: '&f 뀀  绿宝石斧 '
+    custom-model-data: 10000.0
+    will-break: true
+    revision-id: 1
+    durability: 1888
+    attack-damage: 9.5
+    attack-speed: 0.9
+AMETHYST_SHARD_AXE:
+  base:
+    material: IRON_AXE
+    name: '&f 뀀  紫水晶斧 '
+    custom-model-data: 10000.0
+    will-break: true
+    revision-id: 1
+    durability: 1024
+    attack-damage: 9
+    attack-speed: 0.9
+BLAZE_AXE:
+  base:
+    material: IRON_AXE
+    name: '&f 뀀  烈阳斧 '
+    custom-model-data: 10001.0
+    will-break: true
+    revision-id: 1
+    durability: 1024
+    attack-damage: 9
+    attack-speed: 1
+FLINT_AXE:
+  base:
+    material: STONE_AXE
+    name: '&f 뀀  燧石斧 '
+    custom-model-data: 10001.0
+    will-break: true
+    revision-id: 1
+    attack-damage: 9
+    attack-speed: 0.8
+    durability: 172
+PRISMARINE_SHARD_AXE:
+  base:
+    material: IRON_AXE
+    name: '&f 뀀  海晶石斧 '
+    custom-model-data: 10002.0
+    will-break: true
+    revision-id: 1
+    durability: 1024
+    attack-damage: 9
+    attack-speed: 0.9
+  
+SILVER_AXE:
+  base:
+   material: IRON_AXE
+   name: '&f 뀀  银斧 '
+  #  custom-model-data: 10003.0
+  will-break: true
+  revision-id: 1
+  durability: 1024
+  attack-damage: 9
+  attack-speed: 0.9

@@ -1,0 +1,197 @@
+pitaya:
+  type: TRIPWIRE
+  pot-whitelist:
+    - default
+  seed: customcrops:pitaya_seeds
+  requirements:
+    plant:
+      requirement_1:
+        type: season
+        value:
+          - Spring
+          - Autumn
+        # message: "It's not a good season to plant pitaya"
+  plant-actions:
+    action_1:
+      type: sound
+      value:
+        source: player
+        key: minecraft:item.hoe.till
+        volume: 1
+        pitch: 1
+  max-points: 8
+  points:
+    0:
+      model: customcrops:pitaya_stage_1
+      hologram-offset-correction: -0.5
+      events:
+        break:
+          action_1:
+            type: sound
+            value:
+              source: player
+              key: minecraft:block.wood.break
+              volume: 1
+              pitch: 1
+    1:
+      model: customcrops:pitaya_stage_2
+      hologram-offset-correction: -0.2
+      events:
+        break:
+          action_1:
+            type: sound
+            value:
+              source: player
+              key: minecraft:block.wood.break
+              volume: 1
+              pitch: 1
+          action_2:
+            type: drop-items
+            value:
+              other-items:
+                loot_1:
+                  item: STICK
+                  min: 1
+                  max: 2
+                  chance: 1
+    3:
+      model: customcrops:pitaya_stage_3
+      hologram-offset-correction: 0.2
+      events:
+        break:
+          action_1:
+            type: sound
+            value:
+              source: player
+              key: minecraft:block.wood.break
+              volume: 1
+              pitch: 1
+          action_2:
+            type: drop-items
+            value:
+              other-items:
+                loot_1:
+                  item: STICK
+                  min: 1
+                  max: 2
+                  chance: 1
+    4:
+      model: customcrops:pitaya_stage_4
+      hologram-offset-correction: 0.6
+      events:
+        break:
+          action_1:
+            type: sound
+            value:
+              source: player
+              key: minecraft:block.wood.break
+              volume: 1
+              pitch: 1
+          action_2:
+            type: drop-items
+            value:
+              other-items:
+                loot_1:
+                  item: DARK_OAK_LOG
+                  min: 1
+                  max: 1
+                  chance: 1
+    6:
+      model: customcrops:pitaya_stage_5
+      hologram-offset-correction: 0.6
+      events:
+        break:
+          action_1:
+            type: sound
+            value:
+              source: player
+              key: minecraft:block.wood.break
+              volume: 1
+              pitch: 1
+          action_2:
+            type: drop-items
+            value:
+              other-items:
+                loot_1:
+                  item: DARK_OAK_LOG
+                  min: 1
+                  max: 1
+                  chance: 1
+    8:
+      model: customcrops:pitaya_stage_6
+      hologram-offset-correction: 0.6
+      events:
+        break:
+          action_1:
+            type: sound
+            value:
+              source: player
+              key: minecraft:block.wood.break
+              volume: 1
+              pitch: 1
+          action_2:
+            type: drop-items
+            value:
+              other-items:
+                loot_1:
+                  item: DARK_OAK_LOG
+                  min: 1
+                  max: 1
+                  chance: 1
+        interact-by-hand:
+          action_1:
+            type: break
+            value: false
+          action_2:
+            type: replant
+            value:
+              point: 4
+              crop: pitaya
+              model: customcrops:pitaya_stage_4
+          action_3:
+            type: drop-items
+            value:
+              quality-crops:
+                min: 3
+                max: 5
+                items:
+                  1: customcrops:pitaya
+                  2: customcrops:pitaya_silver_star
+                  3: customcrops:pitaya_golden_star
+              other-items:
+                loot_1:
+                  item: customcrops:pitaya_seeds
+                  min: 1
+                  max: 1
+                  chance: 1
+  grow-conditions:
+    condition_1:
+      type: suitable_season
+      value:
+        - Spring
+        - Autumn
+  death-conditions:
+    unsuitable_season:
+      model: customcrops:crop_stage_death
+      conditions:
+        '||':
+          condition_1:
+            type: unsuitable_season
+            value:
+              - Winter
+          '&&':
+            condition_1:
+              type: unsuitable_season
+              value:
+                - Summer
+            condition_2:
+              type: water_less_than
+              value: 1
+  custom-bone-meal:
+    bone_meal_1:
+      item: BONE_MEAL
+      particle: VILLAGER_HAPPY
+      sound: minecraft:item.bone_meal.use
+      chance:
+        2: 0.2
+        1: 0.6

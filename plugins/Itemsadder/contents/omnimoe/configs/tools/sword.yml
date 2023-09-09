@@ -1,0 +1,80 @@
+info:
+  namespace: omnimoe
+
+items:
+  amber_sword:
+    display_name: display-name-amber_sword
+    resource:
+      material: iron_sword
+      generate: true
+      model_id: 10000
+      textures:
+        - tools/sword/amber_sword
+
+  amethyst_sword:
+    display_name: display-name-amethyst_sword
+    resource:
+      material: iron_sword
+      generate: true
+      model_id: 10001
+      textures:
+        - tools/sword/amethyst_sword
+
+  iridium_sword:
+    display_name: display-name-iridium_sword
+    resource:
+      material: iron_sword
+      generate: true
+      model_id: 10002
+      textures:
+        - tools/sword/iridium_sword
+
+  jade_sword:
+    display_name: display-name-jade_sword
+    resource:
+      material: iron_sword
+      generate: true
+      model_id: 10003
+      textures:
+        - tools/sword/jade_sword
+
+  malachite_sword:
+    display_name: display-name-malachite_sword
+    resource:
+      material: iron_sword
+      generate: true
+      model_id: 10004
+      textures:
+        - tools/sword/malachite_sword
+
+  mythril_sword:
+    display_name: display-name-mythril_sword
+    resource:
+      material: iron_sword
+      generate: true
+      model_id: 10005
+      textures:
+        - tools/sword/mythril_sword
+
+  ruby_sword:
+    display_name: display-name-ruby_sword
+    resource:
+      material: iron_sword
+      generate: true
+      model_id: 10006
+      textures:
+        - tools/sword/ruby_sword
+
+  silver_sword:
+    display_name: display-name-silver_sword
+    resource:
+      material: iron_sword
+      generate: true
+      model_id: 10007
+      textures:
+        - tools/sword/silver_sword
+
+
+
+
+

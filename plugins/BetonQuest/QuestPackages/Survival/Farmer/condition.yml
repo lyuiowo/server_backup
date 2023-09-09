@@ -1,0 +1,13 @@
+conditions:
+
+  has_tag_first_talk_with_farmer: "tag firstTalkWithFarmer"
+
+  has_quest_crafting5dry_pot: 'objective crafting_5_dry_pot'
+  has_tag_complete_crafting_5_dry_pot: 'tag quest_complete_crafting_5_dry_pot'
+  has_quest_harvest15crops: 'objective harvest_15_crops'
+  has_tag_complete_harvest_15_crops: 'tag quest_complete_harvest_15_crops'
+  has_quest_crafting10greenhouse_glass: 'objective crafting_10_greenhouse_glass'
+  has_tag_complete_crafting_10_greenhouse_glass: 'tag quest_complete_crafting_10_greenhouse_glass'
+
+
+

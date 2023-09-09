@@ -1,0 +1,20 @@
+mana:
+  value: '%mmocore_mana%'
+  max: '%mmocore_stat_max_mana%'
+
+health:  
+  value: '%player_health%'
+  max: '%player_max_health%'
+  
+absorption:
+  value: '%player_absorption%'
+  max: '%player_max_health%'
+  
+mmoexp:
+  value: '%mmocore_experience%'
+  max: '%mmocore_next_level%'
+
+stamina:
+  value: '%mmocore_stamina%'
+  max: '%mmocore_stat_max_stamina%'
+  

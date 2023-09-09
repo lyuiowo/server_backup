@@ -1,0 +1,33 @@
+# 附魔类型类似于目录.
+# 他们有特殊的显示颜色，也有单独的数量上限
+
+types:
+  - id: normal # 类型的ID
+    format: "&7" # 此类型附魔的展示格式
+    limit: -1 # 单件物品上拥有此类型附魔的最大数量 (-1 代表禁用限制)
+    high-level-bias: 0 # 获取高等级该类型附魔的偏向. 介于 0-1, 0 代表不进行偏向, 1 代表只能获取等级 1. 意思是越接近1越难获取高等级附魔
+    no-grindstone: false # 附魔是否能被砂轮洗去
+
+  - id: curse     # 诅咒
+    format: "&c"
+    limit: -1
+    high-level-bias: 0
+    no-grindstone: true
+
+  - id: spell     # 魔咒
+    format: "<gradient:#0575E6:#1E3FBA>"
+    limit: 1
+    high-level-bias: 0.5
+    no-grindstone: false
+
+  - id: special   # 特殊
+    format: "<gradient:#FB57EC:#EF1DEC>"
+    limit: 1
+    high-level-bias: 0.7
+    no-grindstone: false
+
+  - id: artifact  # 人造
+    format: "<gradient:#F596AA:#DB4D6D>"
+    limit: 1
+    high-level-bias: 0.9
+    no-grindstone: false

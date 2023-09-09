@@ -1,0 +1,151 @@
+# Weapon Stats
+attack-damage: '&3 &7➸ 攻击伤害: &f{value}'
+attack-speed: '&3 &7➸ 攻击速度: &f{value}'
+critical-strike-chance: '&3 &7■ 暴击率: &f<plus>{value}%'
+critical-strike-power: '&3 &7■ 暴击伤害: &f<plus>{value}%'
+skill-critical-strike-chance: '&3 &7■ 法术暴击率: &f<plus>{value}%'
+skill-critical-strike-power: '&3 &7■ 法术暴击伤害: &f<plus>{value}%'
+range: '&3 &7■ 攻击范围: &f{value}'
+mana-cost: '&3 &7■ 魔力消耗 &9{value}'
+stamina-cost: '&3 &7■ 体力消耗 &9{value}'
+arrow-velocity: '&3 &7■ 箭矢速度: &f{value}'
+blunt-power: '&3 &7■ 钝击范围: &f{value}'
+blunt-rating: '&3 &7■ 钝击伤害: &f{value}%'
+two-handed: '&3 &7■ 双持'
+handworn: '&3 &7■ 手持'
+knockback: '&3 &7■ 击退: &f{value}'
+recoil: '&3 &7■ 后坐力: &f{value}%'
+note-weight: '&3 &7■ 音符力量: &f{value}'
+lifesteal: '&3 &7■ 吸血: &c+{value}%'
+spell-vampirism: '&3 &7■ 咒文 吸血鬼: &c+{value}%'
+
+# Extra Damage
+pve-damage: '&3 &7■ PvE 伤害: &f<plus>{value}%'
+pvp-damage: '&3 &7■ PvP 伤害: &f<plus>{value}%'
+magic-damage: '&3 &7■ 魔法伤害: &f<plus>{value}%'
+weapon-damage: '&3 &7■ 武器伤害: &f<plus>{value}%'
+undead-damage: '&3 &7■ 亡灵伤害: &f<plus>{value}%'
+skill-damage: '&3 &7■ 技能伤害: &f<plus>{value}%'
+physical-damage: '&3 &7■ 物理伤害: &f<plus>{value}%'
+projectile-damage: '&3 &7■ 远程伤害: &f<plus>{value}%'
+faction-damage-undead: '&3 &7■ 亡灵伤害: &f<plus>{value}%'
+
+# Abilities
+ability-format: '&a>&8| &7{trigger} &8|&e|&8| &7&l{ability}'
+ability-modifier: ' &3>&8|&7 {modifier}&8: &f{value}'
+ability-splitter: '&8'
+
+# Armor Stats
+block-power: '&3 &7■ 格挡: &f<plus>{value}%'
+block-rating: '&3 &7■ 格挡概率: &f<plus>{value}%'
+block-cooldown-reduction: '&3 &7■ 格挡冷却缩减: &f<plus>{value}%'
+dodge-rating: '&3 &7■ 闪避概率: &f<plus>{value}%'
+dodge-cooldown-reduction: '&3 &7■ 闪避冷却缩减: &f<plus>{value}%'
+parry-rating: '&3 &7■ 招架概率: &f<plus>{value}%'
+parry-cooldown-reduction: '&3 &7■ 招架冷却缩减: &f<plus>{value}%'
+armor: '&3 &7✠ 护甲: &f<plus>{value}'
+armor-toughness: '&3 &7✠ 护甲韧性: &f<plus>{value}'
+knockback-resistance: '&3 &7✠ 击退抗性: &f<plus>{value}%'
+max-health: '&3 &7❤ 生命上限:&c <plus>{value}'
+movement-speed: '&3 &7■ 移动速度: &f<plus>{value}'
+
+# Damage Reduction
+defense: '&3 &7■ 防御: &f<plus>{value}'
+damage-reduction: '&3 &7■ 伤害减免: &f<plus>{value}%'
+fall-damage-reduction: '&3 &7■ 摔落减免: &f<plus>{value}%'
+fire-damage-reduction: '&3 &7■ 灼烧减免: &f<plus>{value}%'
+magic-damage-reduction: '&3 &7■ 魔法伤害减免: &f<plus>{value}%'
+projectile-damage-reduction: '&3 &7■ 远程伤害减免: &f<plus>{value}%'
+physical-damage-reduction: '&3 &7■ 物理伤害减免: &f<plus>{value}%'
+pve-damage-reduction: '&3 &7■ PvE 伤害减免: &f<plus>{value}%'
+pvp-damage-reduction: '&3 &7■ PvP 伤害减免: &f<plus>{value}%'
+
+# RPG stats
+health-regeneration: '&3 &7■ 生命恢复: &f<plus>{value}'
+max-mana: '&3 &7■ 魔力上限: &f<plus>{value}'
+mana-regeneration: '&3 &7■ 魔力恢复: &f<plus>{value}'
+max-stamina: '&3 &7■ 体力上限: &f<plus>{value}'
+stamina-regeneration: '&3 &7■ 体力恢复: &f<plus>{value}'
+cooldown-reduction: '&3 &7■ 技能冷却缩减: &f<plus>{value}%'
+additional-experience: '&3 &7■ 额外经验: &f<plus>{value}%'
+additional-experience-alchemy: '&7■ Additional Alchemy Experience: &f<plus>{value}%'
+additional-experience-enchanting: '&7■ Additional Enchanting Experience: &f<plus>{value}%'
+additional-experience-farming: '&7■ Additional Farming Experience: &f<plus>{value}%'
+additional-experience-fishing: '&7■ Additional Fishing Experience: &f<plus>{value}%'
+additional-experience-mining: '&7■ Additional Mining Experience: &f<plus>{value}%'
+additional-experience-smelting: '&7■ Additional Smelting Experience: &f<plus>{value}%'
+additional-experience-smithing: '&7■ Additional Smithing Experience: &f<plus>{value}%'
+additional-experience-woodcutting: '&7■ Additional Woodcutting Experience: &f<plus>{value}%'
+
+# Extra Options
+perm-effect: '&3 &7■ 效果 &f{effect}'
+command: '&3 &7■ 指令: &f{format} &3 &7(&f{cooldown}&3 &7s)'
+item-cooldown: '&3 &7■ &f{value}&3 &7s 冷却'
+arrow-potion-effects: '&3 &7■ 箭矢效果: &f{effect}'
+
+# Consumables
+restore-health: '&3 &7■ 恢复 &f{value} &7生命值'
+restore-food: '&3 &7■ 恢复 &f{value} &7饱食度'
+restore-saturation: '&3 &7■ 恢复 &f{value} &7饱和度'
+restore-mana: '&3 &7■ 恢复 &f{value} &7魔力值'
+restore-stamina: '&3 &7■ 恢复 &f{value} &7体力值'
+effect: '&3 &7■ 获得 &f{effect} &7持续 &f{duration} &7s'
+repair: '&3 &7■ 修复: &f{value}'
+repair-percent: '&3 &7■ 修复: &f{value}%'
+can-identify: '&3 &7■ 可鉴定物品'
+can-deconstruct: '&3 &7■ 可分解物品'
+can-deskin: '&3 &7■ 可移除皮肤'
+success-rate: '&3 &7■ 成功概率: &a&l{value}%'
+max-consume: '&3 &7■ 使用次数: &f{value}'
+
+# Gem Stones
+empty-gem-socket: '&a◆ 空的 {name} 宝石槽'
+filled-gem-socket: '&a◆ {name}'
+when-applied: '&a镶嵌时:'
+gem-stone-lore: '&8&l[&2&l*&8&l] &a拖动到物品上&7镶嵌!'
+
+# Soulbound
+soulbinding-chance: '&7■ &a{value}% &7几率绑定物品.'
+soulbound-break-chance: '&7■ &a{value}% &7几率破坏绑定.'
+soulbound-level: '&7■ 绑定等级 &e{value}'
+
+# Tools
+autosmelt: '&3 &7■ &f自动熔炼'
+bouncing-crack: '&3 &7■ &f范围破坏'
+pickaxe-power: '&3 &7■ &f镐力: &a{value}'
+durability: '&7耐久度: {current} / {max}'
+
+# General
+item-type: '&8类型: [&7{type}&8]'
+tier: '&8品质: [&7{value}&8]'
+required-class: '&3 &7限制职业: {value}'
+required-level: '&e使用等级: {value}'
+
+# MMOCore Attributes
+required-dexterity: '&e敏捷需求 &c{value}'
+required-strength: '&e力量需求 &c{value}'
+required-intelligence: '&e智慧需求 &c{value}'
+
+additional-dexterity: '&3 &7■ 额外敏捷: &f<plus>{value}'
+additional-strength: '&3 &7■ 额外力量: &f<plus>{value}'
+additional-intelligence: '&3 &7■ 额外智慧: &f<plus>{value}'
+
+# Professions
+profession-alchemy: '&eAlchemy Level: &c{value}'
+profession-enchanting: '&eEnchanting Level: &c{value}'
+profession-farming: '&eFarming Level: &c{value}'
+profession-fishing: '&eFishing Level: &c{value}'
+profession-mining: '&eMining Level: &c{value}'
+profession-smelting: '&eSmelting Level: &c{value}'
+profession-smithing: '&eSmithing Level: &c{value}'
+profession-woodcutting: '&eWoodcutting Level: &c{value}'
+
+# Elemental Stat Format
+elemental-damage: '{color}{icon}&7 {value} {element} 伤害'
+elemental-damage-percent: '{color}{icon}&7 +{value}% {element} 伤害'
+elemental-defense: '{color}{icon}&7 {value} {element} 防御'
+elemental-defense-percent: '{color}{icon}&7 +{value}% {element} 防御'
+elemental-weakness: '{color}{icon}&7 {value}% {element} 弱点'
+
+# Custom stats
+custom-myluck: '&3 &7■ 幸运: &f<plus>{value}'

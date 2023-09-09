@@ -1,0 +1,6 @@
+events:
+
+  talk_with_enchanter: conversation enchanter
+
+  open_enchant_shop: command bs open enchantShop %player%
+

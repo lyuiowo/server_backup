@@ -1,0 +1,6 @@
+events:
+
+  talk_with_merchant: conversation merchant
+
+  openShopForBuy: command bs open merchantBuyShop %player%
+  openShopForSell: command bs open merchantSellShop %player%

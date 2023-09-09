@@ -1,0 +1,26 @@
+display-name: "霉运诅咒"
+description: "&a%placeholder%% &r概率挖掘方块不掉落物品"
+placeholder: "15 * %level%"
+type: curse
+
+targets:
+- hoe
+- shovel
+- pickaxe
+- axe
+conflicts: []
+rarity: legendary
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: false
+
+effects:
+  - id: cancel_event
+    args:
+      chance: "15 * %level%"
+    triggers:
+      - block_item_drop
+
+conditions: []

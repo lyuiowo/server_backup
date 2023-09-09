@@ -1,0 +1,51 @@
+info:
+  namespace: omnimoe
+
+items:
+  iridium_helmet:
+    display_name: display-name-iridium_helmet
+    resource:
+      generate: true
+      textures:
+      - armor/iridium_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: iridium
+  iridium_chestplate:
+    display_name: display-name-iridium_chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/iridium_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: iridium
+  iridium_leggings:
+    display_name: display-name-iridium_leggings
+    resource:
+      generate: true
+      textures:
+      - armor/iridium_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: iridium
+  iridium_boots:
+    display_name: display-name-iridium_boots
+    resource:
+      generate: true
+      textures:
+      - armor/iridium_boots
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: iridium
+
+armors_rendering:
+  iridium:
+    color: "#9438d6"
+    layer_1: iridium_armor_layer_1
+    layer_2: iridium_armor_layer_2
+    # use_color: false

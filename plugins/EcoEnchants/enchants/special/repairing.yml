@@ -1,0 +1,25 @@
+display-name: "自我修复"
+description: "每 &a%frequency% &r秒恢复 &a%amount%&r 耐久"
+placeholders:
+  frequency: "1.5"
+  amount: "%level%"
+
+type: special
+
+targets:
+  - all
+
+conflicts: [ ]
+
+rarity: veryspecial
+max-level: 1
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+conditions: [ ]
+
+repair-per-level: 1 # 为每个物品添加的耐久度
+frequency: 30 # 多久修复一次物品（以刻度为单位，不支持%level%）
+not-while-holding: true # 如果物品在保管期间不应修理

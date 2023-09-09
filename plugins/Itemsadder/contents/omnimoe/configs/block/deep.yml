@@ -1,0 +1,147 @@
+info:
+  namespace: omnimoe
+
+items:
+  deepslate_amber_ore:
+    display_name: display-name-deepslate_amber_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10004
+      textures:
+        - block/deep/deepslate_amber_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+  deepslate_amethyst_ore:
+    display_name: display-name-deepslate_amethyst_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10009
+      textures:
+        - block/deep/deepslate_amethyst_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+  deepslate_iridium_ore:
+    display_name: display-name-deepslate_iridium_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10014
+      textures:
+        - block/deep/deepslate_iridium_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+  deepslate_jade_ore:
+    display_name: display-name-deepslate_jade_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10019
+      textures:
+        - block/deep/deepslate_jade_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+  deepslate_malachite_ore:
+    display_name: display-name-deepslate_malachite_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10024
+      textures:
+        - block/deep/deepslate_malachite_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+  deepslate_mythril_ore:
+    display_name: display-name-deepslate_mythril_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10029
+      textures:
+        - block/deep/deepslate_mythril_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+  deepslate_ruby_ore:
+    display_name: display-name-deepslate_ruby_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10034
+      textures:
+        - block/deep/deepslate_ruby_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE
+
+  deepslate_silver_ore:
+    display_name: display-name-deepslate_silver_ore
+    resource:
+      generate: true
+      material: PAPER
+      model_id: 10039
+      textures:
+        - block/deep/deepslate_silver_ore
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        cancel_drop: true
+        hardness: 4
+        break_tools_whitelist:
+        - PICKAXE

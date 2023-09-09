@@ -1,0 +1,51 @@
+info:
+  namespace: omnimoe
+
+items:
+  malachite_helmet:
+    display_name: display-name-malachite_helmet
+    resource:
+      generate: true
+      textures:
+      - armor/malachite_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: malachite
+  malachite_chestplate:
+    display_name: display-name-malachite_chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/malachite_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: malachite
+  malachite_leggings:
+    display_name: display-name-malachite_leggings
+    resource:
+      generate: true
+      textures:
+      - armor/malachite_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: malachite
+  malachite_boots:
+    display_name: display-name-malachite_boots
+    resource:
+      generate: true
+      textures:
+      - armor/malachite_boots
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: malachite
+
+armors_rendering:
+  malachite:
+    color: "#32c79f"
+    layer_1: malachite_armor_layer_1
+    layer_2: malachite_armor_layer_2
+    # use_color: false

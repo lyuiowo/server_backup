@@ -1,0 +1,51 @@
+info:
+  namespace: omnimoe
+
+items:
+  silver_helmet:
+    display_name: display-name-silver_helmet
+    resource:
+      generate: true
+      textures:
+      - armor/silver_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: silver
+  silver_chestplate:
+    display_name: display-name-silver_chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/silver_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: silver
+  silver_leggings:
+    display_name: display-name-silver_leggings
+    resource:
+      generate: true
+      textures:
+      - armor/silver_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: silver
+  silver_boots:
+    display_name: display-name-silver_boots
+    resource:
+      generate: true
+      textures:
+      - armor/silver_boots
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: silver
+
+armors_rendering:
+  silver:
+    color: "#9ddde0"
+    layer_1: silver_armor_layer_1
+    layer_2: silver_armor_layer_2
+    # use_color: false

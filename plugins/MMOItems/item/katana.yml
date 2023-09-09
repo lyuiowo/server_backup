@@ -1,0 +1,16 @@
+masters_katana:
+  base:
+    material: DIAMOND_SWORD
+    name: '&f 뀀  大师武士刀 '
+    custom-model-data: 10003.0
+    will-break: false
+    revision-id: 1
+    durability: 3000
+    attack-damage: 10
+    attack-speed: 1.6
+    upgrade:
+      max: 3
+      workbench: true
+      success: 70.0
+      destroy: false
+      template: weapon-default

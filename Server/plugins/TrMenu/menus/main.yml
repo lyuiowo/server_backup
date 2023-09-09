@@ -1,0 +1,103 @@
+Title:
+  - "&f:offset_-8:"
+
+Layout:
+  - ' 1112222 '
+  - ' 1112222 '
+  - ' 1113333 '
+  - ' 4443333 '
+  - ' 4445555 '
+  - ' 6665555 '
+
+Options:
+  Min-Click-Delay: 20
+  Depend-Expansions: ['server', 'player']
+
+Bindings:
+  Commands:
+    - '(?i)c'
+
+Events:
+  Open:
+    - 'sound: BLOCK_CHEST_OPEN-1-0'
+  Close:
+    - 'sound: BLOCK_CHEST_CLOSE-1-0'
+
+Icons:
+  '1':
+    display:
+      material: 'source:IA:empty'
+      name: '领域'
+      lore:
+        - '&8» &7查看服务器特色福利 & 玩法'
+        - ''
+        - '&8[&a点击&8] &e查看更多'
+    actions:
+      ALL:
+        - 'close'
+        - 'open: realms'
+  
+  '2':
+    display:
+      material: 'source:IA:empty'
+      name: '奖池'
+      lore:
+        - '&8» &7美好的一天从抽奖开始～'
+        - ''
+        - '&8[&a点击&8] &e查看更多'
+    actions:
+      ALL:
+        - 'close'
+        - 'open: crates'
+  
+  '3':
+    display:
+      material: 'source:IA:empty'
+      name: '任务'
+      lore:
+        - '&8» &7你今天有新的任务吗？'
+        - ''
+        - '&8[&a点击&8] &e查看更多'
+    actions:
+      ALL:
+        - 'close'
+        - 'open: quest'
+    
+  '4':
+    display:
+      material: 'source:IA:empty'
+      name: '常用命令'
+      lore:
+        - '&8» &7查看常用指令列表'
+        - ''
+        - '&8[&a点击&8] &e查看更多'
+    actions:
+      ALL:
+        - 'close'
+        - 'open: commands'
+  
+  '5':
+    display:
+      material: 'source:IA:empty'
+      name: '个人设置'
+      lore:
+        - '&8» &7修改个人设置'
+        - ''
+        - '&8[&a点击&8] &e查看更多'
+    actions:
+      ALL:
+        - 'close'
+        - 'open: setting'
+  
+  '6':
+    display:
+      material: 'source:IA:empty'
+      name: '更多'
+      lore:
+        - '&8» &7查看服务器更多玩法'
+        - ''
+        - '&8[&a点击&8] &e查看更多'
+    actions:
+      ALL:
+        - 'close'
+        - 'open: other'

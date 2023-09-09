@@ -1,0 +1,157 @@
+eggplant:
+  type: TRIPWIRE
+  pot-whitelist:
+    - default
+  seed: customcrops:eggplant_seeds
+  requirements:
+    plant:
+      requirement_1:
+        type: season
+        value:
+          - Summer
+          - Autumn
+        # message: "It's not a good season to plant eggplant"
+  plant-actions:
+    action_1:
+      type: sound
+      value:
+        source: player
+        key: minecraft:item.hoe.till
+        volume: 1
+        pitch: 1
+  max-points: 3
+  points:
+    0:
+      model: customcrops:eggplant_stage_1
+      hologram-offset-correction: -0.2
+      events:
+        break:
+          action_1:
+            type: drop-items
+            value:
+              other-items:
+                loot_1:
+                  item: customcrops:eggplant_seeds
+                  min: 1
+                  max: 1
+                  chance: 1
+          action_2:
+            type: sound
+            value:
+              source: player
+              key: minecraft:block.crop.break
+              volume: 1
+              pitch: 1
+    1:
+      model: customcrops:eggplant_stage_2
+      hologram-offset-correction: -0.1
+      events:
+        break:
+          action_1:
+            type: drop-items
+            value:
+              other-items:
+                loot_1:
+                  item: customcrops:eggplant_seeds
+                  min: 1
+                  max: 1
+                  chance: 1
+          action_2:
+            type: sound
+            value:
+              source: player
+              key: minecraft:block.crop.break
+              volume: 1
+              pitch: 1
+    2:
+      model: customcrops:eggplant_stage_3
+      hologram-offset-correction: 0.1
+      events:
+        break:
+          action_1:
+            type: drop-items
+            value:
+              other-items:
+                loot_1:
+                  item: customcrops:eggplant_seeds
+                  min: 1
+                  max: 1
+                  chance: 1
+          action_2:
+            type: sound
+            value:
+              source: player
+              key: minecraft:block.crop.break
+              volume: 1
+              pitch: 1
+    3:
+      model: customcrops:eggplant_stage_4
+      hologram-offset-correction: 0.1
+      events:
+        break:
+          action_1:
+            type: sound
+            value:
+              source: player
+              key: minecraft:block.crop.break
+              volume: 1
+              pitch: 1
+          action_2:
+            type: drop-items
+            value:
+              quality-crops:
+                min: 3
+                max: 6
+                items:
+                  1: customcrops:eggplant
+                  2: customcrops:eggplant_silver_star
+                  3: customcrops:eggplant_golden_star
+              other-items:
+                loot_1:
+                  item: customcrops:eggplant_seeds
+                  min: 1
+                  max: 1
+                  chance: 1
+        interact-by-hand:
+          action_1:
+            type: break
+            value: true 
+  grow-conditions:
+    condition_1:
+      type: suitable_season
+      value:
+        - Summer
+    condition_2:
+      type: water_more_than
+      value: 1
+  death-conditions:
+    no_water:
+      model: customcrops:crop_stage_death
+      conditions:
+        '&&':
+          condition_1:
+            type: water_less_than
+            value: 1
+    unsuitable_season:
+      model: customcrops:crop_stage_death
+      conditions:
+        condition_1:
+          type: unsuitable_season
+          value:
+            - Winter
+    crow_attack:
+      conditions:
+        condition_1:
+          type: crow_attack
+          value:
+            chance: 0.001
+            fly-model: customcrops:crow_fly
+            stand-model: customcrops:crow_stand
+  custom-bone-meal:
+    bone_meal_1:
+      item: BONE_MEAL
+      particle: VILLAGER_HAPPY
+      sound: minecraft:item.bone_meal.use
+      chance:
+        2: 0.2
+        1: 0.6

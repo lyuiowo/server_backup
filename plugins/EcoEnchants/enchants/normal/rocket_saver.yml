@@ -1,0 +1,21 @@
+display-name: "节能"
+description: "&a%placeholder%%&r 概率在加速时不消耗火箭"
+placeholder: "%level% * 20"
+type: normal
+
+targets:
+  - elytra
+conflicts: [ ]
+rarity: rare
+max-level: 3
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: elytra_boost_save_chance
+    args:
+      chance: "%level% * 20"
+
+conditions: [ ]

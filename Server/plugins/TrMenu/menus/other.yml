@@ -1,0 +1,68 @@
+Title:
+  - '&7[&9&l不知梦&7] &a&l更多玩法'
+
+Layout:
+  - '         '
+  - '         '
+  - '         '
+
+Options:
+  Min-Click-Delay: 200
+  Depend-Expansions: ['server', 'player']
+
+Icons:
+  '#':
+    display:
+      material: gray stained glass pane
+      name: ''
+      slots:
+        - [0, 1, 2, 3, 4, 5, 6, 7, 8, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+
+  'recipes':
+    display:
+      material: 'source:IA:knowledge_book'
+      name: '知识之书'
+      lore:
+        - '&f &7储存了十分庞大的知识食谱'
+        - '   &7包含了全部非原生合成表'
+        - ''
+        - '&7[&a点击&7] &e查看全部'
+      slots:
+        - [ 10 ]
+    actions:
+      all:
+        - 'silent-close'
+        - 'command: '
+    
+  'ia':
+    display:
+      material: 'book'
+      name: '物品图鉴'
+      lore:
+        - '&f &7包含了许多新增物品'
+        - ''
+        - '&7[&a点击&7] &e查看全部'
+      shiny: true
+      slots:
+        - [ 12 ]
+    actions:
+      all:
+        - 'silent-close'
+        - 'command: ia'
+
+  'enchants':
+    display:
+      material: 'enchanted_book'
+      name: '附魔之书'
+      lore:
+        - '&f &7包含了许多新增附魔'
+        - '   &7可以查询物品有关附魔'
+        - ''
+        - '&7[&a点击&7] &e查看全部'
+      shiny: true
+      slots:
+        - [ 14 ]
+    actions:
+      all:
+        - 'silent-close'
+        - 'command: ecoenchants gui'

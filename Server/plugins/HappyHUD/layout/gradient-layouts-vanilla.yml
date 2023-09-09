@@ -1,0 +1,74 @@
+gradient-layout-vanilla:
+  elements:
+    armor:                                 #element-name in this layout
+      asset: 'gradient-armor-vanilla'     # the hud you want to use which is set in \HappyHUD\assets\hud
+      position:                  
+        x: 50.0                  #vanilla-health hud origin position is start at 50% of your screen x axis , 0% of y axis
+        y: 0
+      offset:                    #move with pixel from origin position
+        x: -91
+        y: 50
+    food:
+      asset: 'gradient-hunger-vanilla'
+      position:
+        x: 50.0
+        y: 0.0
+      offset:
+        x: 11
+        y: 39
+    health:
+      asset: 'gradient-health'
+      position:
+        x: 50.0
+        y: 0.0
+      offset:
+        x: -91
+        y: 39
+    air:
+      asset: 'gradient-air-vanilla'
+      position:
+        x: 50.0
+        y: 0.0
+      offset:
+        x: 11
+        y: 50
+    light-level:
+      asset: 'gradient-light-level'
+      options:
+        center: false
+      position:
+        x: 50.0
+        y: 0.0
+      offset:
+        x: 108
+        y: 30  
+    emerald-amount:
+      asset: 'gradient-emerald-amount'
+      options:
+        center: false
+      position:
+        x: 50.0
+        y: 0.0
+      offset:
+        x: 142
+        y: 30          
+    fuel:
+      asset: 'gradient-fuel'
+      options:
+        center: false
+      position:
+        x: 50.0
+        y: 0.0
+      offset:
+        x: 108
+        y: 10
+    arrow:
+      asset: 'gradient-arrow'
+      options:
+        center: false
+      position:
+        x: 50.0
+        y: 0.0
+      offset:
+        x: 142
+        y: 10

@@ -1,0 +1,24 @@
+display-name: "终结者"
+description: "目标每损失 1% 血量增加 &a%placeholder%%&r 伤害"
+placeholder: "0.2 * %level%"
+type: normal
+
+targets:
+  - sword
+  - axe
+conflicts: [ ]
+rarity: uncommon
+max-level: 5
+
+tradeable: true
+discoverable: true
+enchantable: true
+
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: "1 + ((1 - %victim_health% / %victim_max_health%) * 0.2 * %level%)"
+    triggers:
+      - melee_attack
+
+conditions: [ ]

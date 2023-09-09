@@ -1,0 +1,80 @@
+info:
+  namespace: omnimoe
+
+items:
+  amber_pickaxe:
+    display_name: display-name-amber_pickaxe
+    resource:
+      material: iron_pickaxe
+      generate: true
+      model_id: 10000
+      textures:
+        - tools/pickaxe/amber_pickaxe
+
+  amethyst_pickaxe:
+    display_name: display-name-amethyst_pickaxe
+    resource:
+      material: iron_pickaxe
+      generate: true
+      model_id: 10001
+      textures:
+        - tools/pickaxe/amethyst_pickaxe
+
+  iridium_pickaxe:
+    display_name: display-name-iridium_pickaxe
+    resource:
+      material: iron_pickaxe
+      generate: true
+      model_id: 10002
+      textures:
+        - tools/pickaxe/iridium_pickaxe
+
+  jade_pickaxe:
+    display_name: display-name-jade_pickaxe
+    resource:
+      material: iron_pickaxe
+      generate: true
+      model_id: 10003
+      textures:
+        - tools/pickaxe/jade_pickaxe
+
+  malachite_pickaxe:
+    display_name: display-name-malachite_pickaxe
+    resource:
+      material: iron_pickaxe
+      generate: true
+      model_id: 10004
+      textures:
+        - tools/pickaxe/malachite_pickaxe
+
+  mythril_pickaxe:
+    display_name: display-name-mythril_pickaxe
+    resource:
+      material: iron_pickaxe
+      generate: true
+      model_id: 10005
+      textures:
+        - tools/pickaxe/mythril_pickaxe
+
+  ruby_pickaxe:
+    display_name: display-name-ruby_pickaxe
+    resource:
+      material: iron_pickaxe
+      generate: true
+      model_id: 10006
+      textures:
+        - tools/pickaxe/ruby_pickaxe
+
+  silver_pickaxe:
+    display_name: display-name-silver_pickaxe
+    resource:
+      material: iron_pickaxe
+      generate: true
+      model_id: 10007
+      textures:
+        - tools/pickaxe/silver_pickaxe
+
+
+
+
+

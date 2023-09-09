@@ -1,0 +1,10 @@
+objectives:
+  # 制作五个种植盆
+  crafting_5_dry_pot: "craft dry_pot 5 events:completesCrafting5DryPot notify"
+  # 收获十五份作物
+  harvest_15_crops: "pickup corn,corn_silver_star,corn_golden_star,eggplant,eggplant_silver_star,eggplant_golden_star,chinese_cabbage,chinese_cabbage_silver_star,chinese_cabbage_golden_star,pineapple,pineapple_silver_star,pineapple_golden_star,cabbage,cabbage_silver_star,cabbage_golden_star,tomato,tomato_silver_star,tomato_golden_star,golden_tomato,hop,hop_silver_star,hop_golden_star,pepper,pepper_silver_star,pepper_golden_star,garlic,garlic_silver_star,garlic_golden_star,pitaya,pitaya_silver_star,pitaya_golden_star,grape,grape_silver_star,grape_golden_star amount:15 events:completesHarvest15Crops notify"
+  # 制作十个温室玻璃
+  crafting_10_greenhouse_glass: "craft greenhouse_glass 10 events:completesCrafting10GreenhouseGlass notify"
+
+
+

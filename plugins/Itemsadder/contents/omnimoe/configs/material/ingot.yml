@@ -1,0 +1,87 @@
+info:
+  namespace: omnimoe
+
+items:
+  amber_ingot:
+    # display_name: "琥珀锭"
+    display_name: display-name-amber_ingot
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10000
+      textures:
+        - material/ingot/amber_ingot
+
+  amethyst_ingot:
+    # display_name: "水晶锭"
+    display_name: display-name-amethyst_ingot
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10005
+      textures:
+        - material/ingot/amethyst_ingot
+
+  iridium_ingot:
+    # display_name: "铱锭"
+    display_name: display-name-iridium_ingot
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10010
+      textures:
+        - material/ingot/iridium_ingot
+
+  jade_ingot:
+    # display_name: "玉石锭"
+    display_name: display-name-jade_ingot
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10015
+      textures:
+        - material/ingot/jade_ingot
+
+  malachite_ingot:
+    # display_name: "孔雀石锭"
+    display_name: display-name-malachite_ingot
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10020
+      textures:
+        - material/ingot/malachite_ingot
+
+  mythril_ingot:
+    # display_name: "秘银锭"
+    display_name: display-name-mythril_ingot
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10025
+      textures:
+        - material/ingot/mythril_ingot
+
+  ruby_ingot:
+    # display_name: "红宝石锭"
+    display_name: display-name-ruby_ingot
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10030
+      textures:
+        - material/ingot/ruby_ingot
+
+  silver_ingot:
+    # display_name: "银锭"
+    display_name: display-name-silver_ingot
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 10035
+      textures:
+        - material/ingot/silver_ingot
+
+
+
+

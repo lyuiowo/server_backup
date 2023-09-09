@@ -1,0 +1,597 @@
+
+# Default item types. These cannot be removed. They
+# may be used as 'parents' to create new item types
+# which will behave just like another item type. Parents
+# generate their own config file at /language/item_type.yml
+
+# Every item type has its template for unidentified items.
+# If you don't specify one like the default SWORD item type,
+# it will use the default (not translated) english one.
+
+# Used as reference when using /mmoitems commands
+SWORD:
+
+    # The display parameter is used to display the item in both
+    # the item brower and the recipe list when shifting a
+    # workbench. You can use durability for custom textures.
+    # In 1.14, durability is replaced by CustomModelData.
+    display: IRON_SWORD:0
+    
+    # Name displayed in the item lore.
+    name: '剑'
+    
+    # Template of an unidentified item.
+    unident-item:
+        name: '&f#prefix#未鉴定的 Sword'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+DAGGER:
+    display: STONE_SWORD
+    name: '匕首'
+    unident-item:
+        name: '&f#prefix#未鉴定的 Dagger'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+SPEAR:
+    display: TRIDENT
+    name: '长矛'
+    unident-item:
+        name: '&f#prefix#未鉴定的 Spear'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+HAMMER:
+    display: IRON_AXE
+    name: '锤子'
+    unident-item:
+        name: '&f#prefix#未鉴定的锤子'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+GAUNTLET:
+    display: IRON_HORSE_ARMOR
+    name: 'Gauntlet'
+    unident-item:
+        name: '&f#prefix#未鉴定的 Gauntlet'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+WHIP:
+    display: LEAD
+    name: '鞭子'
+    unident-item:
+        name: '&f#prefix#未鉴定的鞭子'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+STAFF:
+    display: DIAMOND_HOE
+    name: '法杖'
+    unident-item:
+        name: '&f#prefix#未鉴定的法杖'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+BOW:
+    display: BOW
+    name: '弓'
+    unident-item:
+        name: '&f#prefix#未鉴定的弓'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+CROSSBOW:
+    display: WOODEN_PICKAXE
+    name: '弩'
+    unident-item:
+        name: '&f#prefix#未鉴定的弩'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+MUSKET:
+    display: IRON_HORSE_ARMOR
+    name: '滑膛枪'
+    unident-item:
+        name: '&f#prefix#未鉴定的滑膛枪'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+LUTE:
+    display: NAME_TAG
+    name: '琵琶'
+    unident-item:
+        name: '&f#prefix#未鉴定的琵琶'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+# Applies stats in both hands
+CATALYST:
+    display: PRISMARINE_SHARD
+    name: 'Catalyst'
+    unident-item:
+        name: '&f#prefix#未鉴定的 Catalyst'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+# Applies stats in offhand only
+OFF_CATALYST:
+    display: PRISMARINE_CRYSTALS
+    name: 'Catalyst (Offhand)'
+    unident-item:
+        name: '&f#prefix#未鉴定的 Catalyst'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+# Applies stats in mainhand only
+MAIN_CATALYST:
+    display: PRISMARINE_CRYSTALS
+    name: 'Catalyst (Mainhand)'
+    unident-item:
+        name: '&f#prefix#未鉴定的 Catalyst'
+        lore:
+            - '&7This item is unidentified. I must'
+            - '&7find a way to identify it!'
+            - '{tier}'
+            - '{tier}&8Item Info:'
+            - '{range}&8- &7Lvl Range: &e#range#'
+            - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+ORNAMENT:
+    display: GOLD_NUGGET
+    name: 'Ornament'
+    unident-item:
+        name: '&f#prefix#未鉴定的 Ornament'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+ACCESSORY:
+    display: DIAMOND
+    name: 'Accessory'
+    unident-item:
+        name: '&f#prefix#未鉴定的 Accessory'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+ARMOR:
+    display: IRON_CHESTPLATE
+    name: '护甲'
+    unident-item:
+        name: '&f#prefix#未鉴定的护甲'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+TOOL:
+    display: IRON_PICKAXE
+    name: '工具'
+    unident-item:
+        name: '&f#prefix#未鉴定的工具'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+CONSUMABLE:
+    display: APPLE
+    name: '消耗品'
+    unident-item:
+        name: '&f#prefix#未鉴定的消耗品'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+MISCELLANEOUS:
+    display: WATER_BUCKET
+    name: '杂项'
+    unident-item:
+        name: '&f#prefix#未鉴定的杂项'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+SKIN:
+    display: LEATHER
+    name: '皮肤'
+    unident-item:
+        name: '&f#prefix#未鉴定的换肤道具'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+GEM_STONE:
+    display: EMERALD
+    name: '宝石'
+    unident-item:
+        name: '&f#prefix#未鉴定的宝石'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+BLOCK:
+    display: STONE:0
+    name: '方块'
+    unident-item:
+        name: '&f#prefix#未鉴定的方块'
+        lore:
+            - '&7This item is unidentified. I must'
+            - '&7find a way to identify it!'
+            - '{tier}'
+            - '{tier}&8Item Info:'
+            - '{range}&8- &7Lvl Range: &e#range#'
+            - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+
+# Default subtypes
+GREATSWORD:
+    display: DIAMOND_SWORD
+    name: '巨剑'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#未鉴定的巨剑'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+LONG_SWORD:
+    display: STONE_SWORD
+    name: '长剑'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#未鉴定的长剑'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+KATANA:
+    display: IRON_SWORD
+    name: '武士刀'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#未鉴定的武士刀'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+THRUSTING_SWORD:
+    display: GOLDEN_SWORD
+    name: '刺剑'
+    parent: 'DAGGER'
+    unident-item:
+        name: '&f#prefix#未鉴定的刺剑'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+    
+AXE:
+    display: STONE_AXE
+    name: '斧头'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#未鉴定的斧头'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+    
+GREATAXE:
+    display: DIAMOND_AXE
+    name: '巨斧'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#未鉴定的巨斧'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+    
+HALBERD:
+    display: IRON_AXE
+    name: '长戟'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#未鉴定的长戟'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+    
+LANCE:
+    display: STICK
+    name: 'Lance'
+    parent: 'SPEAR'
+    unident-item:
+        name: '&f#prefix#未鉴定的 Lance'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+    
+GREATHAMMER:
+    display: DIAMOND_AXE
+    name: '重锤'
+    parent: 'HAMMER'
+    unident-item:
+        name: '&f#prefix#未鉴定的重锤'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+    
+GREATSTAFF:
+    display: DIAMOND_HOE
+    name: 'Greatstaff'
+    parent: 'HAMMER'
+    unident-item:
+        name: '&f#prefix#未鉴定的 Greatstaff'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+    
+STAVE:
+    display: IRON_HOE
+    name: 'Stave'
+    parent: 'HAMMER'
+    unident-item:
+        name: '&f#prefix#未鉴定的 Stave'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+    
+TOME:
+    display: BOOK
+    name: '法书'
+    parent: 'CATALYST'
+    unident-item:
+        name: '&f#prefix#未鉴定的法书'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+    
+TALISMAN:
+    display: TOTEM_OF_UNDYING
+    name: '护符'
+    parent: 'CATALYST'
+    unident-item:
+        name: '&f#prefix#未鉴定的护符'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+ 
+WAND:
+    display: STICK
+    name: 'Wand'
+    parent: 'STAFF'
+    unident-item:
+        name: '&f#prefix#未鉴定的 Wand'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+GREATBOW:
+    display: BOW
+    name: '长弓'
+    parent: 'BOW'
+    unident-item:
+        name: '&f#prefix#未鉴定的长弓'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+    
+SHIELD:
+    display: SHIELD
+    name: '盾牌'
+    parent: CATALYST
+    unident-item:
+        name: '&f#prefix#未鉴定的盾牌'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+    
+MATERIAL:
+    display: PAPER
+    name: '原材料'
+    parent: 'MISCELLANEOUS'
+    unident-item:
+        name: '&f#prefix#未鉴定的原材料'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+# 新增
+FOOD:
+    display: APPLE
+    name: '食物'
+    parent: 'CONSUMABLE'
+    unident-item:
+        name: '&f#prefix#未鉴定的食物'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+SCYTHE:
+    display: IRON_HOE
+    name: '镰刀'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#未鉴定的镰刀'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+
+
+
+
+
+
