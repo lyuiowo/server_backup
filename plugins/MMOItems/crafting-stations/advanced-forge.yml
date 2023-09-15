@@ -20,21 +20,3 @@ recipes:
     crafting-time: 2000
     ingredients:
     - mmoitem{type=SWORD,id=MASTER_SWORD,amount=1}
-
-  masters-katana:
-    output:
-      type: KATANA
-      id: MASTERS_KATANA
-      amount: 1
-    crafting-time: 2000
-    ingredients:
-    - mmoitem{type=KATANA,id=MASTERS_KATANA,amount=1}
-
-  masters-bow:
-    output:
-      type: BOW
-      id: MASTERS_BOW
-      amount: 1
-    crafting-time: 2000
-    ingredients:
-    - mmoitem{type=BOW,id=MASTERS_BOW,amount=1}

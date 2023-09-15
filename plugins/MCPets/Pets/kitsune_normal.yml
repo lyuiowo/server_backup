@@ -1,0 +1,30 @@
+Id: Kitsune_Normal
+MythicMob: Kitsune_Normal
+Permission: mcpet.kitsune_normal
+Mountable: true
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §b狐狸
+  Material: BRICK
+  CustomModelData: 1000
+  Description:
+  - §fGet your pet Kitsune!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Kitsune_Normal:
+    MythicMob: Kitsune_Normal
+    Permission: skin.kitsune_normal
+    Icon:
+      Material: BRICK
+      CustomModelData: 2528
+      DisplayName: §6狐狸 (正常)
+      Lore:
+      - §fGet your pet Kitsune!

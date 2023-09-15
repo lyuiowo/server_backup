@@ -1,0 +1,39 @@
+# MMOBUFFS MESSAGES
+#
+# If you wish for a message to not be sent, set it to [].
+#
+# GLOBAL
+prefix: '<#3c4345>[<#53d46c>MMOBuffs<#3c4345>] '
+
+# COMMANDS
+unknown-command: '<red>未知命令.'
+player-not-found: '<red>玩家不存在.'
+
+give-effect: '<green>给予玩家 <player> 持续 <duration> 的 <name>.'
+give-effect-permanent: '<green>给予 <player> 永久的 <name>.'
+
+clear-effect: '<green>移除玩家 <player> 身上的 <name>. '
+clear-all-effects: '<green>移除玩家 <player> 身上的持续效果.'
+clear-permanent-effects: '<green>移除玩家 <player> 身上的永久效果.'
+
+time-effect: '<green>更新玩家 <player> 身上的持续效果 <name>.'
+stack-effect: '<green>更新玩家 <player> 身上的永久效果 <name>.'
+
+reload-command: '<green>成功重载 MMOBuffs.'
+
+# DISPLAYS
+duration-display:
+  days: '<value> 天'
+  hours: '<value> 时'
+  minutes: '<value> 分'
+  seconds: '<value> 秒'
+
+  # What should separate the time placeholders.
+  separator: ' '
+
+  permanent: '∞'
+
+list-display:
+  header: '<#207d33>⭐-------- <#53d46c><bold>已生效效果</bold> <#207d33>--------⭐'
+  effect-element: '<#53d46c><name> <#767d87>: <duration>'
+

@@ -22,42 +22,127 @@
 # Blocks Drop Tables
 # Read when a block is mined/broken by a player.
 blocks:
-    DIAMOND_ORE:
-        rare-diamond:
-            coef: 1
-            disable-silk-touch: true
-            items:
-                MATERIAL:
-                    RARE_DIAMOND: 100,2-3,0
+
 
 # Custom Blocks Drop Tables
 # Read when a custom block is mined/broken by a player.
 customblocks:
     1:
-        more-rare-diamond:
+        SILVER_ORE:
             coef: 1
-            disable-silk-touch: true
+            disable-silk-touch: false
             items:
                 MATERIAL:
-                    RARE_DIAMOND: 100,2-3,0
+                    SILVER: 100,1,0
+    2:
+        DEEPSLATE_SILVER_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    SILVER: 100,1,0
+    5:
+        AMBER_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    AMBER_SHARD: 100,1-3,0
+
+    6:
+        DEEPSLATE_AMBER_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    AMBER_SHARD: 100,1-3,0
+    9:
+        AMETHYST_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    AMETHYST: 100,1-3,0
+    10:
+        DEEPSLATE_AMETHYST_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    AMETHYST: 100,1-3,0
+    13:
+        IRIDIUM_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    IRIDIUM: 100,1,0
+    14:
+        DEEPSLATE_IRIDIUM_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    IRIDIUM: 100,1,0
+    17:
+        JADE_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    RAW_JADE: 100,1-3,0
+    18:
+        DEEPSLATE_JADE_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    RAW_JADE: 100,1-3,0
+    21:
+        MALACHITE_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    MALACHITE: 100,1-3,0
+    22:
+        DEEPSLATE_MALACHITE_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    MALACHITE: 100,1-3,0
+    25:
+        MYTHRIL_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    RAW_MYTHRIL: 100,1,0
+    26:
+        DEEPSLATE_MYTHRIL_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    RAW_MYTHRIL: 100,1,0
+    29:
+        RUBY_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    RUBY: 100,1-3,0
+    30:
+        DEEPSLATE_RUBY_ORE:
+            coef: 1
+            disable-silk-touch: false
+            items:
+                MATERIAL:
+                    RUBY: 100,1-3,0
+
 
 # Monsters Drop Tables
 # Read when any monster dies.
 monsters:
-    BLAZE:
-        fire-essence-table:
-            coef: 1
-            items:
-                MATERIAL:
-                    fire-essence: 7,1-2,0
-    ZOMBIE:
-        rock-table:
-            coef: 7
-            items:
-                CONSUMABLE:
-                    ROCK: 50,1-3,10
-        coin-table:
-            coef: 1
-            items:
-                MISCELLANEOUS:
-                    GOLD_COIN: 1,1-10,0
+

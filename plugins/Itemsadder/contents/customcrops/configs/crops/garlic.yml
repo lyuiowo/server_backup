@@ -1,0 +1,98 @@
+info:
+  namespace: customcrops
+items:
+  garlic_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/garlic/stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  garlic_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/garlic/stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  garlic_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/garlic/stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  garlic_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/garlic/stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+
+# 物品
+
+
+  garlic_seeds:
+    display_name: display-name-garlic_seeds
+    lore:
+      - display-lore-plant_garlic_season
+    resource:
+      generate: false
+      material: PAPER
+      model_id: 9004
+      model_path: item/crops/garlic/garlic_seeds
+  garlic:
+    display_name: display-name-garlic
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10012
+      model_path: item/crops/garlic/garlic
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  garlic_silver_star:
+    display_name: display-name-garlic_silver_star
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10013
+      model_path: item/crops/garlic/garlic_silver_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  garlic_golden_star:
+    display_name: display-name-garlic_golden_star
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10014
+      model_path: item/crops/garlic/garlic_golden_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+

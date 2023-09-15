@@ -1,0 +1,197 @@
+info:
+  namespace: omnimoe
+font_images:
+  # 菜单 UI
+  main:
+    path: font/main
+    symbol:  # \uf000
+    suggest_in_command: false
+    y_position: 13
+  shop:
+    path: font/shop
+    symbol:  # \uf001
+    suggest_in_command: false
+    y_position: 13
+
+  # Lore 字体图标
+  info:
+    path: icon/info
+    symbol:  # \uf090
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+
+items:
+  empty:
+    display_name: "空槽位"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9200
+      textures:
+      - icon/empty.png
+  empty_slot_redstone_dust:
+    display_name: "空槽位 - 红石粉"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9201
+      textures:
+      - icon/empty_slot_redstone_dust.png
+  empty_slot_quartz:
+    display_name: "空槽位 - 石英"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9202
+      textures:
+      - icon/empty_slot_quartz
+  empty_slot_lapis_lazuli:
+    display_name: "空槽位 - 青金石"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9203
+      textures:
+      - icon/empty_slot_lapis_lazuli
+  empty_slot_ingot:
+    display_name: "空槽位 - 矿石锭"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9204
+      textures:
+      - icon/empty_slot_ingot
+  empty_slot_emerald:
+    display_name: "空槽位 - 绿宝石"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9205
+      textures:
+      - icon/empty_slot_emerald
+  empty_slot_diamond:
+    display_name: "空槽位 - 钻石"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9206
+      textures:
+      - icon/empty_slot_diamond
+  empty_slot_amethyst_shard:
+    display_name: "空槽位 - 紫水晶"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9207
+      textures:
+      - icon/empty_slot_amethyst_shard
+
+  empty_armor_slot_helmet:
+    display_name: "空槽位 - 头盔"
+    resource:
+      material: PAPER
+      model_id: 9208
+      generate: true
+      textures:
+      - icon/empty_armor_slot_helmet.png
+  empty_armor_slot_chestplate:
+    display_name: "空槽位 - 胸甲"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9209
+      textures:
+      - icon/empty_armor_slot_chestplate.png
+  empty_armor_slot_leggings:
+    display_name: "空槽位 - 护腿"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9210
+      textures:
+      - icon/empty_armor_slot_leggings.png
+  empty_armor_slot_boots:
+    display_name: "空槽位 - 靴子"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9211
+      textures:
+      - icon/empty_armor_slot_boots.png
+
+  empty_armor_slot_shield:
+    display_name: "空槽位 - 盾"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9212
+      textures:
+      - icon/empty_armor_slot_shield.png
+
+  empty_slot_sword:
+    display_name: "空槽位 - 剑"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9213
+      textures:
+      - icon/empty_slot_sword.png
+  empty_slot_axe:
+    display_name: "空槽位 - 斧"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9214
+      textures:
+      - icon/empty_slot_axe.png
+  empty_slot_hoe:
+    display_name: "空槽位 - 锄"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9215
+      textures:
+      - icon/empty_slot_hoe.png
+  empty_slot_shovel:
+    display_name: "空槽位 - 锹"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9216
+      textures:
+      - icon/empty_slot_shovel.png
+  empty_slot_pickaxe:
+    display_name: "空槽位 - 镐"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9217
+      textures:
+      - icon/empty_slot_pickaxe.png
+
+  empty_slot_smithing_template_armor_trim:
+    display_name: "空槽位 - 锻造模板"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9218
+      textures:
+      - icon/empty_slot_smithing_template_armor_trim.png
+  empty_slot_smithing_template_netherite_upgrade:
+    display_name: "空槽位 - 升级模板"
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9219
+      textures:
+      - icon/empty_slot_smithing_template_netherite_upgrade.png
+
+  knowledge_book:
+    display_name: 知识之书
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 9220
+      textures:
+      - icon/knowledge_book

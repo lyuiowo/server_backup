@@ -1,64 +1,227 @@
-DRAGON_HELMET:
+AMBER_HELMET:
   base:
-    revision-id: 1
-    material: netherite_helmet
-    name: '&5龙之盔'
-    set: DRAGON
-    will-break: true
-DRAGON_CHESTPLATE:
+    material: LEATHER_HELMET
+    custom-model-data: 10000.0
+    dye-color: 232 164 56
+    name: '&f 뀀  &f琥珀头盔 '
+    hide-dye: true
+AMBER_CHESTPLATE:
   base:
-    revision-id: 1
-    material: netherite_chestplate
-    name: '&5龙之甲'
-    set: DRAGON
-    will-break: true
-DRAGON_LEGGINGS:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10000.0
+    dye-color: 232 164 56
+    name: '&f 뀀  &f琥珀胸甲 '
+    hide-dye: true
+AMBER_LEGGINGS:
   base:
-    revision-id: 1
-    material: netherite_leggings
-    name: '&5龙之膝'
-    set: DRAGON
-    will-break: true
-DRAGON_BOOTS:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10000.0
+    dye-color: 232 164 56
+    name: '&f 뀀  &f琥珀护腿 '
+    hide-dye: true
+AMBER_BOOTS:
   base:
-    revision-id: 1
-    material: netherite_boots
-    name: '&5龙之靴'
-    set: DRAGON
-    will-break: true
-OCEAN_HELMET:
+    material: LEATHER_BOOTS
+    custom-model-data: 10000.0
+    dye-color: 232 164 56
+    name: '&f 뀀  &f琥珀靴子 '
+    hide-dye: true
+AMETHYST_HELMET:
   base:
-    revision-id: 1
-    material: DIAMOND_HELMET
-    name: '&9海洋头盔'
-    set: OCEAN
-    will-break: true
-OCEAN_CHESTPLATE:
+    material: LEATHER_HELMET
+    custom-model-data: 10001.0
+    dye-color: 201 71 188
+    name: '&f 뀀  &f水晶头盔 '
+    hide-dye: true
+AMETHYST_CHESTPLATE:
   base:
-    revision-id: 1
-    material: DIAMOND_CHESTPLATE
-    name: '&9海洋胸甲'
-    set: OCEAN
-    will-break: true
-OCEAN_LEGGINGS:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10001.0
+    dye-color: 201 71 188
+    name: '&f 뀀  &f水晶胸甲 '
+    hide-dye: true
+AMETHYST_LEGGINGS:
   base:
-    revision-id: 1
-    material: DIAMOND_LEGGINGS
-    name: '&9海洋护腿'
-    set: OCEAN
-    will-break: true
-OCEAN_BOOTS:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10001.0
+    dye-color: 201 71 188
+    name: '&f 뀀  &f水晶护腿 '
+    hide-dye: true
+AMETHYST_BOOTS:
   base:
-    revision-id: 1
-    material: DIAMOND_BOOTS
-    name: '&9海洋靴子'
-    set: OCEAN
-    will-break: true
-RED_FOX:
+    material: LEATHER_BOOTS
+    custom-model-data: 10001.0
+    dye-color: 201 71 188
+    name: '&f 뀀  &f水晶靴子 '
+    hide-dye: true
+IRIDIUM_HELMET:
   base:
-    revision-id: 1
-    material: PAPER
-    custom-model-data: 10122.0
-    name: '&c红色狐狸玩偶'
-    displayed-type: 头饰
+    material: LEATHER_HELMET
+    custom-model-data: 10002.0
+    dye-color: 148 56 214
+    name: '&f 뀀  &f铱头盔 '
+    hide-dye: true
+IRIDIUM_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10002.0
+    dye-color: 148 56 214
+    name: '&f 뀀  &f铱胸甲 '
+    hide-dye: true
+IRIDIUM_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10002.0
+    dye-color: 148 56 214
+    name: '&f 뀀  &f铱护腿 '
+    hide-dye: true
+IRIDIUM_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 10002.0
+    dye-color: 148 56 214
+    name: '&f 뀀  &f铱靴子 '
+    hide-dye: true
+JADE_HELMET:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 10003.0
+    dye-color: 51 209 46
+    name: '&f 뀀  &f玉石头盔 '
+    hide-dye: true
+JADE_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10003.0
+    dye-color: 51 209 46
+    name: '&f 뀀  &f玉石胸甲 '
+    hide-dye: true
+JADE_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10003.0
+    dye-color: 51 209 46
+    name: '&f 뀀  &f玉石护腿 '
+    hide-dye: true
+JADE_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 10003.0
+    dye-color: 51 209 46
+    name: '&f 뀀  &f玉石靴子 '
+    hide-dye: true
+MALACHITE_HELMET:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 10004.0
+    dye-color: 51 199 159
+    name: '&f 뀀  &f孔雀石头盔 '
+    hide-dye: true
+MALACHITE_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10004.0
+    dye-color: 51 199 159
+    name: '&f 뀀  &f孔雀石胸甲 '
+    hide-dye: true
+MALACHITE_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10004.0
+    dye-color: 51 199 159
+    name: '&f 뀀  &f孔雀石护腿 '
+    hide-dye: true
+MALACHITE_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 10004.0
+    dye-color: 51 199 159
+    name: '&f 뀀  &f孔雀石靴子 '
+    hide-dye: true
+MYTHRIL_HELMET:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 10005.0
+    dye-color: 38 42 171
+    name: '&f 뀀  &f秘银头盔 '
+    hide-dye: true
+MYTHRIL_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10005.0
+    dye-color: 38 42 171
+    name: '&f 뀀  &f秘银胸甲 '
+    hide-dye: true
+MYTHRIL_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10005.0
+    dye-color: 38 42 171
+    name: '&f 뀀  &f秘银护腿 '
+    hide-dye: true
+MYTHRIL_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 10005.0
+    dye-color: 38 42 171
+    name: '&f 뀀  &f秘银靴子 '
+    hide-dye: true
+RUBY_HELMET:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 10006.0
+    dye-color: 252 3 30
+    name: '&f 뀀  &f红宝石头盔 '
+    hide-dye: true
+RUBY_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10006.0
+    dye-color: 252 3 30
+    name: '&f 뀀  &f红宝石胸甲 '
+    hide-dye: true
+RUBY_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10006.0
+    dye-color: 252 3 30
+    name: '&f 뀀  &f红宝石护腿 '
+    hide-dye: true
+RUBY_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 10006.0
+    dye-color: 252 3 30
+    name: '&f 뀀  &f红宝石靴子 '
+    hide-dye: true
+SILVER_HELMET:
+  base:
+    material: LEATHER_HELMET
+    custom-model-data: 10007.0
+    dye-color: 158 221 224
+    name: '&f 뀀  &f银头盔 '
+    hide-dye: true
+SILVER_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10007.0
+    dye-color: 158 221 224
+    name: '&f 뀀  &f银胸甲 '
+    hide-dye: true
+SILVER_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10007.0
+    dye-color: 158 221 224
+    name: '&f 뀀  &f银护腿 '
+    hide-dye: true
+SILVER_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    custom-model-data: 10007.0
+    dye-color: 158 221 224
+    name: '&f 뀀  &f银靴子 '
+    hide-dye: true
+
+
 

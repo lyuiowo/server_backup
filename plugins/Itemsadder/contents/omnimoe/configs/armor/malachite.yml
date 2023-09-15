@@ -6,6 +6,7 @@ items:
     display_name: display-name-malachite_helmet
     resource:
       generate: true
+      model_id: 10004
       textures:
       - armor/malachite_helmet
     specific_properties:
@@ -16,6 +17,7 @@ items:
     display_name: display-name-malachite_chestplate
     resource:
       generate: true
+      model_id: 10004
       textures:
       - armor/malachite_chestplate
     specific_properties:
@@ -26,6 +28,7 @@ items:
     display_name: display-name-malachite_leggings
     resource:
       generate: true
+      model_id: 10004
       textures:
       - armor/malachite_leggings
     specific_properties:
@@ -36,6 +39,7 @@ items:
     display_name: display-name-malachite_boots
     resource:
       generate: true
+      model_id: 10004
       textures:
       - armor/malachite_boots
     specific_properties:
@@ -46,6 +50,6 @@ items:
 armors_rendering:
   malachite:
     color: "#32c79f"
-    layer_1: malachite_armor_layer_1
-    layer_2: malachite_armor_layer_2
+    layer_1: armor/malachite_armor_layer_1
+    layer_2: armor/malachite_armor_layer_2
     # use_color: false

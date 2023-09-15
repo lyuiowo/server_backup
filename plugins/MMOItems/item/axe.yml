@@ -1,71 +1,44 @@
-COPPER_AXE:
-  base:
-    material: STONE_AXE
-    name: '&f 뀀  铜斧 '
-    custom-model-data: 10000.0
-    will-break: true
-    revision-id: 1
-    durability: 250
-    attack-damage: 9
-    attack-speed: 0.8
-EMERALD_AXE:
-  base:
-    material: DIAMOND_AXE
-    name: '&f 뀀  绿宝石斧 '
-    custom-model-data: 10000.0
-    will-break: true
-    revision-id: 1
-    durability: 1888
-    attack-damage: 9.5
-    attack-speed: 0.9
-AMETHYST_SHARD_AXE:
+AMBER_AXE:
   base:
     material: IRON_AXE
-    name: '&f 뀀  紫水晶斧 '
-    custom-model-data: 10000.0
-    will-break: true
-    revision-id: 1
-    durability: 1024
-    attack-damage: 9
-    attack-speed: 0.9
-BLAZE_AXE:
+    custom-model-data: 10000
+    name: '&f 뀀  &f琥珀斧 '
+AMETHYST_AXE:
   base:
     material: IRON_AXE
-    name: '&f 뀀  烈阳斧 '
-    custom-model-data: 10001.0
-    will-break: true
-    revision-id: 1
-    durability: 1024
-    attack-damage: 9
-    attack-speed: 1
-FLINT_AXE:
-  base:
-    material: STONE_AXE
-    name: '&f 뀀  燧石斧 '
-    custom-model-data: 10001.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 9
-    attack-speed: 0.8
-    durability: 172
-PRISMARINE_SHARD_AXE:
+    custom-model-data: 10001
+    name: '&f 뀀  &f水晶斧 '
+IRIDIUM_AXE:
   base:
     material: IRON_AXE
-    name: '&f 뀀  海晶石斧 '
-    custom-model-data: 10002.0
-    will-break: true
-    revision-id: 1
-    durability: 1024
-    attack-damage: 9
-    attack-speed: 0.9
-  
+    custom-model-data: 10002
+    name: '&f 뀀  &f铱斧 '
+JADE_AXE:
+  base:
+    material: IRON_AXE
+    custom-model-data: 10003
+    name: '&f 뀀  &f玉石斧 '
+MALACHITE_AXE:
+  base:
+    material: IRON_AXE
+    custom-model-data: 10004
+    name: '&f 뀀  &f孔雀石斧 '
+MYTHRIL_AXE:
+  base:
+    material: IRON_AXE
+    custom-model-data: 10005
+    name: '&f 뀀  &f秘银斧 '
+RUBY_AXE:
+  base:
+    material: IRON_AXE
+    custom-model-data: 10006
+    name: '&f 뀀  &f红宝石斧 '
 SILVER_AXE:
   base:
-   material: IRON_AXE
-   name: '&f 뀀  银斧 '
-  #  custom-model-data: 10003.0
-  will-break: true
-  revision-id: 1
-  durability: 1024
-  attack-damage: 9
-  attack-speed: 0.9
+    material: IRON_AXE
+    custom-model-data: 10007
+    name: '&f 뀀  &f银斧 '
+
+
+
+

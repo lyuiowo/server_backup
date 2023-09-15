@@ -15,6 +15,7 @@ dictionary:
   display-category-hoes: 锄头一览
   display-category-swords: 剑一览
   display-category-axes: 斧头一览
+  display-category-fishing_rods: 鱼竿一览
 
   # 矿石
   display-name-amber_ore: 琥珀矿石
@@ -161,8 +162,20 @@ dictionary:
   display-name-silver_leggings: 银护腿
   display-name-silver_boots: 银靴子
 
+  # 钓鱼竿
+  display-name-prismarine_fishing_rod: 海晶钓竿
+  display-name-sculk_fishing_rod: 回响钓竿
+  display-name-ice_fishing_rod: 冰钓竿
+  display-name-iron_fishing_rod: 铁钓竿
+  display-name-copper_fishing_rod: 铜钓竿
+  display-name-diamond_fishing_rod: 钻石钓竿
+  display-name-golden_fishing_rod: 金钓竿
+  display-name-netherite_fishing_rod: 下界合金钓竿
+  display-name-nether_fishing_rod: 地狱钓竿
+  display-name-end_fishing_rod: 终末钓竿
 
-
-
+  # 宠物图标
+  display-name-icon_kitsune_normal: 狐狸图标 (普通)
+  display-name-icon_phoenix_flame: 凤凰图标 (火焰)
 
 

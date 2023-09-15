@@ -6,6 +6,7 @@ items:
     display_name: display-name-silver_helmet
     resource:
       generate: true
+      model_id: 10007
       textures:
       - armor/silver_helmet
     specific_properties:
@@ -16,6 +17,7 @@ items:
     display_name: display-name-silver_chestplate
     resource:
       generate: true
+      model_id: 10007
       textures:
       - armor/silver_chestplate
     specific_properties:
@@ -26,6 +28,7 @@ items:
     display_name: display-name-silver_leggings
     resource:
       generate: true
+      model_id: 10007
       textures:
       - armor/silver_leggings
     specific_properties:
@@ -36,6 +39,7 @@ items:
     display_name: display-name-silver_boots
     resource:
       generate: true
+      model_id: 10007
       textures:
       - armor/silver_boots
     specific_properties:
@@ -46,6 +50,6 @@ items:
 armors_rendering:
   silver:
     color: "#9ddde0"
-    layer_1: silver_armor_layer_1
-    layer_2: silver_armor_layer_2
+    layer_1: armor/silver_armor_layer_1
+    layer_2: armor/silver_armor_layer_2
     # use_color: false

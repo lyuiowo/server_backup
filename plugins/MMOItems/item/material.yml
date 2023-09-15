@@ -1,77 +1,153 @@
-DRAGON_SCALE:
+amber_ingot:
   base:
     revision-id: 1
     material: PAPER
-    name: '&5龙鳞'
-DRAGON_HEART:
-  base:
-    revision-id: 1
-    material: PAPER
-    name: '&5龙之心脏'
-DRAGONS_REVERSE_SCALE:
-  base:
-    revision-id: 1
-    material: PAPER
-    name: '&5龙之逆鳞'
-KRAKEN_HEART:
-  base:
-    revision-id: 1
-    material: PAPER
-    name: '&3北海巨妖的心脏'
-KRAKEN_TOUCH:
-  base:
-    revision-id: 1
-    material: PAPER
-    name: '&3北海巨妖之触'
-QUEEN_BEE_HEART:
-  base:
-    revision-id: 1
-    material: PAPER
-    name: '&6蜂王心'
-WARDEN_HEART:
-  base:
-    revision-id: 1
-    material: PAPER
-    name: '&7幽匿之心'
-WARDEN_HORN:
-  base:
-    revision-id: 1
-    material: PAPER
-    name: '&7幽匿之角'
-ANCIENT_FISH_SCALES:
-  base:
-    revision-id: 1
-    material: PAPER
-    name: '&e远古鱼鳞'
-ANCIENT_FISH_EYE:
-  base:
-    revision-id: 1
-    material: PAPER
-    name: '&e远古鱼眼'
-QUEEN_BEE_STING:
-  base:
-    revision-id: 1
-    material: PAPER
-    name: '&6蜂王螫针'
-SLIM_QUEEN_GLUE:
-  base:
-    revision-id: 1
-    material: PAPER
-    name: '&a女王凝胶'
-
-
-SILVER_INGOT:
-  base:
-    revision-id: 1
-    material: iron_ingot
-    name: '&f银锭'
+    name: '&f 뀀  琥珀锭 '
     custom-model-data: 10000.0
-
-MAGIC_GEM:
+amber_nugget:
   base:
     revision-id: 1
-    material: emerald
-    name: '&f魔法宝石'
-    lore:
-      - '&f &7蕴含魔力的宝石'
-    custom-model-data: 10000.0
+    material: PAPER
+    name: '&f 뀀  琥珀碎 '
+    custom-model-data: 10001.0
+amber_shard:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  琥珀碎片 '
+    custom-model-data: 10002.0
+amethyst_ingot:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  水晶锭 '
+    custom-model-data: 10005
+amethyst_nugget:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  碎水晶 '
+    custom-model-data: 10006
+amethyst:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  水晶 '
+    custom-model-data: 10007
+
+iridium_ingot:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  铱锭 '
+    custom-model-data: 10010
+iridium_nugget:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  铱粒 '
+    custom-model-data: 10011
+iridium:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  粗铱 '
+    custom-model-data: 10012
+
+jade_ingot:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  玉石锭 '
+    custom-model-data: 10015
+jade_nugget:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  玉石碎 '
+    custom-model-data: 10016
+raw_jade:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  玉石胚 '
+    custom-model-data: 10022
+
+malachite_ingot:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  孔雀石锭 '
+    custom-model-data: 10020
+malachite_nugget:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  孔雀石碎 '
+    custom-model-data: 10021
+malachite:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  孔雀石 '
+    custom-model-data: 10017
+
+mythril_ingot:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  秘银锭 '
+    custom-model-data: 10025
+mythril_nugget:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  秘银粒 '
+    custom-model-data: 10026
+raw_mythril:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  粗秘银 '
+    custom-model-data: 10027
+
+ruby_ingot:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  红宝石锭 '
+    custom-model-data: 10030
+ruby_nugget:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  红宝石碎 '
+    custom-model-data: 10031
+ruby:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  红宝石 '
+    custom-model-data: 10032
+
+silver_ingot:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  银锭 '
+    custom-model-data: 10035
+silver_nugget:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  银粒 '
+    custom-model-data: 10036
+silver:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: '&f 뀀  粗银 '
+    custom-model-data: 10037
+
+
+

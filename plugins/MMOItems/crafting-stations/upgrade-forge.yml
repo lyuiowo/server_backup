@@ -18,20 +18,4 @@ recipes:
       id: MASTER_SWORD
       amount: 1
     ingredients:
-    - mmoitem{type=MATERIAL,id=MAGIC_GEM,amount=16}
-
-  masters-katana-upgrade:
-    item:
-      type: KATANA
-      id: MASTERS_KATANA
-      amount: 1
-    ingredients:
-    - mmoitem{type=MATERIAL,id=MAGIC_GEM,amount=16}
-
-  masters-bow-upgrade:
-    item:
-      type: BOW
-      id: MASTERS_BOW
-      amount: 1
-    ingredients:
-    - mmoitem{type=MATERIAL,id=MAGIC_GEM,amount=16}
+    - mmoitem{type=MAGIC_GEM,id=UPGRADE_GEM_LV1,amount=16}

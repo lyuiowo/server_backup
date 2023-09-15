@@ -145,6 +145,25 @@ categories:
       - omnimoe:masters_katana
       - omnimoe:masters_bow
 
+  fishing_rods:
+    enabled: true
+    name: display-category-fishing_rods
+    icon: omnimoe:end_fishing_rod
+    items:
+      - omnimoe:prismarine_fishing_rod
+      - omnimoe:sculk_fishing_rod
+      - omnimoe:ice_fishing_rod
+      - omnimoe:iron_fishing_rod
+      - omnimoe:copper_fishing_rod
+      - omnimoe:diamond_fishing_rod
+      - omnimoe:golden_fishing_rod
+      - omnimoe:netherite_fishing_rod
+      - omnimoe:nether_fishing_rod
+      - omnimoe:end_fishing_rod
+
+  # fishes:
+  #   enabled: false
+
   armors:
     enabled: true
     name: display-category-armors
@@ -182,5 +201,3 @@ categories:
       - omnimoe:silver_chestplate
       - omnimoe:silver_leggings
       - omnimoe:silver_boots
-
-

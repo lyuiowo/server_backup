@@ -1,0 +1,109 @@
+info:
+  namespace: customcrops
+items:
+  pineapple_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pineapple/stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  pineapple_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pineapple/stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  pineapple_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pineapple/stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  pineapple_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/pineapple/stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+
+
+# 物品
+
+  pineapple_seeds:
+    display_name: display-name-pineapple_seeds
+    lore:
+      - display-lore-plant_pineapple_season
+    resource:
+      generate: false
+      material: PAPER
+      model_id: 9008
+      model_path: item/crops/pineapple/pineapple_seeds
+  pineapple:
+    display_name: display-name-pineapple
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10024
+      model_path: item/crops/pineapple/pineapple
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  pineapple_silver_star:
+    display_name: display-name-pineapple_silver_star
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10025
+      model_path: item/crops/pineapple/pineapple_silver_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  pineapple_golden_star:
+    display_name: display-name-pineapple_golden_star
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10026
+      model_path: item/crops/pineapple/pineapple_golden_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  gigantic_pineapple:
+    display_name: display-name-gigantic_pineapple
+    resource:
+      generate: false
+      material: PAPER
+      model_id: 9101
+      model_path: item/crops/pineapple/gigantic_pineapple
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+

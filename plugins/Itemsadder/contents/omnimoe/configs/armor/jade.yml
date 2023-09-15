@@ -6,6 +6,7 @@ items:
     display_name: display-name-jade_helmet
     resource:
       generate: true
+      model_id: 10003
       textures:
       - armor/jade_helmet
     specific_properties:
@@ -16,6 +17,7 @@ items:
     display_name: display-name-jade_chestplate
     resource:
       generate: true
+      model_id: 10003
       textures:
       - armor/jade_chestplate
     specific_properties:
@@ -26,6 +28,7 @@ items:
     display_name: display-name-jade_leggings
     resource:
       generate: true
+      model_id: 10003
       textures:
       - armor/jade_leggings
     specific_properties:
@@ -36,6 +39,7 @@ items:
     display_name: display-name-jade_boots
     resource:
       generate: true
+      model_id: 10003
       textures:
       - armor/jade_boots
     specific_properties:
@@ -46,6 +50,6 @@ items:
 armors_rendering:
   jade:
     color: "#33d12e"
-    layer_1: jade_armor_layer_1
-    layer_2: jade_armor_layer_2
+    layer_1: armor/jade_armor_layer_1
+    layer_2: armor/jade_armor_layer_2
     # use_color: false

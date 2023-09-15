@@ -6,6 +6,7 @@ items:
     display_name: display-name-mythril_helmet
     resource:
       generate: true
+      model_id: 10005
       textures:
       - armor/mythril_helmet
     specific_properties:
@@ -16,6 +17,7 @@ items:
     display_name: display-name-mythril_chestplate
     resource:
       generate: true
+      model_id: 10005
       textures:
       - armor/mythril_chestplate
     specific_properties:
@@ -26,6 +28,7 @@ items:
     display_name: display-name-mythril_leggings
     resource:
       generate: true
+      model_id: 10005
       textures:
       - armor/mythril_leggings
     specific_properties:
@@ -36,6 +39,7 @@ items:
     display_name: display-name-mythril_boots
     resource:
       generate: true
+      model_id: 10005
       textures:
       - armor/mythril_boots
     specific_properties:
@@ -46,6 +50,6 @@ items:
 armors_rendering:
   mythril:
     color: "#262aab"
-    layer_1: mythril_armor_layer_1
-    layer_2: mythril_armor_layer_2
+    layer_1: armor/mythril_armor_layer_1
+    layer_2: armor/mythril_armor_layer_2
     # use_color: false

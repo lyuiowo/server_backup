@@ -1,0 +1,100 @@
+info:
+  namespace: customcrops
+items:
+  corn_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/corn/stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  corn_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/corn/stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  corn_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/corn/stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  corn_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/corn/stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+
+# 物品
+
+  corn_seeds:
+    display_name: display-name-corn_seeds
+    lore:
+      - display-lore-plant_corn_season
+    resource:
+      generate: false
+      material: PAPER
+      model_id: 9002
+      model_path: item/crops/corn/corn_seeds
+
+  corn:
+    display_name: display-name-corn
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10006
+      model_path: item/crops/corn/corn
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+
+  corn_silver_star:
+    display_name: display-name-corn_silver_star
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10007
+      model_path: item/crops/corn/corn_silver_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+
+  corn_golden_star:
+    display_name: display-name-corn_golden_star
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10008
+      model_path: item/crops/corn/corn_golden_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+

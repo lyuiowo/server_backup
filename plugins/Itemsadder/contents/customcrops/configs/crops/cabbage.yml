@@ -1,0 +1,112 @@
+info:
+  namespace: customcrops
+items:
+  cabbage_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/cabbage/stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  cabbage_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/cabbage/stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  cabbage_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/cabbage/stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  cabbage_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/cabbage/stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  
+
+  
+# 物品
+  
+  cabbage_seeds:
+    display_name: display-name-cabbage_seeds
+    lore:
+      - display-lore-plant_cabbage_season
+    resource:
+      generate: false
+      material: PAPER
+      model_id: 9000
+      model_path: item/crops/cabbage/cabbage_seeds
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  
+  cabbage:
+    display_name: display-name-cabbage
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10000
+      model_path: item/crops/cabbage/cabbage
+  
+  cabbage_silver_star:
+    display_name: display-name-cabbage_silver_star
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10001
+      model_path: item/crops/cabbage/cabbage_silver_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  
+  cabbage_golden_star:
+    display_name: display-name-cabbage_golden_star
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10002
+      model_path: item/crops/cabbage/cabbage_golden_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  
+  gigantic_cabbage:
+    display_name: display-name-gigantic_cabbage
+    resource:
+      generate: false
+      material: PAPER
+      model_id: 9100
+      model_path: item/crops/cabbage/gigantic_cabbage
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT

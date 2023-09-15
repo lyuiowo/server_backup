@@ -6,6 +6,7 @@ items:
     display_name: display-name-ruby_helmet
     resource:
       generate: true
+      model_id: 10006
       textures:
       - armor/ruby_helmet
     specific_properties:
@@ -16,6 +17,7 @@ items:
     display_name: display-name-ruby_chestplate
     resource:
       generate: true
+      model_id: 10006
       textures:
       - armor/ruby_chestplate
     specific_properties:
@@ -26,6 +28,7 @@ items:
     display_name: display-name-ruby_leggings
     resource:
       generate: true
+      model_id: 10006
       textures:
       - armor/ruby_leggings
     specific_properties:
@@ -36,6 +39,7 @@ items:
     display_name: display-name-ruby_boots
     resource:
       generate: true
+      model_id: 10006
       textures:
       - armor/ruby_boots
     specific_properties:
@@ -46,6 +50,6 @@ items:
 armors_rendering:
   ruby:
     color: "#fc031e"
-    layer_1: ruby_armor_layer_1
-    layer_2: ruby_armor_layer_2
+    layer_1: armor/ruby_armor_layer_1
+    layer_2: armor/ruby_armor_layer_2
     # use_color: false

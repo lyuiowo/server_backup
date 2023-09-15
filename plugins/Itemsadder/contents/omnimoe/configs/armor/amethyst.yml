@@ -6,6 +6,7 @@ items:
     display_name: display-name-amethyst_helmet
     resource:
       generate: true
+      model_id: 10001
       textures:
       - armor/amethyst_helmet
     specific_properties:
@@ -16,6 +17,7 @@ items:
     display_name: display-name-amethyst_chestplate
     resource:
       generate: true
+      model_id: 10001
       textures:
       - armor/amethyst_chestplate
     specific_properties:
@@ -26,6 +28,7 @@ items:
     display_name: display-name-amethyst_leggings
     resource:
       generate: true
+      model_id: 10001
       textures:
       - armor/amethyst_leggings
     specific_properties:
@@ -36,6 +39,7 @@ items:
     display_name: display-name-amethyst_boots
     resource:
       generate: true
+      model_id: 10001
       textures:
       - armor/amethyst_boots
     specific_properties:
@@ -46,6 +50,6 @@ items:
 armors_rendering:
   amethyst:
     color: "#c947bc"
-    layer_1: amethyst_armor_layer_1
-    layer_2: amethyst_armor_layer_2
+    layer_1: armor/amethyst_armor_layer_1
+    layer_2: armor/amethyst_armor_layer_2
     # use_color: false

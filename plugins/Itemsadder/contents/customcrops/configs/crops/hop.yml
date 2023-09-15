@@ -1,0 +1,98 @@
+info:
+  namespace: customcrops
+items:
+  hop_stage_1:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/hop/stage_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  hop_stage_2:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/hop/stage_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  hop_stage_3:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/hop/stage_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+  hop_stage_4:
+    display_name: ""
+    resource:
+      generate: false
+      material: PAPER
+      model_path: item/crops/hop/stage_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: true
+
+
+# 物品
+
+
+  hop_seeds:
+    display_name: display-name-hop_seeds
+    lore:
+      - display-lore-plant_hop_season
+    resource:
+      generate: false
+      material: PAPER
+      model_id: 9006
+      model_path: item/crops/hop/hop_seeds
+  hop:
+    display_name: display-name-hop
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10018
+      model_path: item/crops/hop/hop
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  hop_silver_star:
+    display_name: display-name-hop_silver_star
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10019
+      model_path: item/crops/hop/hop_silver_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+  hop_golden_star:
+    display_name: display-name-hop_golden_star
+    resource:
+      generate: false
+      material: APPLE
+      model_id: 10020
+      model_path: item/crops/hop/hop_golden_star
+    events:
+      eat:
+        feed:
+          amount: 1
+          saturation: 1
+

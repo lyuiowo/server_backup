@@ -1,79 +1,201 @@
 PAPER:
-  omnimoe:amber_ingot: 10000
-  omnimoe:amber_nugget: 10001
-  omnimoe:amber_shard: 10002
-  omnimoe:amber_ore: 10003
+  customcrops:hop_stage_1: 15000
+  customcrops:hop_stage_2: 15001
+  customcrops:hop_stage_3: 15002
+  customcrops:hop_stage_4: 15003
+  customcrops:hop_seeds: 9006
   omnimoe:deepslate_amber_ore: 10004
-  
-  omnimoe:amethyst_ingot: 10005
-  omnimoe:amethyst_nugget: 10006
-  omnimoe:amethyst: 10007
-  omnimoe:amethyst_ore: 10008
   omnimoe:deepslate_amethyst_ore: 10009
-  
-  omnimoe:iridium_ingot: 10010
-  omnimoe:iridium_nugget: 10011
-  omnimoe:iridium: 10012
-  omnimoe:iridium_ore: 10013
   omnimoe:deepslate_iridium_ore: 10014
-  
-  omnimoe:jade_ingot: 10015
-  omnimoe:jade_nugget: 10016
-  omnimoe:malachite: 10017
-  omnimoe:jade_ore: 10018
   omnimoe:deepslate_jade_ore: 10019
-  
-  omnimoe:malachite_ingot: 10020
-  omnimoe:malachite_nugget: 10021
-  omnimoe:raw_jade: 10022
-  omnimoe:malachite_ore: 10023
   omnimoe:deepslate_malachite_ore: 10024
-  
-  omnimoe:mythril_ingot: 10025
-  omnimoe:mythril_nugget: 10026
-  omnimoe:raw_mythril: 10027
-  omnimoe:mythril_ore: 10028
   omnimoe:deepslate_mythril_ore: 10029
-  
-  omnimoe:ruby_ingot: 10030
-  omnimoe:ruby_nugget: 10031
-  omnimoe:ruby: 10032
-  omnimoe:ruby_ore: 10033
   omnimoe:deepslate_ruby_ore: 10034
-  
-  omnimoe:silver_ingot: 10035
-  omnimoe:silver_nugget: 10036
-  omnimoe:silver: 10037
-  omnimoe:silver_ore: 10038
   omnimoe:deepslate_silver_ore: 10039
-  _iainternal:icon_left_blue: 10040
-  _iainternal:icon_right_blue: 10041
-  _iainternal:icon_search: 10042
-  _iainternal:icon_cancel: 10043
-  _iainternal:icon_arrow_chest: 10044
-  _iainternal:icon_back_orange: 10045
-  _iainternal:icon_next_orange: 10046
-
-IRON_SWORD:
-  omnimoe:amber_sword: 10000
-  omnimoe:amethyst_sword: 10001
-  omnimoe:iridium_sword: 10002
-  omnimoe:jade_sword: 10003
-  omnimoe:malachite_sword: 10004
-  omnimoe:mythril_sword: 10005
-  omnimoe:ruby_sword: 10006
-  omnimoe:silver_sword: 10007
-
-IRON_SHOVEL:
-  omnimoe:amber_shovel: 10000
-  omnimoe:amethyst_shovel: 10001
-  omnimoe:iridium_shovel: 10002
-  omnimoe:jade_shovel: 10003
-  omnimoe:malachite_shovel: 10004
-  omnimoe:mythril_shovel: 10005
-  omnimoe:ruby_shovel: 10006
-  omnimoe:silver_shovel: 10007
-
+  customcrops:dry_pot: 11000
+  customcrops:wet_pot: 11001
+  customcrops:scarecrow: 11002
+  customcrops:greenhouse_glass: 11003
+  customcrops:soil_surveyor: 11004
+  customcrops:crow_stand: 11005
+  customcrops:crow_fly: 11006
+  customcrops:crop_stage_death: 11007
+  omnimoe:amber_ingot: 10000
+  omnimoe:amethyst_ingot: 10005
+  omnimoe:iridium_ingot: 10010
+  omnimoe:jade_ingot: 10015
+  omnimoe:malachite_ingot: 10020
+  omnimoe:mythril_ingot: 10025
+  omnimoe:ruby_ingot: 10030
+  omnimoe:silver_ingot: 10035
+  customcrops:eggplant_stage_1: 15004
+  customcrops:eggplant_stage_2: 15005
+  customcrops:eggplant_stage_3: 15006
+  customcrops:eggplant_stage_4: 15007
+  customcrops:eggplant_seeds: 9003
+  customcrops:pepper_stage_1: 15008
+  customcrops:pepper_stage_2: 15009
+  customcrops:pepper_stage_3: 15010
+  customcrops:pepper_stage_4: 15011
+  customcrops:pepper_stage_5: 15012
+  customcrops:pepper_seeds: 9007
+  customcrops:speed_grow_1: 11015
+  customcrops:speed_grow_2: 11016
+  customcrops:speed_grow_3: 11017
+  customcrops:soil_retain_1: 11018
+  customcrops:soil_retain_2: 11019
+  customcrops:soil_retain_3: 11020
+  customcrops:quality_1: 11021
+  customcrops:quality_2: 11022
+  customcrops:quality_3: 11023
+  customcrops:yield_increase_1: 11024
+  customcrops:yield_increase_2: 11025
+  customcrops:yield_increase_3: 11026
+  customcrops:variation_1: 11027
+  customcrops:variation_2: 11028
+  customcrops:variation_3: 11029
+  omnimoe:amber_nugget: 10001
+  omnimoe:amethyst_nugget: 10006
+  omnimoe:iridium_nugget: 10011
+  omnimoe:jade_nugget: 10016
+  omnimoe:malachite_nugget: 10021
+  omnimoe:mythril_nugget: 10026
+  omnimoe:ruby_nugget: 10031
+  omnimoe:silver_nugget: 10036
+  customcrops:garlic_stage_1: 15013
+  customcrops:garlic_stage_2: 15014
+  customcrops:garlic_stage_3: 15015
+  customcrops:garlic_stage_4: 15016
+  customcrops:garlic_seeds: 9004
+  omnimoe:empty: 9200
+  omnimoe:empty_slot_redstone_dust: 9201
+  omnimoe:empty_slot_quartz: 9202
+  omnimoe:empty_slot_lapis_lazuli: 9203
+  omnimoe:empty_slot_ingot: 9204
+  omnimoe:empty_slot_emerald: 9205
+  omnimoe:empty_slot_diamond: 9206
+  omnimoe:empty_slot_amethyst_shard: 9207
+  omnimoe:empty_armor_slot_helmet: 9208
+  omnimoe:empty_armor_slot_chestplate: 9209
+  omnimoe:empty_armor_slot_leggings: 9210
+  omnimoe:empty_armor_slot_boots: 9211
+  omnimoe:empty_armor_slot_shield: 9212
+  omnimoe:empty_slot_sword: 9213
+  omnimoe:empty_slot_axe: 9214
+  omnimoe:empty_slot_hoe: 9215
+  omnimoe:empty_slot_shovel: 9216
+  omnimoe:empty_slot_pickaxe: 9217
+  omnimoe:empty_slot_smithing_template_armor_trim: 9218
+  omnimoe:empty_slot_smithing_template_netherite_upgrade: 9219
+  omnimoe:knowledge_book: 9220
+  customcrops:corn_stage_1: 15017
+  customcrops:corn_stage_2: 15018
+  customcrops:corn_stage_3: 15019
+  customcrops:corn_stage_4: 15020
+  customcrops:corn_seeds: 9002
+  customcrops:chinese_cabbage_stage_1: 15021
+  customcrops:chinese_cabbage_stage_2: 15022
+  customcrops:chinese_cabbage_stage_3: 15023
+  customcrops:chinese_cabbage_stage_4: 15024
+  customcrops:chinese_cabbage_seeds: 9001
+  omnimoe:amber_ore: 10003
+  omnimoe:amethyst_ore: 10008
+  omnimoe:iridium_ore: 10013
+  omnimoe:jade_ore: 10018
+  omnimoe:malachite_ore: 10023
+  omnimoe:mythril_ore: 10028
+  omnimoe:ruby_ore: 10033
+  omnimoe:silver_ore: 10038
+  _iainternal:icon_left_blue: 15025
+  _iainternal:icon_right_blue: 15026
+  _iainternal:icon_search: 15027
+  _iainternal:icon_cancel: 15028
+  _iainternal:icon_arrow_chest: 15029
+  _iainternal:icon_back_orange: 15030
+  _iainternal:icon_next_orange: 15031
+  customcrops:tomato_stage_1: 15032
+  customcrops:tomato_stage_2: 15033
+  customcrops:tomato_stage_3: 15034
+  customcrops:tomato_stage_4: 15035
+  customcrops:tomato_stage_golden: 15036
+  customcrops:tomato_seeds: 9010
+  customcrops:gigantic_tomato: 9102
+  customcrops:cabbage_stage_1: 15037
+  customcrops:cabbage_stage_2: 15038
+  customcrops:cabbage_stage_3: 15039
+  customcrops:cabbage_stage_4: 15040
+  customcrops:cabbage_seeds: 9000
+  customcrops:gigantic_cabbage: 9100
+  omnimoe:amber_shard: 10002
+  omnimoe:amethyst: 10007
+  omnimoe:iridium: 10012
+  omnimoe:malachite: 10017
+  omnimoe:raw_jade: 10022
+  omnimoe:raw_mythril: 10027
+  omnimoe:ruby: 10032
+  omnimoe:silver: 10037
+  customcrops:pineapple_stage_1: 15041
+  customcrops:pineapple_stage_2: 15042
+  customcrops:pineapple_stage_3: 15043
+  customcrops:pineapple_stage_4: 15044
+  customcrops:pineapple_seeds: 9008
+  customcrops:gigantic_pineapple: 9101
+  customcrops:water_effect: 11008
+  customcrops:sprinkler_1: 11009
+  customcrops:sprinkler_1_item: 11010
+  customcrops:sprinkler_2: 11011
+  customcrops:sprinkler_2_item: 11012
+  customcrops:sprinkler_3: 11013
+  customcrops:sprinkler_3_item: 11014
+  customcrops:grape_stage_1: 15045
+  customcrops:grape_stage_2: 15046
+  customcrops:grape_stage_3: 15047
+  customcrops:grape_stage_4: 15048
+  customcrops:grape_stage_5: 15049
+  customcrops:grape_stage_6: 15050
+  customcrops:grape_seeds: 9005
+  customcrops:pitaya_stage_1: 15051
+  customcrops:pitaya_stage_2: 15052
+  customcrops:pitaya_stage_3: 15053
+  customcrops:pitaya_stage_4: 15054
+  customcrops:pitaya_stage_5: 15055
+  customcrops:pitaya_stage_6: 15056
+  customcrops:pitaya_seeds: 9009
+APPLE:
+  customcrops:hop: 10018
+  customcrops:hop_silver_star: 10019
+  customcrops:hop_golden_star: 10020
+  customcrops:eggplant: 10009
+  customcrops:eggplant_silver_star: 10010
+  customcrops:eggplant_golden_star: 10011
+  customcrops:pepper: 10021
+  customcrops:pepper_silver_star: 10022
+  customcrops:pepper_golden_star: 10023
+  customcrops:garlic: 10012
+  customcrops:garlic_silver_star: 10013
+  customcrops:garlic_golden_star: 10014
+  customcrops:corn: 10006
+  customcrops:corn_silver_star: 10007
+  customcrops:corn_golden_star: 10008
+  customcrops:chinese_cabbage: 10003
+  customcrops:chinese_cabbage_silver_star: 10004
+  customcrops:chinese_cabbage_golden_star: 10005
+  customcrops:tomato: 10030
+  customcrops:tomato_silver_star: 10031
+  customcrops:tomato_golden_star: 10032
+  customcrops:golden_tomato: 10033
+  customcrops:cabbage: 10000
+  customcrops:cabbage_silver_star: 10001
+  customcrops:cabbage_golden_star: 10002
+  customcrops:pineapple: 10024
+  customcrops:pineapple_silver_star: 10025
+  customcrops:pineapple_golden_star: 10026
+  customcrops:grape: 10015
+  customcrops:grape_silver_star: 10016
+  customcrops:grape_golden_star: 10017
+  customcrops:pitaya: 10027
+  customcrops:pitaya_silver_star: 10028
+  customcrops:pitaya_golden_star: 10029
 IRON_PICKAXE:
   omnimoe:amber_pickaxe: 10000
   omnimoe:amethyst_pickaxe: 10001
@@ -83,17 +205,6 @@ IRON_PICKAXE:
   omnimoe:mythril_pickaxe: 10005
   omnimoe:ruby_pickaxe: 10006
   omnimoe:silver_pickaxe: 10007
-
-IRON_HOE:
-  omnimoe:amber_hoe: 10000
-  omnimoe:amethyst_hoe: 10001
-  omnimoe:iridium_hoe: 10002
-  omnimoe:jade_hoe: 10003
-  omnimoe:malachite_hoe: 10004
-  omnimoe:mythril_hoe: 10005
-  omnimoe:ruby_hoe: 10006
-  omnimoe:silver_hoe: 10007
-
 IRON_AXE:
   omnimoe:amber_axe: 10000
   omnimoe:amethyst_axe: 10001
@@ -103,12 +214,93 @@ IRON_AXE:
   omnimoe:mythril_axe: 10005
   omnimoe:ruby_axe: 10006
   omnimoe:silver_axe: 10007
-
+BRICK:
+  omnimoe:icon_kitsune_normal: 1000
+  omnimoe:icon_phoenix_flame: 1001
+LEATHER_HELMET:
+  omnimoe:malachite_helmet: 10004
+  omnimoe:iridium_helmet: 10002
+  omnimoe:jade_helmet: 10003
+  omnimoe:amber_helmet: 10000
+  omnimoe:silver_helmet: 10007
+  omnimoe:mythril_helmet: 10005
+  omnimoe:ruby_helmet: 10006
+  omnimoe:amethyst_helmet: 10001
+LEATHER_CHESTPLATE:
+  omnimoe:malachite_chestplate: 10004
+  omnimoe:iridium_chestplate: 10002
+  omnimoe:jade_chestplate: 10003
+  omnimoe:amber_chestplate: 10000
+  omnimoe:silver_chestplate: 10007
+  omnimoe:mythril_chestplate: 10005
+  omnimoe:ruby_chestplate: 10006
+  omnimoe:amethyst_chestplate: 10001
+LEATHER_LEGGINGS:
+  omnimoe:malachite_leggings: 10004
+  omnimoe:iridium_leggings: 10002
+  omnimoe:jade_leggings: 10003
+  omnimoe:amber_leggings: 10000
+  omnimoe:silver_leggings: 10007
+  omnimoe:mythril_leggings: 10005
+  omnimoe:ruby_leggings: 10006
+  omnimoe:amethyst_leggings: 10001
+LEATHER_BOOTS:
+  omnimoe:malachite_boots: 10004
+  omnimoe:iridium_boots: 10002
+  omnimoe:jade_boots: 10003
+  omnimoe:amber_boots: 10000
+  omnimoe:silver_boots: 10007
+  omnimoe:mythril_boots: 10005
+  omnimoe:ruby_boots: 10006
+  omnimoe:amethyst_boots: 10001
+IRON_SWORD:
+  omnimoe:amber_sword: 10000
+  omnimoe:amethyst_sword: 10001
+  omnimoe:iridium_sword: 10002
+  omnimoe:jade_sword: 10003
+  omnimoe:malachite_sword: 10004
+  omnimoe:mythril_sword: 10005
+  omnimoe:ruby_sword: 10006
+  omnimoe:silver_sword: 10007
+IRON_HOE:
+  omnimoe:amber_hoe: 10000
+  omnimoe:amethyst_hoe: 10001
+  omnimoe:iridium_hoe: 10002
+  omnimoe:jade_hoe: 10003
+  omnimoe:malachite_hoe: 10004
+  omnimoe:mythril_hoe: 10005
+  omnimoe:ruby_hoe: 10006
+  omnimoe:silver_hoe: 10007
+FISHING_ROD:
+  omnimoe:prismarine_fishing_rod: 10000
+  omnimoe:sculk_fishing_rod: 10001
+  omnimoe:ice_fishing_rod: 10002
+  omnimoe:iron_fishing_rod: 10003
+  omnimoe:copper_fishing_rod: 10004
+  omnimoe:diamond_fishing_rod: 10005
+  omnimoe:golden_fishing_rod: 10006
+  omnimoe:netherite_fishing_rod: 10007
+  omnimoe:nether_fishing_rod: 10008
+  omnimoe:end_fishing_rod: 10009
 NETHERITE_SWORD:
   omnimoe:master_sword: 10000
   omnimoe:masters_katana: 10001
 BOW:
   omnimoe:masters_bow: 10000
+IRON_SHOVEL:
+  omnimoe:amber_shovel: 10000
+  omnimoe:amethyst_shovel: 10001
+  omnimoe:iridium_shovel: 10002
+  omnimoe:jade_shovel: 10003
+  omnimoe:malachite_shovel: 10004
+  omnimoe:mythril_shovel: 10005
+  omnimoe:ruby_shovel: 10006
+  omnimoe:silver_shovel: 10007
+GOLDEN_HORSE_ARMOR:
+  customcrops:watering_can_1: 10000
+  customcrops:watering_can_2: 10001
+  customcrops:watering_can_3: 10002
+  customcrops:watering_can_4: 10003
 PLAYER_HEAD:
   __manually_handled:_iainternal__player_phead_0: 10000
   __manually_handled:_iainternal__player_parm_left_3: 10001
@@ -116,8 +308,3 @@ PLAYER_HEAD:
   __manually_handled:_iainternal__player_pleg_left_1: 10003
   __manually_handled:_iainternal__player_pleg_right_5: 10004
   __manually_handled:_iainternal__player_parm_right_4: 10005
-
-
-
-
-

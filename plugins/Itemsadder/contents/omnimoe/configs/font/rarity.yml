@@ -1,0 +1,58 @@
+info:
+  namespace: omnimoe
+font_images:
+  common:
+    path: font/rarity/common
+    symbol: 豈  # \uf900
+    suggest_in_command: false
+    scale_ratio: 14
+    y_position: 7
+
+  uncommon:
+    path: font/rarity/uncommon
+    symbol: 更  # \uf901
+    suggest_in_command: false
+    scale_ratio: 14
+    y_position: 7
+  
+  rare:
+    path: font/rarity/rare
+    symbol: 車  # \uf902
+    suggest_in_command: false
+    scale_ratio: 14
+    y_position: 7
+
+  epic:
+    path: font/rarity/epic
+    symbol: 賈  # \uf903
+    suggest_in_command: false
+    scale_ratio: 14
+    y_position: 7
+
+  legendary:
+    path: font/rarity/legendary
+    symbol: 滑  # \uf904
+    suggest_in_command: false
+    scale_ratio: 14
+    y_position: 7
+
+  mythic:
+    path: font/rarity/mythic
+    symbol: 串  # \uf905
+    suggest_in_command: false
+    scale_ratio: 14
+    y_position: 7
+
+  divine:
+    path: font/rarity/divine
+    symbol: 句  # \uf906
+    suggest_in_command: false
+    scale_ratio: 14
+    y_position: 7
+
+  cosmetic:
+    path: font/rarity/cosmetic
+    symbol: 龜  # \uf907
+    suggest_in_command: false
+    scale_ratio: 14
+    y_position: 7

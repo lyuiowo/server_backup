@@ -1,0 +1,52 @@
+info:
+  namespace: customcrops
+  dictionary-lang: "zh_cn"
+
+dictionary:
+  # 图鉴标题
+  display-category-seeds: 种子一览
+  display-category-crops: 农作物一览
+
+  display-name-dry_pot: 种植盆
+  display-name-wet_pot: 湿润的种植盆
+  display-name-scarecrow: 稻草人
+  display-name-greenhouse_glass: 温室玻璃
+  display-name-soil_surveyor: 土质测量仪
+  display-name-crow_stand: 乌鸦 (站立)
+  display-name-crow_fly: 乌鸦 (飞行)
+  display-name-crop_stage_death: 枯死的植物
+
+  display-name-speed_grow_1: 加速生长 I
+  display-name-speed_grow_2: 加速生长 II
+  display-name-speed_grow_3: 加速生长 III
+  display-name-soil_retain_1: 土地饱肥 I
+  display-name-soil_retain_2: 土地饱肥 II
+  display-name-soil_retain_3: 土地饱肥 III
+  display-name-quality_1: 品质提升 I
+  display-name-quality_2: 品质提升 II
+  display-name-quality_3: 品质提升 III
+  display-name-yield_increase_1: 产量增加 I
+  display-name-yield_increase_2: 产量增加 II
+  display-name-yield_increase_3: 产量增加 III
+  display-name-variation_1: 魔药 I
+  display-name-variation_2: 魔药 II
+  display-name-variation_3: 魔药 III
+
+  display-name-watering_can_1: 铜制洒水壶
+  display-name-watering_can_2: 钢制洒水壶
+  display-name-watering_can_3: 金制洒水壶
+  display-name-watering_can_4: 铱制洒水壶
+
+  display-name-water_effect: 效果 (水)
+  display-name-sprinkler_1: 铁质洒水器 (实体)
+  display-name-sprinkler_2: 金质洒水器 (实体)
+  display-name-sprinkler_3: 铱质洒水器 (实体)
+  display-name-sprinkler_1_item: 铁质洒水器
+  display-name-sprinkler_2_item: 金质洒水器
+  display-name-sprinkler_3_item: 铱质洒水器
+
+
+
+
+
+

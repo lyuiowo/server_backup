@@ -6,6 +6,7 @@ items:
     display_name: display-name-iridium_helmet
     resource:
       generate: true
+      model_id: 10002
       textures:
       - armor/iridium_helmet
     specific_properties:
@@ -16,6 +17,7 @@ items:
     display_name: display-name-iridium_chestplate
     resource:
       generate: true
+      model_id: 10002
       textures:
       - armor/iridium_chestplate
     specific_properties:
@@ -26,6 +28,7 @@ items:
     display_name: display-name-iridium_leggings
     resource:
       generate: true
+      model_id: 10002
       textures:
       - armor/iridium_leggings
     specific_properties:
@@ -36,6 +39,7 @@ items:
     display_name: display-name-iridium_boots
     resource:
       generate: true
+      model_id: 10002
       textures:
       - armor/iridium_boots
     specific_properties:
@@ -46,6 +50,6 @@ items:
 armors_rendering:
   iridium:
     color: "#9438d6"
-    layer_1: iridium_armor_layer_1
-    layer_2: iridium_armor_layer_2
+    layer_1: armor/iridium_armor_layer_1
+    layer_2: armor/iridium_armor_layer_2
     # use_color: false

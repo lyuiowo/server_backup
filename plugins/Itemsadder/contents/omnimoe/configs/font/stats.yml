@@ -1,0 +1,148 @@
+info:
+  namespace: omnimoe
+font_images:
+  abilitydamage:
+    path: font/stats/abilitydamage
+    symbol: 蘿  # \uf910
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  abilityhaste:
+    path: font/stats/abilityhaste
+    symbol: 螺  # \uf911
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  attackspeed:
+    path: font/stats/attackspeed
+    symbol: 裸  # \uf912
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  critchance:
+    path: font/stats/critchance
+    symbol: 邏  # \uf913
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  critdamage:
+    path: font/stats/critdamage
+    symbol: 樂  # \uf914
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  damage:
+    path: font/stats/damage
+    symbol: 洛  # \uf915
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  damagereduction:
+    path: font/stats/damagereduction
+    symbol: 烙  # \uf916
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  defense:
+    path: font/stats/defense
+    symbol: 珞  # \uf917
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  healing:
+    path: font/stats/healing
+    symbol: 落  # \uf918
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  health:
+    path: font/stats/health
+    symbol: 酪  # \uf919
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  lifesteal:
+    path: font/stats/lifesteal
+    symbol: 駱  # \uf91A
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  luck:
+    path: font/stats/luck
+    symbol: 亂  # \uf91B
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  pickaxe_power:
+    path: font/stats/pickaxe_power
+    symbol: 卵  # \uf91C
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  projectile_damage:
+    path: font/stats/projectile_damage
+    symbol: 欄  # \uf91D
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  regen:
+    path: font/stats/regen
+    symbol: 爛  # \uf91E
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  speed:
+    path: font/stats/speed
+    symbol: 蘭  # \uf91F
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  stats:
+    path: font/stats/stats
+    symbol: 鸞  # \uf920
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  strength:
+    path: font/stats/strength
+    symbol: 嵐  # \uf921
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  tenacity:
+    path: font/stats/tenacity
+    symbol: 濫  # \uf922
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  weapon_damage:
+    path: font/stats/weapon_damage
+    symbol: 藍  # \uf923
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  wisdom:
+    path: font/stats/wisdom
+    symbol: 襤  # \uf924
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  abilityvamp:
+    path: font/stats/abilityvamp
+    symbol: 拉  # \uf925
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  arrowvelocity:
+    path: font/stats/arrowvelocity
+    symbol: 臘  # \uf926
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+  magic_damage:
+    path: font/stats/magic_damage
+    symbol: 蠟  # \uf927
+    suggest_in_command: false
+    scale_ratio: 9
+    y_position: 8
+    

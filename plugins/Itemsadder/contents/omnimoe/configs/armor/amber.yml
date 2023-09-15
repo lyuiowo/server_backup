@@ -6,6 +6,7 @@ items:
     display_name: display-name-amber_helmet
     resource:
       generate: true
+      model_id: 10000
       textures:
       - armor/amber_helmet
     specific_properties:
@@ -16,6 +17,7 @@ items:
     display_name: display-name-amber_chestplate
     resource:
       generate: true
+      model_id: 10000
       textures:
       - armor/amber_chestplate
     specific_properties:
@@ -26,6 +28,7 @@ items:
     display_name: display-name-amber_leggings
     resource:
       generate: true
+      model_id: 10000
       textures:
       - armor/amber_leggings
     specific_properties:
@@ -36,6 +39,7 @@ items:
     display_name: display-name-amber_boots
     resource:
       generate: true
+      model_id: 10000
       textures:
       - armor/amber_boots
     specific_properties:
@@ -46,6 +50,6 @@ items:
 armors_rendering:
   amber:
     color: "#e8a438"
-    layer_1: amber_armor_layer_1
-    layer_2: amber_armor_layer_2
-    # use_color: false
+    layer_1: armor/amber_armor_layer_1
+    layer_2: armor/amber_armor_layer_2
+    use_color: false

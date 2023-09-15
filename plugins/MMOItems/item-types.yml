@@ -24,12 +24,12 @@ SWORD:
     unident-item:
         name: '&f#prefix#未鉴定的 Sword'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 DAGGER:
     display: STONE_SWORD
@@ -37,12 +37,12 @@ DAGGER:
     unident-item:
         name: '&f#prefix#未鉴定的 Dagger'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 SPEAR:
     display: TRIDENT
@@ -50,12 +50,12 @@ SPEAR:
     unident-item:
         name: '&f#prefix#未鉴定的 Spear'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 HAMMER:
     display: IRON_AXE
@@ -63,12 +63,12 @@ HAMMER:
     unident-item:
         name: '&f#prefix#未鉴定的锤子'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 GAUNTLET:
     display: IRON_HORSE_ARMOR
@@ -76,12 +76,12 @@ GAUNTLET:
     unident-item:
         name: '&f#prefix#未鉴定的 Gauntlet'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 WHIP:
     display: LEAD
@@ -89,12 +89,12 @@ WHIP:
     unident-item:
         name: '&f#prefix#未鉴定的鞭子'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 STAFF:
     display: DIAMOND_HOE
@@ -102,12 +102,12 @@ STAFF:
     unident-item:
         name: '&f#prefix#未鉴定的法杖'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 BOW:
     display: BOW
@@ -115,12 +115,12 @@ BOW:
     unident-item:
         name: '&f#prefix#未鉴定的弓'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 CROSSBOW:
     display: WOODEN_PICKAXE
@@ -128,12 +128,12 @@ CROSSBOW:
     unident-item:
         name: '&f#prefix#未鉴定的弩'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 MUSKET:
     display: IRON_HORSE_ARMOR
@@ -141,12 +141,12 @@ MUSKET:
     unident-item:
         name: '&f#prefix#未鉴定的滑膛枪'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 LUTE:
     display: NAME_TAG
@@ -154,12 +154,12 @@ LUTE:
     unident-item:
         name: '&f#prefix#未鉴定的琵琶'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 # Applies stats in both hands
 CATALYST:
@@ -168,12 +168,12 @@ CATALYST:
     unident-item:
         name: '&f#prefix#未鉴定的 Catalyst'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 # Applies stats in offhand only
 OFF_CATALYST:
@@ -182,12 +182,12 @@ OFF_CATALYST:
     unident-item:
         name: '&f#prefix#未鉴定的 Catalyst'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 # Applies stats in mainhand only
 MAIN_CATALYST:
@@ -196,12 +196,12 @@ MAIN_CATALYST:
     unident-item:
         name: '&f#prefix#未鉴定的 Catalyst'
         lore:
-            - '&7This item is unidentified. I must'
-            - '&7find a way to identify it!'
+            - '&7这个物品需要鉴定'
+            - '&7你需要想办法鉴定它'
             - '{tier}'
-            - '{tier}&8Item Info:'
-            - '{range}&8- &7Lvl Range: &e#range#'
-            - '{tier}&8- &7Item Tier: #prefix##tier#'
+            - '{tier}&8物品信息:'
+            - '{range}&8- &7等级范围: &e#range#'
+            - '{tier}&8- &7物品品质: #prefix##tier#'
 
 ORNAMENT:
     display: GOLD_NUGGET
@@ -209,12 +209,12 @@ ORNAMENT:
     unident-item:
         name: '&f#prefix#未鉴定的 Ornament'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 ACCESSORY:
     display: DIAMOND
@@ -222,12 +222,12 @@ ACCESSORY:
     unident-item:
         name: '&f#prefix#未鉴定的 Accessory'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 ARMOR:
     display: IRON_CHESTPLATE
@@ -235,12 +235,12 @@ ARMOR:
     unident-item:
         name: '&f#prefix#未鉴定的护甲'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 TOOL:
     display: IRON_PICKAXE
@@ -248,12 +248,12 @@ TOOL:
     unident-item:
         name: '&f#prefix#未鉴定的工具'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 CONSUMABLE:
     display: APPLE
@@ -261,12 +261,12 @@ CONSUMABLE:
     unident-item:
         name: '&f#prefix#未鉴定的消耗品'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 MISCELLANEOUS:
     display: WATER_BUCKET
@@ -274,12 +274,12 @@ MISCELLANEOUS:
     unident-item:
         name: '&f#prefix#未鉴定的杂项'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 SKIN:
     display: LEATHER
@@ -287,12 +287,12 @@ SKIN:
     unident-item:
         name: '&f#prefix#未鉴定的换肤道具'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 GEM_STONE:
     display: EMERALD
@@ -300,12 +300,12 @@ GEM_STONE:
     unident-item:
         name: '&f#prefix#未鉴定的宝石'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 BLOCK:
     display: STONE:0
@@ -313,12 +313,12 @@ BLOCK:
     unident-item:
         name: '&f#prefix#未鉴定的方块'
         lore:
-            - '&7This item is unidentified. I must'
-            - '&7find a way to identify it!'
+            - '&7这个物品需要鉴定'
+            - '&7你需要想办法鉴定它'
             - '{tier}'
-            - '{tier}&8Item Info:'
-            - '{range}&8- &7Lvl Range: &e#range#'
-            - '{tier}&8- &7Item Tier: #prefix##tier#'
+            - '{tier}&8物品信息:'
+            - '{range}&8- &7等级范围: &e#range#'
+            - '{tier}&8- &7物品品质: #prefix##tier#'
 
 
 # Default subtypes
@@ -329,12 +329,12 @@ GREATSWORD:
     unident-item:
         name: '&f#prefix#未鉴定的巨剑'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 LONG_SWORD:
     display: STONE_SWORD
@@ -343,12 +343,12 @@ LONG_SWORD:
     unident-item:
         name: '&f#prefix#未鉴定的长剑'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 KATANA:
     display: IRON_SWORD
@@ -357,12 +357,12 @@ KATANA:
     unident-item:
         name: '&f#prefix#未鉴定的武士刀'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 THRUSTING_SWORD:
     display: GOLDEN_SWORD
@@ -371,12 +371,12 @@ THRUSTING_SWORD:
     unident-item:
         name: '&f#prefix#未鉴定的刺剑'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
     
 AXE:
     display: STONE_AXE
@@ -385,12 +385,12 @@ AXE:
     unident-item:
         name: '&f#prefix#未鉴定的斧头'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
     
 GREATAXE:
     display: DIAMOND_AXE
@@ -399,12 +399,12 @@ GREATAXE:
     unident-item:
         name: '&f#prefix#未鉴定的巨斧'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
     
 HALBERD:
     display: IRON_AXE
@@ -413,12 +413,12 @@ HALBERD:
     unident-item:
         name: '&f#prefix#未鉴定的长戟'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
     
 LANCE:
     display: STICK
@@ -427,12 +427,12 @@ LANCE:
     unident-item:
         name: '&f#prefix#未鉴定的 Lance'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
     
 GREATHAMMER:
     display: DIAMOND_AXE
@@ -441,12 +441,12 @@ GREATHAMMER:
     unident-item:
         name: '&f#prefix#未鉴定的重锤'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
     
 GREATSTAFF:
     display: DIAMOND_HOE
@@ -455,12 +455,12 @@ GREATSTAFF:
     unident-item:
         name: '&f#prefix#未鉴定的 Greatstaff'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
     
 STAVE:
     display: IRON_HOE
@@ -469,12 +469,12 @@ STAVE:
     unident-item:
         name: '&f#prefix#未鉴定的 Stave'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
     
 TOME:
     display: BOOK
@@ -483,12 +483,12 @@ TOME:
     unident-item:
         name: '&f#prefix#未鉴定的法书'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
     
 TALISMAN:
     display: TOTEM_OF_UNDYING
@@ -497,12 +497,12 @@ TALISMAN:
     unident-item:
         name: '&f#prefix#未鉴定的护符'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
  
 WAND:
     display: STICK
@@ -511,12 +511,12 @@ WAND:
     unident-item:
         name: '&f#prefix#未鉴定的 Wand'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 GREATBOW:
     display: BOW
@@ -525,12 +525,12 @@ GREATBOW:
     unident-item:
         name: '&f#prefix#未鉴定的长弓'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
     
 SHIELD:
     display: SHIELD
@@ -539,12 +539,12 @@ SHIELD:
     unident-item:
         name: '&f#prefix#未鉴定的盾牌'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
     
 MATERIAL:
     display: PAPER
@@ -553,12 +553,12 @@ MATERIAL:
     unident-item:
         name: '&f#prefix#未鉴定的原材料'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 # 新增
 FOOD:
@@ -568,13 +568,40 @@ FOOD:
     unident-item:
         name: '&f#prefix#未鉴定的食物'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
+FISH:
+    display: COD
+    name: '鱼'
+    parent: 'CONSUMABLE'
+    unident-item:
+        name: '&f#prefix#未鉴定的鱼'
+        lore:
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
+        - '{tier}'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
+
+MAGIC_GEM:
+    display: EMERALD
+    name: '魔法石'
+    parent: MATERIAL
+    unident-item:
+        name: '&f#prefix#未鉴定的魔法石'
+        lore:
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
+        - '{tier}'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 SCYTHE:
     display: IRON_HOE
     name: '镰刀'
@@ -582,12 +609,12 @@ SCYTHE:
     unident-item:
         name: '&f#prefix#未鉴定的镰刀'
         lore:
-        - '&7This item is unidentified. I must'
-        - '&7find a way to identify it!'
+        - '&7这个物品需要鉴定'
+        - '&7你需要想办法鉴定它'
         - '{tier}'
-        - '{tier}&8Item Info:'
-        - '{range}&8- &7Lvl Range: &e#range#'
-        - '{tier}&8- &7Item Tier: #prefix##tier#'
+        - '{tier}&8物品信息:'
+        - '{range}&8- &7等级范围: &e#range#'
+        - '{tier}&8- &7物品品质: #prefix##tier#'
 
 
 

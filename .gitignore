@@ -19,7 +19,6 @@ banned-ips.json
 banned-players.json
 bukkit.yml
 commands.yml
-config.yml
 help.yml
 ops.json
 permissions.yml
@@ -35,3 +34,6 @@ generated.zip
 
 *.db
 *.class
+Server/assets/
+Server/.console_history
+

@@ -1,0 +1,58 @@
+info:
+  namespace: customcrops
+
+categories:
+  customcrops_crops:
+    enabled: true
+    icon: customcrops:cabbage
+    name: display-category-customcrops_crops
+    items:
+      - customcrops:cabbage
+      - customcrops:cabbage_silver_star
+      - customcrops:cabbage_golden_star
+      - customcrops:chinese_cabbage
+      - customcrops:chinese_cabbage_silver_star
+      - customcrops:chinese_cabbage_golden_star
+      - customcrops:corn
+      - customcrops:corn_silver_star
+      - customcrops:corn_golden_star
+      - customcrops:eggplant
+      - customcrops:eggplant_silver_star
+      - customcrops:eggplant_golden_star
+      - customcrops:garlic
+      - customcrops:garlic_silver_star
+      - customcrops:garlic_golden_star
+      - customcrops:grape
+      - customcrops:grape_silver_star
+      - customcrops:grape_golden_star
+      - customcrops:hop
+      - customcrops:hop_silver_star
+      - customcrops:hop_golden_star
+      - customcrops:pepper
+      - customcrops:pepper_silver_star
+      - customcrops:pepper_golden_star
+      - customcrops:pineapple
+      - customcrops:pineapple_silver_star
+      - customcrops:pineapple_golden_star
+      - customcrops:pitaya
+      - customcrops:pitaya_silver_star
+      - customcrops:pitaya_golden_star
+      - customcrops:tomato
+      - customcrops:tomato_silver_star
+      - customcrops:tomato_golden_star
+  customcrops_seeds:
+    enabled: true
+    icon: customcrops:cabbage_seeds
+    name: display-category-customcrops_seeds
+    items:
+      - customcrops:cabbage_seeds
+      - customcrops:chinese_cabbage_seeds
+      - customcrops:corn_seeds
+      - customcrops:eggplant_seeds
+      - customcrops:garlic_seeds
+      - customcrops:grape_seeds
+      - customcrops:hop_seeds
+      - customcrops:pepper_seeds
+      - customcrops:pineapple_seeds
+      - customcrops:pitaya_seeds
+      - customcrops:tomato_seeds

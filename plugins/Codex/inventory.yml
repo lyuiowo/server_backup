@@ -1,0 +1,86 @@
+Inventories:
+  main:
+    slots: 45
+    title: '&4Codex &7» &8全部词典'
+    '21':
+      type: history
+      item: BOOK
+      name: '&7词典: %name%'
+      lore:
+      - '&e在你的冒险中你会发现一些有趣的知识。'
+      - ''
+      - '&7已解锁: %unlocked% &8[%progress_bar%&8] &8(&7%percentage%&8)'
+      open_inventory: history_discoveries
+    '22':
+      type: regions
+      item: PAPER
+      name: '&7词典: %name%'
+      custom_model_data: 9225
+      lore:
+      - '&e你探索过的不同区域将显示在这里。'
+      - ''
+      - '&7已解锁: %unlocked% &8[%progress_bar%&8] &8(&7%percentage%&8)'
+      open_inventory: regions_discoveries
+    '23':
+      type: monsters
+      item: PAPER
+      custom_model_data: 9222
+      name: '&7词典: %name%'
+      lore:
+      - '&e有关你遇到的不同怪物的信息。'
+      - ''
+      - '&7已解锁: %unlocked% &8[%progress_bar%&8] &8(&7%percentage%&8)'
+      open_inventory: monsters_discoveries
+    '40':
+      item: BARRIER
+      name: '&7关闭'
+      open_inventory: close
+  history_discoveries:
+    slots: 45
+    title: '&4Codex &7» &8History'
+    '11':
+      type: history;1
+      item: PAPER
+      name: '&6发现: %name%'
+      lore:
+      - '%lore%'
+    '39':
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+      name: '&7返回'
+      open_inventory: main
+
+  regions_discoveries:
+    slots: 45
+    title: '&4Codex &7» &8Regions'
+    '11':
+      type: regions;1
+      item: PAPER
+      custom_model_data: 9225
+      name: '&6发现: %name%'
+      lore:
+      - '%lore%'
+    '12':
+      type: regions;2
+      item: PAPER
+      custom_model_data: 9225
+      name: '&6发现: %name%'
+      lore:
+      - '%lore%'
+    '39':
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+      name: '&7返回'
+      open_inventory: main
+  monsters_discoveries:
+    slots: 45
+    title: '&4Codex &7» &8Monsters'
+    '11':
+      type: monsters;1
+      item: PAPER
+      custom_model_data: 9222
+      name: '&6发现: %name%'
+      lore:
+      - '%lore%'
+    '39':
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0=
+      name: '&7返回'
+      open_inventory: main

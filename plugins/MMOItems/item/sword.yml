@@ -1,98 +1,53 @@
-MASTER_SWORD:
-  base:
-    material: DIAMOND_SWORD
-    name: '&f 뀀  大师剑 '
-    custom-model-data: 10000.0
-    will-break: false
-    revision-id: 1
-    durability: 3000
-    attack-damage: 10
-    attack-speed: 1.6
-    upgrade:
-      max: 3
-      workbench: true
-      success: 70.0
-      destroy: false
-      template: weapon-default
-    critical-strike-power: 1.0
-    critical-strike-chance: 10.0
-    tier: DIVINE
-HOLY_BLADE:
-  base:
-    material: DIAMOND_SWORD
-    name: '&f 뀀  神圣剑 '
-    custom-model-data: 10001.0
-    will-break: false
-    revision-id: 1
-    durability: 2500
-    attack-damage: 9
-    attack-speed: 1.6
-AMETHYST_SHARD_SWORD:
+AMBER_SWORD:
   base:
     material: IRON_SWORD
-    name: '&f 뀀  紫水晶剑 '
-    custom-model-data: 10001.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 6.5
-    attack-speed: 1.6
-    durability: 1024
-BLAZE_SWORD:
+    custom-model-data: 10000
+    name: '&f 뀀  &f琥珀剑 '
+AMETHYST_SWORD:
   base:
     material: IRON_SWORD
-    name: '&f 뀀  烈焰剑 '
-    custom-model-data: 10000.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 6.5
-    attack-speed: 1.6
-    durability: 1024
-COPPER_SWORD:
-  base:
-    material: STONE_SWORD
-    name: '&f 뀀  铜剑 '
-    custom-model-data: 10000.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 5
-    attack-speed: 1.6
-    durability: 250
-EMERALD_SWORD:
-  base:
-    material: DIAMOND_SWORD
-    name: '&f 뀀  绿宝石剑 '
-    custom-model-data: 10002.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 7.5
-    attack-speed: 1.6
-    durability: 1888
-FLINT_SWORD:
-  base:
-    material: STONE_SWORD
-    name: '&f 뀀  燧石剑 '
-    custom-model-data: 10001.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 5
-    attack-speed: 1.6
-    durability: 172
-PRISMARINE_SHARD_SWORD:
+    custom-model-data: 10001
+    name: '&f 뀀  &f水晶剑 '
+IRIDIUM_SWORD:
   base:
     material: IRON_SWORD
-    name: '&f 뀀  海晶石剑 '
-    custom-model-data: 10002.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 6.5
-    attack-speed: 1.6
-    durability: 1024
+    custom-model-data: 10002
+    name: '&f 뀀  &f铱剑 '
+JADE_SWORD:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10003
+    name: '&f 뀀  &f玉石剑 '
+MALACHITE_SWORD:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10004
+    name: '&f 뀀  &f孔雀石剑 '
+MYTHRIL_SWORD:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10005
+    name: '&f 뀀  &f秘银剑 '
+RUBY_SWORD:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10006
+    name: '&f 뀀  &f红宝石剑 '
 SILVER_SWORD:
   base:
     material: IRON_SWORD
-    name: '&f 뀀  银剑 '
-    will-break: true
-    revision-id: 1
-    attack-damage: 6.5
+    custom-model-data: 10007
+    name: '&f 뀀  &f银剑 '
+
+MASTER_SWORD:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10000
+    name: '&f 뀀  &f大师剑 '
+    attack-damage: 13
     attack-speed: 1.6
-    durability: 1024
+    max-durability: 5000
+    disable-smithing: true
+    disable-crafting: true
+    tier: DIVINE
+

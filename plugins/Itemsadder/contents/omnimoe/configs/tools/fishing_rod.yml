@@ -1,0 +1,86 @@
+info:
+  namespace: omnimoe
+
+items:
+  prismarine_fishing_rod:
+    display_name: display-name-prismarine_fishing_rod
+    resource:
+      material: fishing_rod
+      generate: false
+      model_id: 10000
+      model_path: tools/fishing_rod/prismarine_fishing_rod
+  
+  sculk_fishing_rod:
+    display_name: display-name-sculk_fishing_rod
+    resource:
+      material: fishing_rod
+      generate: false
+      model_id: 10001
+      model_path: tools/fishing_rod/sculk_fishing_rod
+
+  ice_fishing_rod:
+    display_name: display-name-ice_fishing_rod
+    resource:
+      material: fishing_rod
+      generate: false
+      model_id: 10002
+      model_path: tools/fishing_rod/ice_fishing_rod
+
+  iron_fishing_rod:
+    display_name: display-name-iron_fishing_rod
+    resource:
+      material: fishing_rod
+      generate: false
+      model_id: 10003
+      model_path: tools/fishing_rod/iron_fishing_rod
+
+  copper_fishing_rod:
+    display_name: display-name-copper_fishing_rod
+    resource:
+      material: fishing_rod
+      generate: false
+      model_id: 10004
+      model_path: tools/fishing_rod/cooper_fishing_rod
+
+  diamond_fishing_rod:
+    display_name: display-name-diamond_fishing_rod
+    resource:
+      material: fishing_rod
+      generate: false
+      model_id: 10005
+      model_path: tools/fishing_rod/diamond_fishing_rod
+
+  golden_fishing_rod:
+    display_name: display-name-golden_fishing_rod
+    resource:
+      material: fishing_rod
+      generate: false
+      model_id: 10006
+      model_path: tools/fishing_rod/golden_fishing_rod
+
+  netherite_fishing_rod:
+    display_name: display-name-netherite_fishing_rod
+    resource:
+      material: fishing_rod
+      generate: false
+      model_id: 10007
+      model_path: tools/fishing_rod/netherite_fishing_rod
+
+  nether_fishing_rod:
+    display_name: display-name-nether_fishing_rod
+    resource:
+      material: fishing_rod
+      generate: false
+      model_id: 10008
+      model_path: tools/fishing_rod/nether_fishing_rod
+
+  end_fishing_rod:
+    display_name: display-name-end_fishing_rod
+    resource:
+      material: fishing_rod
+      generate: false
+      model_id: 10009
+      model_path: tools/fishing_rod/end_fishing_rod
+
+
+

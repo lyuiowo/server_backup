@@ -1,0 +1,31 @@
+Id: Phoenix_Flame
+MythicMob: Phoenix_Flame
+Permission: mcpet.phoenix_flame
+Mountable: true
+MountType: flying
+Distance: 6
+DismountOnDamaged: false
+SpawnRange: 3
+ComingBackRange: 10
+Icon:
+  Name: §b凤凰
+  Material: BRICK
+  CustomModelData: 1001
+  Description:
+  - §fGet your pet Phoenix!
+Signals:
+  Values:
+  - DASH
+  Item:
+    Name: §bSignal Feather
+    Material: FEATHER
+Skins:
+  Phoenix_Flame:
+    MythicMob: Phoenix_Flame
+    Permission: skin.phoenix_flame
+    Icon:
+      Material: BRICK
+      CustomModelData: 2532
+      DisplayName: §c凤凰 (火焰)
+      Lore:
+      - §fGet your pet Phoenix!

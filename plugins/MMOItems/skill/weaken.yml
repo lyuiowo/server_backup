@@ -1,7 +1,7 @@
 name: Weaken
 modifier:
   duration:
-    name: Duration
+    name: 持续时间
     default-value: 0
   timer:
     name: Timer
@@ -10,13 +10,13 @@ modifier:
     name: Delay
     default-value: 0
   mana:
-    name: Mana
+    name: 魔力
     default-value: 0
   stamina:
-    name: Stamina
+    name: 体力
     default-value: 0
   cooldown:
-    name: Cooldown
+    name: 冷却时间
     default-value: 0
   ratio:
     name: Ratio

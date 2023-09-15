@@ -1,0 +1,21 @@
+info:
+  namespace: omnimoe
+
+items:
+  icon_kitsune_normal:
+    display_name: display-name-icon_kitsune_normal
+    # permission: icon_kitsune_normal
+    resource:
+      material: BRICK
+      model_id: 1000
+      generate: false
+      model_path: pet/icon_kitsune_normal
+
+  icon_phoenix_flame:
+    display_name: display-name-icon_phoenix_flame
+    # permission: icon_phoenix_flame
+    resource:
+      material: BRICK
+      model_id: 1001
+      generate: false
+      model_path: pet/icon_phoenix_flame

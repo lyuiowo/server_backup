@@ -1,236 +1,125 @@
-# 铜
-COPPER_HOE:
-  base:
-    material: STONE_HOE
-    name: '&f 뀀  铜锄 '
-    custom-model-data: 10000.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 1
-    attack-speed: 2
-    max-durability: 200
-COPPER_PICKAXE:
-  base:
-    material: STONE_PICKAXE
-    name: '&f 뀀  铜镐 '
-    custom-model-data: 10000.0
-    will-break: true
-    revision-id: 1
-    pickaxe-power: 5
-    attack-damage: 4
-    attack-speed: 1.2
-    max-durability: 200
-COPPER_SHOVEL:
-  base:
-    material: STONE_SHOVEL
-    name: '&f 뀀  铜锹 '
-    custom-model-data: 10000.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 4
-    attack-speed: 1
-    max-durability: 200
-# 紫水晶
-AMETHYST_SHARD_HOE:
+AMBER_HOE:
   base:
     material: IRON_HOE
-    name: '&f 뀀  紫水晶锄 '
-    custom-model-data: 10000.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 1
-    attack-speed: 3.5
-    max-durability: 1024
-AMETHYST_SHARD_PICKAXE:
-  base:
-    material: IRON_PICKAXE
-    name: '&f 뀀  紫水晶镐 '
-    custom-model-data: 10000.0
-    will-break: true
-    revision-id: 1
-    enchants:
-      xray: 1.0
-    attack-damage: 4.5
-    attack-speed: 1.2
-    pickaxe-power: 7
-    max-durability: 1024
-AMETHYST_SHARD_SHOVEL:
+    name: '&f 뀀  &f琥珀锄 '
+    custom-model-data: 10000
+AMBER_SHOVEL:
   base:
     material: IRON_SHOVEL
-    name: '&f 뀀  紫水晶锹 '
-    custom-model-data: 10000.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 5
-    attack-speed: 1
-    max-durability: 1024
-# 烈焰
-BLAZE_HOE:
+    name: '&f 뀀  &f琥珀铲 '
+    custom-model-data: 10000
+AMBER_PICKAXE:
+  base:
+    material: IRON_PICKAXE
+    name: '&f 뀀  &f琥珀镐 '
+    custom-model-data: 10000
+AMETHYST_HOE:
   base:
     material: IRON_HOE
-    name: '&f 뀀  烈焰锄 '
-    custom-model-data: 10001.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 1
-    attack-speed: 3.5
-    max-durability: 1024
-BLAZE_PICKAXE:
-  base:
-    material: IRON_PICKAXE
-    name: '&f 뀀  烈焰镐 '
-    custom-model-data: 10001.0
-    will-break: true
-    revision-id: 1
-    pickaxe-power: 7
-    enchants:
-      autosmelt: 1
-    attack-damage: 4.5
-    attack-speed: 1.2
-    max-durability: 1024
-BLAZE_SHOVEL:
+    name: '&f 뀀  &f水晶锄 '
+    custom-model-data: 10001
+AMETHYST_SHOVEL:
   base:
     material: IRON_SHOVEL
-    name: '&f 뀀  烈焰锹 '
-    custom-model-data: 10001.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 5
-    attack-speed: 1
-    max-durability: 1024
-# 燧石
-FLINT_HOE:
+    name: '&f 뀀  &f水晶铲 '
+    custom-model-data: 10001
+AMETHYST_PICKAXE:
   base:
-    material: STONE_HOE
-    name: '&f 뀀  燧石锄 '
-    custom-model-data: 10001.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 1
-    attack-speed: 2
-    max-durability: 172
-FLINT_PICKAXE:
-  base:
-    material: STONE_PICKAXE
-    name: '&f 뀀  燧石镐 '
-    custom-model-data: 10001.0
-    will-break: true
-    revision-id: 1
-    pickaxe-power: 5
-    attack-damage: 3.5
-    attack-speed: 1.2
-    max-durability: 172
-FLINT_SHOVEL:
-  base:
-    material: STONE_SHOVEL
-    name: '&f 뀀  燧石锹 '
-    custom-model-data: 10001.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 4
-    attack-speed: 1
-    max-durability: 172
-# 海晶石
-PRISMARINE_SHARD_HOE:
+    material: IRON_PICKAXE
+    name: '&f 뀀  &f水晶镐 '
+    custom-model-data: 10001
+IRIDIUM_HOE:
   base:
     material: IRON_HOE
-    name: '&f 뀀  海晶石锄 '
-    custom-model-data: 10002.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 1
-    attack-speed: 3.5
-    max-durability: 1024
-PRISMARINE_SHARD_PICKAXE:
-  base:
-    material: IRON_PICKAXE
-    name: '&f 뀀  海晶石镐 '
-    custom-model-data: 10002.0
-    will-break: true
-    revision-id: 1
-    pickaxe-power: 7
-    attack-damage: 4.5
-    attack-speed: 1.2
-    max-durability: 1024
-PRISMARINE_SHARD_SHOVEL:
+    name: '&f 뀀  &f铱锄 '
+    custom-model-data: 10002
+IRIDIUM_SHOVEL:
   base:
     material: IRON_SHOVEL
-    name: '&f 뀀  海晶石锹 '
-    custom-model-data: 10002.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 5
-    attack-speed: 1
-    max-durability: 1024
-# 绿宝石
-EMERALD_HOE:
+    name: '&f 뀀  &f铱铲 '
+    custom-model-data: 10002
+IRIDIUM_PICKAXE:
   base:
-    material: DIAMOND_HOE
-    name: '&f 뀀  绿宝石锄 '
-    custom-model-data: 10000.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 1
-    attack-speed: 4
-    max-durability: 1888
-EMERALD_PICKAXE:
+    material: IRON_PICKAXE
+    name: '&f 뀀  &f铱镐 '
+    custom-model-data: 10002
+JADE_HOE:
   base:
-    material: DIAMOND_PICKAXE
-    name: '&f 뀀  绿宝石镐 '
-    custom-model-data: 10000.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 5.5
-    attack-speed: 1.2
-    enchants:
-      wealth: 1
-    pickaxe-power: 9
-    max-durability: 1888
-EMERALD_SHOVEL:
+    material: IRON_HOE
+    name: '&f 뀀  &f玉石锄 '
+    custom-model-data: 10003
+JADE_SHOVEL:
   base:
-    material: DIAMOND_SHOVEL
-    name: '&f 뀀  绿宝石锹 '
-    custom-model-data: 10000.0
-    will-break: true
-    revision-id: 1
-    attack-damage: 6
-    attack-speed: 1
-    max-durability: 1888
+    material: IRON_SHOVEL
+    name: '&f 뀀  &f玉石铲 '
+    custom-model-data: 10003
+JADE_PICKAXE:
+  base:
+    material: IRON_PICKAXE
+    name: '&f 뀀  &f玉石镐 '
+    custom-model-data: 10003
+MALACHITE_HOE:
+  base:
+    material: IRON_HOE
+    name: '&f 뀀  &f孔雀石锄 '
+    custom-model-data: 10004
+MALACHITE_SHOVEL:
+  base:
+    material: IRON_SHOVEL
+    name: '&f 뀀  &f孔雀石铲 '
+    custom-model-data: 10004
+MALACHITE_PICKAXE:
+  base:
+    material: IRON_PICKAXE
+    name: '&f 뀀  &f孔雀石镐 '
+    custom-model-data: 10004
+MYTHRIL_HOE:
+  base:
+    material: IRON_HOE
+    name: '&f 뀀  &f秘银锄 '
+    custom-model-data: 10005
+MYTHRIL_SHOVEL:
+  base:
+    material: IRON_SHOVEL
+    name: '&f 뀀  &f秘银铲 '
+    custom-model-data: 10005
+MYTHRIL_PICKAXE:
+  base:
+    material: IRON_PICKAXE
+    name: '&f 뀀  &f秘银镐 '
+    custom-model-data: 10005
+RUBY_HOE:
+  base:
+    material: IRON_HOE
+    name: '&f 뀀  &f红宝石锄 '
+    custom-model-data: 10006
+RUBY_SHOVEL:
+  base:
+    material: IRON_SHOVEL
+    name: '&f 뀀  &f红宝石铲 '
+    custom-model-data: 10006
+RUBY_PICKAXE:
+  base:
+    material: IRON_PICKAXE
+    name: '&f 뀀  &f红宝石镐 '
+    custom-model-data: 10006
 SILVER_HOE:
   base:
     material: IRON_HOE
-    name: '&f 뀀  银锄 '
-    # custom-model-data:
-    will-break: true
-    revision-id: 1
-    attack-damage: 1
-    attack-speed: 3.5
-    max-durability: 1024
-SILVER_PICKAXE:
-  base:
-    material: IRON_PICKAXE
-    name: '&f 뀀  银镐 '
-    # custom-model-data:
-    will-break: true
-    revision-id: 1
-    pickaxe-power: 7
-    attack-damage: 4.5
-    attack-speed: 1.2
-    max-durability: 1024
+    name: '&f 뀀  &f银锄 '
+    custom-model-data: 10007
 SILVER_SHOVEL:
   base:
     material: IRON_SHOVEL
-    name: '&f 뀀  银斧 '
-    will-break: true
-    revision-id: 1
-    attack-damage: 5
-    attack-speed: 1
-    max-durability: 1024
-# 其他
-RES_TOOLS:
+    name: '&f 뀀  &f银铲 '
+    custom-model-data: 10007
+SILVER_PICKAXE:
   base:
-    material: WOODEN_HOE
-    name: '&f 뀀  &a圈地工具 '
-    unbreakable: true
-    lore:
-    - '&f 뀁  &f &7来当个地主吧！'
+    material: IRON_PICKAXE
+    name: '&f 뀀  &f银镐 '
+    custom-model-data: 10007
+
+
+
+
+

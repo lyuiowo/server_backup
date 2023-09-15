@@ -1,0 +1,34 @@
+info:
+  namespace: customcrops
+items:
+  watering_can_1:
+    display_name: display-name-watering_can_1
+    resource:
+      generate: false
+      model_id: 10000
+      material: GOLDEN_HORSE_ARMOR
+      model_path: item/wateringcans/watering_can_1
+      
+  watering_can_2:
+    display_name: display-name-watering_can_2
+    resource:
+      generate: false
+      model_id: 10001
+      material: GOLDEN_HORSE_ARMOR
+      model_path: item/wateringcans/watering_can_2
+
+  watering_can_3:
+    display_name: display-name-watering_can_3
+    resource:
+      generate: false
+      model_id: 10002
+      material: GOLDEN_HORSE_ARMOR
+      model_path: item/wateringcans/watering_can_3
+
+  watering_can_4:
+    display_name: display-name-watering_can_4
+    resource:
+      generate: false
+      model_id: 10003
+      material: GOLDEN_HORSE_ARMOR
+      model_path: item/wateringcans/watering_can_4
